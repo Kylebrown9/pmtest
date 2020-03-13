@@ -1,6 +1,6 @@
 import os
 from collections import defaultdict
-from .parse import parse_line, EventType
+from .parse import parse_file, EventType
 
 DAYTRADER_PATH = os.path.join(".", "data", "DayTrader")
 # DAYTRADER_DIR = os.fsencode(DAYTRADER_PATH)
@@ -15,20 +15,17 @@ def main():
 
         filepath = os.path.join(DAYTRADER_PATH, filename)
 
-        with open(filepath, "r") as data_file:
-            for line in data_file:
-                record = parse_line(line)
+        for record in parse_file(filepath):
+            if record.event_type == EventType.Call \
+                    and record.source.class_name == "Root":
 
-                if record.event_type == EventType.Call \
-                        and record.source.name == "Root":
+                if current_label:
+                    sizes[current_label].append(current_size)
 
-                    if current_label:
-                        sizes[current_label].append(current_size)
-
-                    current_label = record.label
-                    current_size = 0
-                else:
-                    current_size += 1
+                current_label = record.label
+                current_size = 0
+            else:
+                current_size += 1
 
         if current_label:
             sizes[current_label].append(current_size)
