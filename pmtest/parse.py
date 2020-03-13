@@ -13,20 +13,8 @@ class EventType(Enum):
 
 
 class Location(NamedTuple):
-    package: str
-    class_name: str
-    func_name: str
-
-    def format(self, package=False, class_name=False, func_name=False):
-        parts = []
-        if package:
-            parts.append(self.package)
-        if class_name:
-            parts.append(self.class_name)
-        if func_name:
-            parts.append(self.func_name)
-
-        return ":".join(parts)
+    name: str
+    path: str
 
 
 class Record(NamedTuple):
@@ -37,19 +25,17 @@ class Record(NamedTuple):
     source: Location
     destination: Location
 
-    def format(self, source_fmt=None, event_type=False, dest_fmt=None):
-        parts = []
-        if source_fmt:
-            parts.append(self.source.format(**source_fmt))
-        if event_type:
-            if self.event_type == EventType.Call:
-                parts.append("calls")
-            else:
-                parts.append("returns to")
-        if dest_fmt:
-            parts.append(self.destination.format(**dest_fmt))
-
-        return " ".join(parts)
+    def to_dict(self):
+        return {
+            'time': self.time,
+            'label': self.label,
+            'message': self.message,
+            'event_type': str(self.event_type),
+            'source_name': self.source.name,
+            'source_path': self.source.path,
+            'destination_name': self.destination.name,
+            'destination_path': self.destination.path,
+        }
 
 
 def parse_directory_logs(dirpath: str, label=None):
@@ -68,7 +54,7 @@ def parse_file_logs(filepath: str, label=None):
 
     for record in parse_file(filepath):
         if record.event_type == EventType.Call \
-                and record.source.class_name == "Root":
+                and record.source.name == "Root":
 
             if current_label:
                 if label is None or current_label == label:
@@ -78,7 +64,7 @@ def parse_file_logs(filepath: str, label=None):
 
             current_label = record.label
 
-        current_data.append(record)
+        current_data.append(record.to_dict())
 
     if current_label:
         if label is None or current_label == label:
@@ -102,26 +88,10 @@ def parse_line(line: str):
     time = int(time)
     name1, event_type, name2 = parse_message(message)
 
-    source = parse_location(path1)
-    destination = parse_location(path2)
+    source = Location(name1, path1)
+    destination = Location(name2, path2)
 
     return Record(time, label, message, event_type, source, destination)
-
-
-def parse_location(fullname: str):
-    if fullname == "<None>:Root":
-        return Location("Root", "Root", "Root")
-    else:
-        parts = fullname.split(":")
-        if len(parts) == 3:
-            package, class_name, func_name = parts
-        elif len(parts) == 2:
-            package, class_name = parts
-            func_name = "Constructor"
-        else:
-            raise ValueError("Path must contain at least two parts")
-
-        return Location(package, class_name, func_name)
 
 
 def parse_message(message: str):

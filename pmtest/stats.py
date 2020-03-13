@@ -17,7 +17,7 @@ def main():
 
         for record in parse_file(filepath):
             if record.event_type == EventType.Call \
-                    and record.source.class_name == "Root":
+                    and record.source.name == "Root":
 
                 if current_label:
                     sizes[current_label].append(current_size)
