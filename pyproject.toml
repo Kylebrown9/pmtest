@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pmtest"
+version = "0.0"
+description = "Experimenting with pm4py"
+authors = ["Kyle Brown <kjbrown5@ncsu.edu>"]
+# license = "MIT"
+# readme = "README.md"
+# homepage = ""
+# repository = ""
+# documentation = ""
+include = [
+    # "README.md",
+    "pyproject.toml",
+    # "LICENSE"
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+click = "^7.0"
+toml = "^0.10.0"
+pm4py = "^1.2.11"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
