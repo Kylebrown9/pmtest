@@ -1,0 +1,8 @@
+1567027774400,Unknown,Root calls JSFLoginFilter,<None>:Root,war_src/com/ibm/websphere/samples/daytrader/web/jsf/JSFLoginFilter.java:JSFLoginFilter:destroy
+1567027774400,Unknown,JSFLoginFilter returns to Root,war_src/com/ibm/websphere/samples/daytrader/web/jsf/JSFLoginFilter.java:JSFLoginFilter:destroy,<None>:Root:<None>
+1567027774400,Unknown,Root calls OrdersAlertFilter,<None>:Root,war_src/com/ibm/websphere/samples/daytrader/web/OrdersAlertFilter.java:OrdersAlertFilter:destroy
+1567027774400,Unknown,OrdersAlertFilter returns to Root,war_src/com/ibm/websphere/samples/daytrader/web/OrdersAlertFilter.java:OrdersAlertFilter:destroy,<None>:Root:<None>
+1567027774401,Unknown,Root calls TradeWebContextListener,<None>:Root,war_src/com/ibm/websphere/samples/daytrader/web/TradeWebContextListener.java:TradeWebContextListener:contextDestroyed
+1567027774401,Unknown,TradeWebContextListener calls Log,war_src/com/ibm/websphere/samples/daytrader/web/TradeWebContextListener.java:TradeWebContextListener,jar_src/main/java/com/ibm/websphere/samples/daytrader/util/Log.java:Log:trace
+1567027774401,Unknown,Log returns to TradeWebContextListener,jar_src/main/java/com/ibm/websphere/samples/daytrader/util/Log.java:Log:trace,war_src/com/ibm/websphere/samples/daytrader/web/TradeWebContextListener.java:TradeWebContextListener:contextDestroyed
+1567027774401,Unknown,TradeWebContextListener returns to Root,war_src/com/ibm/websphere/samples/daytrader/web/TradeWebContextListener.java:TradeWebContextListener:contextDestroyed,<None>:Root:<None>
