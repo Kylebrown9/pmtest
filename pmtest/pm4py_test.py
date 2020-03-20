@@ -16,9 +16,10 @@ def execute_script():
 
     miner_params = {
         PARAMETER_CONSTANT_TIMESTAMP_KEY: "time",
-        PARAMETER_CONSTANT_ACTIVITY_KEY: "message"
+        PARAMETER_CONSTANT_ACTIVITY_KEY: "destination_name"
     }
-    net, i_m, f_m = alpha_miner.apply(log, parameters=miner_params)
+    net, i_m, f_m = alpha_miner.apply(log, parameters=miner_params,
+                                      variant="plus")
 
     print(f"Process Mined")
 
@@ -27,9 +28,8 @@ def execute_script():
 
     print(f"Visualized")
 
-    pn_vis_factory.view(gviz)
-
-    print(f"Graph Rendered")
+    import time
+    pn_vis_factory.save(gviz, "./results/" + str(time.time()) + ".svg")
 
 
 if __name__ == "__main__":

@@ -26,6 +26,26 @@ class Record(NamedTuple):
     destination: Location
 
     def to_dict(self):
+        path_parts = self.destination.path.split(":")
+        # print(path_parts)
+
+        class_name = self.destination.name
+
+        if len(path_parts) == 3:
+            func_name = path_parts[2]
+
+            if func_name == "<None>":
+                destination = class_name
+            else:
+                if class_name == func_name:
+                    destination = "new " + class_name
+                else:
+                    destination = class_name + ":" + func_name
+        else:
+            destination = class_name
+
+        # print(destination)
+
         return {
             'time': self.time,
             'label': self.label,
@@ -35,6 +55,7 @@ class Record(NamedTuple):
             'source_path': self.source.path,
             'destination_name': self.destination.name,
             'destination_path': self.destination.path,
+            'destination': destination
         }
 
 
