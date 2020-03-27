@@ -1,7 +1,9 @@
 from .parse import parse_directory_logs
 
 from collections import defaultdict
-import copy
+# import copy
+import os
+import shutil
 
 from pm4py.util.constants import PARAMETER_CONSTANT_ACTIVITY_KEY,\
     PARAMETER_CONSTANT_TIMESTAMP_KEY
@@ -24,25 +26,30 @@ def process_data():
 
     print(f"Finished parsing, found {len(logs)} labels")
 
+    remove_folder_contents("./results")
+
     for label, cases in logs.items():
         print(f"Label={label}, num_cases={len(cases)}")
 
         for activity_key in ["dest_class", 'dest_class_func']:
+            print(f"activity_key={activity_key}")
+            print()
+
             folder = f"./results/{label}/{activity_key}"
             make_folder(folder)
 
-            print("Running Alpha")
-            alpha = run_alpha(copy.deepcopy(cases), label, activity_key)
-            export_petri_net(f"{folder}/alpha_classic.svg", alpha)
+            # print("Running Alpha")
+            # alpha = run_alpha(copy.deepcopy(cases), label, activity_key)
+            # export_petri_net(f"{folder}/alpha_classic.svg", alpha)
 
-            print("Running Alpha-Plus")
-            alpha_plus = run_alpha(copy.deepcopy(cases), label, activity_key,
-                                   variant="plus")
-            export_petri_net(f"{folder}/alpha_plus.svg", alpha_plus)
+            # print("Running Alpha-Plus")
+            # alpha_plus = run_alpha(copy.deepcopy(cases), label, activity_key,
+            #                        variant="plus")
+            # export_petri_net(f"{folder}/alpha_plus.svg", alpha_plus)
 
-            print("Running IMDFb")
-            imdfb = run_imdfb(copy.deepcopy(cases), label, activity_key)
-            export_petri_net(f"{folder}/imdfb.svg", imdfb)
+            # print("Running IMDFb")
+            # imdfb = run_imdfb(copy.deepcopy(cases), label, activity_key)
+            # export_petri_net(f"{folder}/imdfb.svg", imdfb)
 
             print("Running Heuristic Miner (Config A)")
             heuristic_a = run_heuristic(cases, label, activity_key)
@@ -50,11 +57,11 @@ def process_data():
 
             print("Running Heuristic Miner (Config B)")
             heuristic_b_params = {
-                "dependency_thresh": 0.5,
-                "and_measure_thresh": 0.65,
+                "dependency_thresh": 0,
+                "and_measure_thresh": 0,
                 "min_act_count": 1,
                 "min_dfg_occurrences": 1,
-                "dfg_pre_cleaning_noise_thresh": 0.05
+                "dfg_pre_cleaning_noise_thresh": 0.1
             }
             heuristic_b = run_heuristic(cases, label, activity_key,
                                         parameters=heuristic_b_params)
@@ -109,8 +116,16 @@ def export_petri_net(path, output):
     pn_vis_factory.save(gviz, path)
 
 
+def remove_folder_contents(path):
+    for filename in os.listdir(path):
+        filepath = os.path.join(path, filename)
+        try:
+            shutil.rmtree(filepath)
+        except OSError:
+            os.remove(filepath)
+
+
 def make_folder(path):
-    import os
     if not os.path.exists(path):
         os.makedirs(path)
 
