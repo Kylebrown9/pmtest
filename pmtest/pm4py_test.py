@@ -6,19 +6,33 @@ from pm4py.visualization.petrinet import factory as pn_vis_factory
 
 from .parse import parse_directory_logs
 
+from collections import defaultdict
+
 
 def execute_script():
-    label = "trade-portfolio-sell"
-    log = list(parse_directory_logs("./data/DayTrader", label=label))
-    print(f"Parsed logs, size={len(log)}")
-    log = [case for case in log if len(case) < 1000]
-    print(f"Filtered logs, size={len(log)}")
+    logs = defaultdict(list)
 
+    for label, case in parse_directory_logs("./data/DayTrader"):
+        if len(case) < 1000:
+            logs[label].append(case)
+
+    print(f"Finished parsing, found {len(logs)} labels")
+
+    import copy
+
+    for label, cases in logs.items():
+        print(f"Label={label}, num_cases={len(cases)}")
+
+        for activity_key in ["dest_class", 'dest_class_func']:
+            mine_log(copy.deepcopy(cases), label, activity_key)
+
+
+def mine_log(cases, label, activity_key):
     miner_params = {
         PARAMETER_CONSTANT_TIMESTAMP_KEY: "time",
-        PARAMETER_CONSTANT_ACTIVITY_KEY: "destination_name"
+        PARAMETER_CONSTANT_ACTIVITY_KEY: activity_key
     }
-    net, i_m, f_m = alpha_miner.apply(log, parameters=miner_params,
+    net, i_m, f_m = alpha_miner.apply(cases, parameters=miner_params,
                                       variant="plus")
 
     print(f"Process Mined")
@@ -28,8 +42,13 @@ def execute_script():
 
     print(f"Visualized")
 
-    import time
-    pn_vis_factory.save(gviz, "./results/" + str(time.time()) + ".svg")
+    file_name = f"./results/{label}/{activity_key}.svg"
+
+    import os
+    if not os.path.exists(f'./results/{label}'):
+        os.makedirs(f'./results/{label}')
+
+    pn_vis_factory.save(gviz, file_name)
 
 
 if __name__ == "__main__":

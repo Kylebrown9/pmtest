@@ -49,13 +49,13 @@ class Record(NamedTuple):
         return {
             'time': self.time,
             'label': self.label,
-            'message': self.message,
-            'event_type': str(self.event_type),
-            'source_name': self.source.name,
-            'source_path': self.source.path,
-            'destination_name': self.destination.name,
-            'destination_path': self.destination.path,
-            'destination': destination
+            # 'message': self.message,
+            # 'event_type': str(self.event_type),
+            # 'source_name': self.source.name,
+            # 'source_path': self.source.path,
+            'dest_class': self.destination.name,
+            'dest_class_func': destination,
+            # 'destination_path': self.destination.path
         }
 
 
@@ -79,7 +79,7 @@ def parse_file_logs(filepath: str, label=None):
 
             if current_label:
                 if label is None or current_label == label:
-                    yield current_data
+                    yield (current_label, current_data)
 
             current_data = []
 
@@ -89,7 +89,7 @@ def parse_file_logs(filepath: str, label=None):
 
     if current_label:
         if label is None or current_label == label:
-            yield current_data
+            yield (current_label, current_data)
 
 
 def parse_file(filepath: str):
