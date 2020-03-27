@@ -1,0 +1,4 @@
+1583517437754,ping_servlet_writer,Root calls PingServletWriter,<None>:Root:<None>,sample.daytrader7-master-new/daytrader-ee7-web/src/main/java/com/ibm/websphere/samples/daytrader/web/prims/PingServletWriter.java:PingServletWriter:init
+1583517437754,ping_servlet_writer,PingServletWriter returns to Root,sample.daytrader7-master-new/daytrader-ee7-web/src/main/java/com/ibm/websphere/samples/daytrader/web/prims/PingServletWriter.java:PingServletWriter:init,<None>:Root:<None>
+1583517437754,ping_servlet_writer,Root calls PingServletWriter,<None>:Root:<None>,sample.daytrader7-master-new/daytrader-ee7-web/src/main/java/com/ibm/websphere/samples/daytrader/web/prims/PingServletWriter.java:PingServletWriter:doGet
+1583517437755,ping_servlet_writer,PingServletWriter returns to Root,sample.daytrader7-master-new/daytrader-ee7-web/src/main/java/com/ibm/websphere/samples/daytrader/web/prims/PingServletWriter.java:PingServletWriter:doGet,<None>:Root:<None>

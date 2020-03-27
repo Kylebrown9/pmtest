@@ -9,10 +9,10 @@ from pm4py.util.constants import PARAMETER_CONSTANT_ACTIVITY_KEY,\
 from pm4py.visualization.petrinet import factory as pn_vis_factory
 
 
-def execute_script():
+def process_data(path):
     logs = defaultdict(list)
 
-    for label, case in parse_directory_logs("./data/DayTrader"):
+    for label, case in parse_directory_logs(path):
         if len(case) < 1000:
             logs[label].append(case)
 
@@ -96,4 +96,4 @@ def export_petri_net(folder, name, net, i_m, f_m):
 
 
 if __name__ == "__main__":
-    execute_script()
+    process_data("./data/DayTrader2")

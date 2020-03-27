@@ -1,0 +1,2 @@
+1583517385051,ping_servlet,Root calls PingServlet,<None>:Root:<None>,sample.daytrader7-master-new/daytrader-ee7-web/src/main/java/com/ibm/websphere/samples/daytrader/web/prims/PingServlet.java:PingServlet:doGet
+1583517385052,ping_servlet,PingServlet returns to Root,sample.daytrader7-master-new/daytrader-ee7-web/src/main/java/com/ibm/websphere/samples/daytrader/web/prims/PingServlet.java:PingServlet:doGet,<None>:Root:<None>
