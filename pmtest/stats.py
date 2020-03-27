@@ -2,7 +2,7 @@ import os
 from collections import defaultdict
 from .parse import parse_file, EventType
 
-DAYTRADER_PATH = os.path.join(".", "data", "DayTrader")
+DAYTRADER_PATH = os.path.join(".", "data", "DayTrader2")
 # DAYTRADER_DIR = os.fsencode(DAYTRADER_PATH)
 
 
