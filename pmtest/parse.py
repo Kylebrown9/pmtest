@@ -27,7 +27,6 @@ class Record(NamedTuple):
 
     def to_dict(self):
         path_parts = self.destination.path.split(":")
-        # print(path_parts)
 
         class_name = self.destination.name
 
@@ -44,18 +43,11 @@ class Record(NamedTuple):
         else:
             destination = class_name
 
-        # print(destination)
-
         return {
             'time': self.time,
             'label': self.label,
-            # 'message': self.message,
-            # 'event_type': str(self.event_type),
-            # 'source_name': self.source.name,
-            # 'source_path': self.source.path,
             'dest_class': self.destination.name,
             'dest_class_func': destination,
-            # 'destination_path': self.destination.path
         }
 
 

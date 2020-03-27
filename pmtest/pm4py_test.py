@@ -7,6 +7,7 @@ from pm4py.visualization.petrinet import factory as pn_vis_factory
 from .parse import parse_directory_logs
 
 from collections import defaultdict
+import copy
 
 
 def execute_script():
@@ -17,8 +18,6 @@ def execute_script():
             logs[label].append(case)
 
     print(f"Finished parsing, found {len(logs)} labels")
-
-    import copy
 
     for label, cases in logs.items():
         print(f"Label={label}, num_cases={len(cases)}")
@@ -49,6 +48,8 @@ def mine_log(cases, label, activity_key):
         os.makedirs(f'./results/{label}')
 
     pn_vis_factory.save(gviz, file_name)
+
+    print(f"Saved")
 
 
 if __name__ == "__main__":
