@@ -1,0 +1,1305 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<log>
+  <trace>
+    <event>
+      <int key="time" value="1583517128389"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:service"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128393"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:TradeDirect [overloaded_#001]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128395"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:service"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128395"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:checkDBProductName"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128395"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128395"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128395"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128395"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128395"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128395"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:checkDBProductName"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128395"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:getConn"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128420"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128421"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128421"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128421"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128421"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128421"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:getConn"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128421"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:checkDBProductName"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128421"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:releaseConn"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128421"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128421"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128421"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128421"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128421"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128421"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:releaseConn"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128421"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:checkDBProductName"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128422"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:service"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128425"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeBuildDB"/>
+      <string key="dest_class_func" value="TradeBuildDB:TradeBuildDB [overloaded_#002]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128426"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:TradeDirect [overloaded_#001]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128426"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeBuildDB"/>
+      <string key="dest_class_func" value="TradeBuildDB:TradeBuildDB [overloaded_#002]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128426"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeBuildDB"/>
+      <string key="dest_class_func" value="TradeBuildDB:parseDDLToBuffer"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128426"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128427"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128427"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128427"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128427"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128427"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeBuildDB"/>
+      <string key="dest_class_func" value="TradeBuildDB:parseDDLToBuffer"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128428"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeBuildDB"/>
+      <string key="dest_class_func" value="TradeBuildDB:TradeBuildDB [overloaded_#002]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128428"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:recreateDBTables"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128428"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MDBStats"/>
+      <string key="dest_class_func" value="MDBStats:getInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128428"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MDBStats"/>
+      <string key="dest_class_func" value="new MDBStats"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128428"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MDBStats"/>
+      <string key="dest_class_func" value="MDBStats:getInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128428"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:recreateDBTables"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128428"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MDBStats"/>
+      <string key="dest_class_func" value="MDBStats:reset"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128428"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:recreateDBTables"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128429"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128429"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128430"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128430"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128430"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128430"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:recreateDBTables"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128430"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:getConn"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128432"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128432"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128433"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128433"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128433"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128433"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:getConn"/>
+    </event>
+    <event>
+      <int key="time" value="1583517128433"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:recreateDBTables"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129146"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:commit"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129146"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:getInGlobalTxn"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129146"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:commit"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129186"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:recreateDBTables"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129186"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:releaseConn"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129186"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129186"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129186"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129186"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129186"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129186"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:releaseConn"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129186"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:recreateDBTables"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129186"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeBuildDB"/>
+      <string key="dest_class_func" value="TradeBuildDB:TradeBuildDB [overloaded_#002]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129186"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:service"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129186"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129186"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPage"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129187"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129187"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:useRemoteEJBInterface"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129187"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129187"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getMAX_USERS"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129187"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129187"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getMAX_QUOTES"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129187"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129187"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getMarketSummaryInterval"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129187"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129187"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPrimIterations"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129187"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129187"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPublishQuotePriceChange"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129187"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129187"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPercentSentToWebsocket"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129187"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129188"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getDisplayOrderAlerts"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129188"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129188"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getLongRun"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129188"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129188"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129189"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129189"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129189"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129189"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:service"/>
+    </event>
+    <event>
+      <int key="time" value="1583517129189"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <int key="time" value="1583517140001"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummarySingleton"/>
+      <string key="dest_class_func" value="MarketSummarySingleton:updateMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140001"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140002"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140002"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140002"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140002"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140002"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummarySingleton"/>
+      <string key="dest_class_func" value="MarketSummarySingleton:updateMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140002"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getRunTimeMode"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140002"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummarySingleton"/>
+      <string key="dest_class_func" value="MarketSummarySingleton:updateMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:setTSIA"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:setOpenTSIA"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:setVolume"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:setTopGainers"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:setTopLosers"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:setSummaryDate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:getTSIA"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:getOpenTSIA"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:computeGainPercent"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummarySingleton"/>
+      <string key="dest_class_func" value="MarketSummarySingleton:updateMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummarySingleton"/>
+      <string key="dest_class_func" value="MarketSummarySingleton:setMarketSummaryDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="MarketSummarySingleton"/>
+      <string key="dest_class_func" value="MarketSummarySingleton:updateMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517140010"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <int key="time" value="1583517131867"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:service"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setRunTimeMode"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setDisplayOrderAlerts"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:useRemoteEJBInterface"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setOrderProcessingMode"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setWebInterface"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setMAX_USERS"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setMAX_QUOTES"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getMAX_USERS"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getMAX_QUOTES"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setMarketSummaryInterval"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getMarketSummaryInterval"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setPrimIterations"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPrimIterations"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131868"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setPublishQuotePriceChange"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPublishQuotePriceChange"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setPercentSentToWebsocket"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPercentSentToWebsocket"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setLongRun"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getLongRun"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setDisplayOrderAlerts"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getDisplayOrderAlerts"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:setTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:setTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:setActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:setActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:service"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPage"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131869"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131870"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:useRemoteEJBInterface"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131870"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131870"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getMAX_USERS"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131870"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131870"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getMAX_QUOTES"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131870"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131870"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getMarketSummaryInterval"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131870"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131870"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPrimIterations"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131870"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131870"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPublishQuotePriceChange"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131870"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131870"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPercentSentToWebsocket"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131870"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131871"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getDisplayOrderAlerts"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131871"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131871"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getLongRun"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131871"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131871"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131871"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131871"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131871"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131871"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:service"/>
+    </event>
+    <event>
+      <int key="time" value="1583517131871"/>
+      <string key="label" value="recreate_db_tables"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+</log>

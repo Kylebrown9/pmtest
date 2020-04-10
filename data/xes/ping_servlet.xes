@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<log>
+  <trace>
+    <event>
+      <int key="time" value="1583517385051"/>
+      <string key="label" value="ping_servlet"/>
+      <string key="dest_class" value="PingServlet"/>
+      <string key="dest_class_func" value="PingServlet:doGet"/>
+    </event>
+    <event>
+      <int key="time" value="1583517385052"/>
+      <string key="label" value="ping_servlet"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+</log>

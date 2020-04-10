@@ -1,0 +1,987 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<log>
+  <trace>
+    <event>
+      <int key="time" value="1583517281783"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="ActionDecoder"/>
+      <string key="dest_class_func" value="ActionDecoder:willDecode"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281783"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <int key="time" value="1583517281783"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="ActionDecoder"/>
+      <string key="dest_class_func" value="ActionDecoder:init"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281783"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <int key="time" value="1583517281783"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="ActionDecoder"/>
+      <string key="dest_class_func" value="ActionDecoder:decode"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281783"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281783"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281783"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281783"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281784"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281784"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="ActionDecoder"/>
+      <string key="dest_class_func" value="ActionDecoder:decode"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281784"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="ActionMessage"/>
+      <string key="dest_class_func" value="new ActionMessage"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281784"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="ActionDecoder"/>
+      <string key="dest_class_func" value="ActionDecoder:decode"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281784"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="ActionMessage"/>
+      <string key="dest_class_func" value="ActionMessage:doDecoding"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281784"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281785"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281785"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281785"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281785"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281785"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="ActionMessage"/>
+      <string key="dest_class_func" value="ActionMessage:doDecoding"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281785"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="ActionDecoder"/>
+      <string key="dest_class_func" value="ActionDecoder:decode"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281785"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <int key="time" value="1583517281785"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryWebSocket"/>
+      <string key="dest_class_func" value="MarketSummaryWebSocket:sendMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281785"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="ActionMessage"/>
+      <string key="dest_class_func" value="ActionMessage:getDecodedAction"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281785"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryWebSocket"/>
+      <string key="dest_class_func" value="MarketSummaryWebSocket:sendMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281785"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281785"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281785"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281785"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281785"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281785"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryWebSocket"/>
+      <string key="dest_class_func" value="MarketSummaryWebSocket:sendMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281785"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:TradeAction [overloaded_#001]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281786"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281786"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281786"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281786"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281786"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281786"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:TradeAction [overloaded_#001]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281786"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:createTrade"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281786"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:useRemoteEJBInterface"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281786"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:createTrade"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281786"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:TradeAction [overloaded_#001]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281786"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryWebSocket"/>
+      <string key="dest_class_func" value="MarketSummaryWebSocket:sendMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281786"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281786"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281786"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281786"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281786"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281786"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281787"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281787"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281787"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281787"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281787"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281787"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getRunTimeMode"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281787"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281787"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281787"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281787"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281787"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281787"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281787"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281787"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281787"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281787"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281787"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281788"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281788"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281788"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281788"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281788"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281788"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281788"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281788"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummarySingleton"/>
+      <string key="dest_class_func" value="MarketSummarySingleton:getMarketSummaryDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281788"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281788"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281788"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryWebSocket"/>
+      <string key="dest_class_func" value="MarketSummaryWebSocket:sendMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281788"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getPrice"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getChange"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getPrice"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getChange"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getPrice"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getChange"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getPrice"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getChange"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getPrice"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getChange"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281789"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getPrice"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getChange"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getPrice"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getChange"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getPrice"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getChange"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getPrice"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getChange"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getPrice"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getChange"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:toJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryWebSocket"/>
+      <string key="dest_class_func" value="MarketSummaryWebSocket:sendMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281790"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281791"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281791"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281791"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryWebSocket"/>
+      <string key="dest_class_func" value="MarketSummaryWebSocket:sendMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281791"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="RecentStockChangeList"/>
+      <string key="dest_class_func" value="RecentStockChangeList:isEmpty"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281791"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryWebSocket"/>
+      <string key="dest_class_func" value="MarketSummaryWebSocket:sendMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281791"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="RecentStockChangeList"/>
+      <string key="dest_class_func" value="RecentStockChangeList:stockChangesInJSON"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281791"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryWebSocket"/>
+      <string key="dest_class_func" value="MarketSummaryWebSocket:sendMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281791"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryWebSocket"/>
+      <string key="dest_class_func" value="MarketSummaryWebSocket:mergeJsonObjects"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281792"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryWebSocket"/>
+      <string key="dest_class_func" value="MarketSummaryWebSocket:sendMarketSummary"/>
+    </event>
+    <event>
+      <int key="time" value="1583517281792"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <int key="time" value="1583517282937"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryWebSocket"/>
+      <string key="dest_class_func" value="MarketSummaryWebSocket:onClose"/>
+    </event>
+    <event>
+      <int key="time" value="1583517282938"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517282938"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517282938"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517282938"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517282938"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517282938"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="MarketSummaryWebSocket"/>
+      <string key="dest_class_func" value="MarketSummaryWebSocket:onClose"/>
+    </event>
+    <event>
+      <int key="time" value="1583517282938"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <int key="time" value="1583517282941"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="ActionDecoder"/>
+      <string key="dest_class_func" value="ActionDecoder:destroy"/>
+    </event>
+    <event>
+      <int key="time" value="1583517282942"/>
+      <string key="label" value="market_summary_glossary"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+</log>

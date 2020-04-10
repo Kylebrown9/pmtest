@@ -1,7 +1,11 @@
 import os
 
+from collections import defaultdict
+
 from typing import NamedTuple
 from enum import Enum
+
+from pm4py.objects.log.log import Event, Trace, EventLog
 
 MESSAGE_CALLS = " calls "
 MESSAGE_RETURNS_TO = " returns to "
@@ -50,6 +54,9 @@ class Record(NamedTuple):
             'dest_class_func': destination,
         }
 
+    def to_event(self):
+        return Event(**self.to_dict())
+
 
 def parse_directory_logs(dirpath: str, label=None):
     for filename in os.listdir(dirpath):
@@ -74,6 +81,12 @@ def parse_file_logs(filepath: str, label=None):
                     yield (current_label, current_data)
 
             current_data = []
+            # current_data.append({
+            #     'time': record.time,
+            #     'label': record.label,
+            #     'dest_class': "Root",
+            #     'dest_class_func': "Root",
+            # })
 
             current_label = record.label
 
@@ -119,3 +132,30 @@ def parse_message(message: str):
             or '{MESSAGE_RETURNS_TO}''")
 
     return left, event_type, right
+
+
+if __name__ == "__main__":
+    logs = defaultdict(EventLog)
+
+    print("Parsing './data/DayTrader' dataset")
+    for label, case in parse_directory_logs("./data/DayTrader"):
+        if len(case) < 1000:
+            logs[label].append(Trace(case))
+
+    print("Parsing './data/DayTrader2' dataset")
+    for label, case in parse_directory_logs("./data/DayTrader2"):
+        if len(case) < 1000:
+            logs[label].append(Trace(case))
+
+    path = "./data/xes"
+    if not os.path.exists(path):
+        os.makedirs(path)
+
+    print("Outputting files")
+
+    from pm4py.objects.log.exporter.xes import factory as xes_exporter
+
+    for activity in logs:
+        print(f"Creating file '{activity}.xes'")
+        log = logs[activity]
+        xes_exporter.export_log(log, f"./data/xes/{activity}.xes")

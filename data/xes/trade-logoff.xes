@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<log>
+  <trace>
+    <event>
+      <int key="time" value="1567027758671"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="OrdersAlertFilter:doFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758671"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getDisplayOrderAlerts"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758671"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="OrdersAlertFilter:doFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758671"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758671"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="new TradeAction"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758671"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758672"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758672"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758672"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="new TradeAction"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758672"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:useRemoteEJBInterface"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758672"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="new TradeAction"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758672"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758672"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:doLogout"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758672"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:logout"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758672"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758672"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758672"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758673"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758673"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758673"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:logout"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758673"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:logout"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758673"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758673"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758673"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758673"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:logout"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758674"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="AccountProfileDataBean"/>
+      <string key="dest_class_func" value="new AccountProfileDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758674"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:logout"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758675"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="AccountProfileDataBean"/>
+      <string key="dest_class_func" value="AccountProfileDataBean:getAccount"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758675"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:logout"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758675"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="new AccountDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758675"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:logout"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758675"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:logout"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758676"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:logout"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758676"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758676"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758676"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758676"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:logout"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758676"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:logout"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758676"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:hashCode"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758676"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:logout"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758676"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:hashCode"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758677"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:logout"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758678"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:hashCode"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758679"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:logout"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758679"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:hashCode"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758679"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:logout"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758679"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:hashCode"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758679"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:logout"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758679"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:hashCode"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758679"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:logout"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758688"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:doLogout"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758693"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPage"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758693"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:doLogout"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758696"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758696"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="OrdersAlertFilter:doFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1567027758697"/>
+      <string key="label" value="trade-logoff"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+</log>

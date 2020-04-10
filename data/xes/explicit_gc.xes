@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<log>
+  <trace>
+    <event>
+      <int key="time" value="1583517366976"/>
+      <string key="label" value="explicit_gc"/>
+      <string key="dest_class" value="ExplicitGC"/>
+      <string key="dest_class_func" value="ExplicitGC:init"/>
+    </event>
+    <event>
+      <int key="time" value="1583517366977"/>
+      <string key="label" value="explicit_gc"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <int key="time" value="1583517366977"/>
+      <string key="label" value="explicit_gc"/>
+      <string key="dest_class" value="ExplicitGC"/>
+      <string key="dest_class_func" value="ExplicitGC:doGet"/>
+    </event>
+    <event>
+      <int key="time" value="1583517367342"/>
+      <string key="label" value="explicit_gc"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+</log>

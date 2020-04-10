@@ -1,0 +1,693 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<log>
+  <trace>
+    <event>
+      <int key="time" value="1583517097656"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:init"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097660"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <int key="time" value="1583517097661"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:service"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097662"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097662"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPage"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097662"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097705"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:useRemoteEJBInterface"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097706"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097706"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getMAX_USERS"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097706"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097706"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getMAX_QUOTES"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097706"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097707"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getMarketSummaryInterval"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097707"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097707"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPrimIterations"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097707"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097707"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPublishQuotePriceChange"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097707"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097707"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPercentSentToWebsocket"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097707"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097710"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getDisplayOrderAlerts"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097711"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097711"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getLongRun"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097711"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097711"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097711"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097711"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097711"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097712"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:service"/>
+    </event>
+    <event>
+      <int key="time" value="1583517097712"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <int key="time" value="1583517109543"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:service"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109548"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109548"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setRunTimeMode"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109548"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109548"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setDisplayOrderAlerts"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109548"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109548"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:useRemoteEJBInterface"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109548"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109548"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setOrderProcessingMode"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109548"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setWebInterface"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setMAX_USERS"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setMAX_QUOTES"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getMAX_USERS"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getMAX_QUOTES"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setMarketSummaryInterval"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getMarketSummaryInterval"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setPrimIterations"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPrimIterations"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setPublishQuotePriceChange"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPublishQuotePriceChange"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setPercentSentToWebsocket"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPercentSentToWebsocket"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setLongRun"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getLongRun"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setDisplayOrderAlerts"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getDisplayOrderAlerts"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109549"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109550"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:setTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109550"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109550"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:setTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109550"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109550"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109550"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109550"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:setActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109550"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109550"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:setActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109551"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109551"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109551"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigUpdate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109551"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:service"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109552"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109552"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPage"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109552"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109553"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:useRemoteEJBInterface"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109553"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109554"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getMAX_USERS"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109554"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109554"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getMAX_QUOTES"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109554"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109554"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getMarketSummaryInterval"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109554"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109554"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPrimIterations"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109554"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109554"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPublishQuotePriceChange"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109554"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109554"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPercentSentToWebsocket"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109554"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109555"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getDisplayOrderAlerts"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109556"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109556"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getLongRun"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109556"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109556"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109556"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109556"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109556"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:doConfigDisplay"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109556"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="TradeConfigServlet"/>
+      <string key="dest_class_func" value="TradeConfigServlet:service"/>
+    </event>
+    <event>
+      <int key="time" value="1583517109557"/>
+      <string key="label" value="config"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+</log>

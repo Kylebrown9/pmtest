@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<log>
+  <trace>
+    <event>
+      <int key="time" value="1583517457420"/>
+      <string key="label" value="ping_servlet2_include"/>
+      <string key="dest_class" value="PingServlet2Servlet"/>
+      <string key="dest_class_func" value="PingServlet2Servlet:doGet"/>
+    </event>
+    <event>
+      <int key="time" value="1583517457421"/>
+      <string key="label" value="ping_servlet2_include"/>
+      <string key="dest_class" value="PingBean"/>
+      <string key="dest_class_func" value="PingBean:setMsg"/>
+    </event>
+    <event>
+      <int key="time" value="1583517457421"/>
+      <string key="label" value="ping_servlet2_include"/>
+      <string key="dest_class" value="PingServlet2Servlet"/>
+      <string key="dest_class_func" value="PingServlet2Servlet:doGet"/>
+    </event>
+    <event>
+      <int key="time" value="1583517457422"/>
+      <string key="label" value="ping_servlet2_include"/>
+      <string key="dest_class" value="PingServlet2ServletRcv"/>
+      <string key="dest_class_func" value="PingServlet2ServletRcv:init"/>
+    </event>
+    <event>
+      <int key="time" value="1583517457422"/>
+      <string key="label" value="ping_servlet2_include"/>
+      <string key="dest_class" value="PingServlet2Servlet"/>
+      <string key="dest_class_func" value="PingServlet2Servlet:doGet"/>
+    </event>
+    <event>
+      <int key="time" value="1583517457422"/>
+      <string key="label" value="ping_servlet2_include"/>
+      <string key="dest_class" value="PingServlet2ServletRcv"/>
+      <string key="dest_class_func" value="PingServlet2ServletRcv:doGet"/>
+    </event>
+    <event>
+      <int key="time" value="1583517457423"/>
+      <string key="label" value="ping_servlet2_include"/>
+      <string key="dest_class" value="PingBean"/>
+      <string key="dest_class_func" value="PingBean:getMsg"/>
+    </event>
+    <event>
+      <int key="time" value="1583517457423"/>
+      <string key="label" value="ping_servlet2_include"/>
+      <string key="dest_class" value="PingServlet2ServletRcv"/>
+      <string key="dest_class_func" value="PingServlet2ServletRcv:doGet"/>
+    </event>
+    <event>
+      <int key="time" value="1583517457423"/>
+      <string key="label" value="ping_servlet2_include"/>
+      <string key="dest_class" value="PingServlet2Servlet"/>
+      <string key="dest_class_func" value="PingServlet2Servlet:doGet"/>
+    </event>
+    <event>
+      <int key="time" value="1583517457423"/>
+      <string key="label" value="ping_servlet2_include"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+</log>

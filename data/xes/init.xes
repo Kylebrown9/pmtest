@@ -1,0 +1,1981 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<log>
+  <trace>
+    <event>
+      <int key="time" value="1567027524490"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524495"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:trace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524495"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524501"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setRunTimeMode"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524501"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524501"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setUseRemoteEJBInterface"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524501"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524502"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setOrderProcessingMode"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524502"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524502"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setWebInterface"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524502"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524502"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setMAX_USERS"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524502"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524502"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setMAX_QUOTES"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524502"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524503"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setMarketSummaryInterval"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524503"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524503"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setPrimIterations"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524503"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524503"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setPublishQuotePriceChange"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524503"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524503"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setPercentSentToWebsocket"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524503"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524503"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setDisplayOrderAlerts"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524504"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524504"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setLongRun"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524504"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524504"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524504"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524504"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524504"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524514"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:init"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524514"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524514"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524515"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524515"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:init"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524515"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524515"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524515"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524515"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:init"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524652"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524652"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524652"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524653"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:init"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524653"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524653"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <int key="time" value="1567027524676"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="new OrdersAlertFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524677"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <int key="time" value="1567027524678"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="OrdersAlertFilter:init"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524679"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <int key="time" value="1567027524680"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="JSFLoginFilter"/>
+      <string key="dest_class_func" value="new JSFLoginFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524680"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <int key="time" value="1567027524680"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="JSFLoginFilter"/>
+      <string key="dest_class_func" value="JSFLoginFilter:init"/>
+    </event>
+    <event>
+      <int key="time" value="1567027524680"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <int key="time" value="1567027556967"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="OrdersAlertFilter:doFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556968"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getDisplayOrderAlerts"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556968"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="OrdersAlertFilter:doFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556974"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:init"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556974"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="OrdersAlertFilter:doFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556975"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556976"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556976"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556976"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556976"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556976"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556977"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556977"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndFloat"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556977"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556977"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556978"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556978"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556978"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556978"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556978"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556978"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556979"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556979"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndFloat"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556979"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556980"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556980"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556980"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556981"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556981"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556982"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556982"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndFloat"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556982"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556982"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556982"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556983"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556985"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556985"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556988"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556988"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556988"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556988"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndFloat"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556988"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556989"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556989"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556989"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556990"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556990"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556990"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556990"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndFloat"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556990"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556990"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556990"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556990"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556991"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556991"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556991"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556991"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556994"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556994"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndFloat"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556994"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556995"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556995"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556995"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556995"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556995"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556996"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556996"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndFloat"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556996"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556996"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556996"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556996"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556997"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556997"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556997"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556997"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556997"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556997"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndFloat"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556997"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556998"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556998"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556998"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556998"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556998"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556999"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556999"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndFloat"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556999"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556999"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556999"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556999"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556999"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556999"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556999"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556999"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556999"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556999"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndFloat"/>
+    </event>
+    <event>
+      <int key="time" value="1567027556999"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557001"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557001"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557001"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557001"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557001"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557001"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557001"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndFloat"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557001"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557002"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557002"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557002"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557002"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557002"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557002"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557002"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557003"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557003"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndFloat"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557003"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557004"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557004"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557004"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557004"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557004"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557004"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557004"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndFloat"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557004"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557004"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557004"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557004"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557005"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557005"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557005"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557005"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557005"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557005"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndFloat"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557005"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557005"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557005"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557005"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557006"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557006"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557006"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557006"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndFloat"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557006"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557006"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557006"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557006"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557006"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557006"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557006"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557006"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557007"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557007"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndFloat"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557007"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557007"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557007"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557007"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557008"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557008"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557008"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557008"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndFloat"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557008"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557008"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557008"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557008"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557008"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557008"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557009"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557009"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557009"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557009"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndFloat"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557009"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557010"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557010"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557010"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557010"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557010"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557010"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557010"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndFloat"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557010"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557010"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557010"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557010"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557011"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557011"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557011"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557011"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557011"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557011"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndFloat"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557011"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557012"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557012"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557012"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557012"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndBigDecimal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557012"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557012"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:rndQuantity"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557013"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557013"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:computeGainPercent"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557013"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="MarketSummaryDataBean"/>
+      <string key="dest_class_func" value="MarketSummaryDataBean:getRandomInstance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557014"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557047"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:log"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557047"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557048"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="new TradeAction"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557048"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557048"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557048"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557048"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="new TradeAction"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557240"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:useRemoteEJBInterface"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557240"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="new TradeAction"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557240"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557240"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:doWelcome"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557240"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPage"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557240"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:doWelcome"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557293"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557293"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="OrdersAlertFilter:doFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1567027557293"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <int key="time" value="1583517072738"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072742"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:trace [overloaded_#0011]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072742"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072748"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setRunTimeMode"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072748"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072749"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setUseRemoteEJBInterface"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072753"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072754"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setOrderProcessingMode"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072754"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072754"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setWebInterface"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072754"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072754"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setMAX_USERS"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072754"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072754"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setMAX_QUOTES"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072754"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072755"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setMarketSummaryInterval"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072755"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072755"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setPrimIterations"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072755"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072755"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setPublishQuotePriceChange"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072755"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072755"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setPercentSentToWebsocket"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072755"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072755"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setDisplayOrderAlerts"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072756"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072756"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setLongRun"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072756"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072756"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072756"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072756"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:setActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072756"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072767"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:init"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072767"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072767"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072767"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072768"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072768"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072768"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:init"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072768"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072768"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072768"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072768"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072768"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072768"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:init"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072877"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072877"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072877"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072877"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072877"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072877"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeDirect"/>
+      <string key="dest_class_func" value="TradeDirect:init"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072877"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="TradeWebContextListener"/>
+      <string key="dest_class_func" value="TradeWebContextListener:contextInitialized"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072878"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <int key="time" value="1583517072903"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="new OrdersAlertFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072903"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <int key="time" value="1583517072905"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="OrdersAlertFilter:init"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072906"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <int key="time" value="1583517072907"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="JSFLoginFilter"/>
+      <string key="dest_class_func" value="new JSFLoginFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072907"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <int key="time" value="1583517072907"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="JSFLoginFilter"/>
+      <string key="dest_class_func" value="JSFLoginFilter:init"/>
+    </event>
+    <event>
+      <int key="time" value="1583517072907"/>
+      <string key="label" value="init"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+</log>

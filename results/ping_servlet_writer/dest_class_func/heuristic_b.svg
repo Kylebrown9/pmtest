@@ -8,1142 +8,1142 @@
  viewBox="0.00 0.00 3988.00 1700.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1696)">
 <title>%3</title>
-<!-- 140219162079016 -->
+<!-- 139748204458728 -->
 <g id="node1" class="node">
-<title>140219162079016</title>
+<title>139748204458728</title>
 <polygon fill="none" stroke="#000000" points="211,-772 0,-772 0,-736 211,-736 211,-772"/>
 <text text-anchor="middle" x="105.5" y="-750.3" font-family="Times,serif" font-size="14.00" fill="#000000">FinancialUtils:computeGainPercent</text>
 </g>
-<!-- 140219162156504 -->
+<!-- 139748204437632 -->
 <g id="node64" class="node">
-<title>140219162156504</title>
+<title>139748204437632</title>
 <ellipse fill="none" stroke="#000000" cx="274" cy="-957" rx="27" ry="27"/>
 <text text-anchor="middle" x="274" y="-953.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]_FinancialUtils:computeGainPercent_0</text>
 </g>
-<!-- 140219162079016&#45;&gt;140219162156504 -->
+<!-- 139748204458728&#45;&gt;139748204437632 -->
 <g id="edge1" class="edge">
-<title>140219162079016&#45;&gt;140219162156504</title>
+<title>139748204458728&#45;&gt;139748204437632</title>
 <path fill="none" stroke="#000000" d="M120.4533,-772.0149C149.7363,-807.2936 214.8554,-885.7457 250.1511,-928.2681"/>
 <polygon fill="#000000" stroke="#000000" points="247.5061,-930.5615 256.5862,-936.0208 252.8924,-926.0907 247.5061,-930.5615"/>
 </g>
-<!-- 140219162078456 -->
+<!-- 139748204469944 -->
 <g id="node2" class="node">
-<title>140219162078456</title>
+<title>139748204469944</title>
 <polygon fill="none" stroke="#000000" points="2872,-398 2786,-398 2786,-362 2872,-362 2872,-398"/>
 <text text-anchor="middle" x="2829" y="-376.3" font-family="Times,serif" font-size="14.00" fill="#000000">Log:doTrace</text>
 </g>
-<!-- 140219168020744 -->
+<!-- 139748204440936 -->
 <g id="node35" class="node">
-<title>140219168020744</title>
+<title>139748204440936</title>
 <ellipse fill="none" stroke="#000000" cx="2935" cy="-402" rx="27" ry="27"/>
 <text text-anchor="middle" x="2935" y="-398.3" font-family="Times,serif" font-size="14.00" fill="#000000">intplace_Log:doTrace</text>
 </g>
-<!-- 140219162078456&#45;&gt;140219168020744 -->
+<!-- 139748204469944&#45;&gt;139748204440936 -->
 <g id="edge2" class="edge">
-<title>140219162078456&#45;&gt;140219168020744</title>
+<title>139748204469944&#45;&gt;139748204440936</title>
 <path fill="none" stroke="#000000" d="M2872.1143,-388.9482C2880.8346,-390.7581 2889.9251,-392.6448 2898.3959,-394.4029"/>
 <polygon fill="#000000" stroke="#000000" points="2897.8517,-397.8645 2908.3544,-396.4698 2899.2743,-391.0106 2897.8517,-397.8645"/>
 </g>
-<!-- 140219162077728 -->
+<!-- 139748204458224 -->
 <g id="node3" class="node">
-<title>140219162077728</title>
+<title>139748204458224</title>
 <polygon fill="none" stroke="#000000" points="3447,-385 3358,-385 3358,-349 3447,-349 3447,-385"/>
 <text text-anchor="middle" x="3402.5" y="-363.3" font-family="Times,serif" font-size="14.00" fill="#000000">Log:getTrace</text>
 </g>
-<!-- 140219168195696 -->
+<!-- 139748203186384 -->
 <g id="node36" class="node">
-<title>140219168195696</title>
+<title>139748203186384</title>
 <ellipse fill="none" stroke="#000000" cx="3510" cy="-367" rx="27" ry="27"/>
 <text text-anchor="middle" x="3510" y="-363.3" font-family="Times,serif" font-size="14.00" fill="#000000">intplace_Log:getTrace</text>
 </g>
-<!-- 140219162077728&#45;&gt;140219168195696 -->
+<!-- 139748204458224&#45;&gt;139748203186384 -->
 <g id="edge3" class="edge">
-<title>140219162077728&#45;&gt;140219168195696</title>
+<title>139748204458224&#45;&gt;139748203186384</title>
 <path fill="none" stroke="#000000" d="M3447.1558,-367C3455.6735,-367 3464.5051,-367 3472.7611,-367"/>
 <polygon fill="#000000" stroke="#000000" points="3472.8439,-370.5001 3482.8439,-367 3472.8439,-363.5001 3472.8439,-370.5001"/>
 </g>
-<!-- 140219162078008 -->
+<!-- 139748204458056 -->
 <g id="node4" class="node">
-<title>140219162078008</title>
+<title>139748204458056</title>
 <polygon fill="none" stroke="#000000" points="938,-1177 517,-1177 517,-1141 938,-1141 938,-1177"/>
 <text text-anchor="middle" x="727.5" y="-1155.3" font-family="Times,serif" font-size="14.00" fill="#000000">MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]</text>
 </g>
-<!-- 140219168022480 -->
+<!-- 139748203185264 -->
 <g id="node37" class="node">
-<title>140219168022480</title>
+<title>139748203185264</title>
 <ellipse fill="none" stroke="#000000" cx="1001" cy="-1159" rx="27" ry="27"/>
 <text text-anchor="middle" x="1001" y="-1155.3" font-family="Times,serif" font-size="14.00" fill="#000000">intplace_MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]</text>
 </g>
-<!-- 140219162078008&#45;&gt;140219168022480 -->
+<!-- 139748204458056&#45;&gt;139748203185264 -->
 <g id="edge4" class="edge">
-<title>140219162078008&#45;&gt;140219168022480</title>
+<title>139748204458056&#45;&gt;139748203185264</title>
 <path fill="none" stroke="#000000" d="M938.2536,-1159C947.4272,-1159 955.9649,-1159 963.604,-1159"/>
 <polygon fill="#000000" stroke="#000000" points="963.7779,-1162.5001 973.7778,-1159 963.7778,-1155.5001 963.7779,-1162.5001"/>
 </g>
-<!-- 140219162077952 -->
+<!-- 139748204458672 -->
 <g id="node5" class="node">
-<title>140219162077952</title>
+<title>139748204458672</title>
 <polygon fill="none" stroke="#000000" points="1496.5,-1141 1253.5,-1141 1253.5,-1105 1496.5,-1105 1496.5,-1141"/>
 <text text-anchor="middle" x="1375" y="-1119.3" font-family="Times,serif" font-size="14.00" fill="#000000">MarketSummaryDataBean:getOpenTSIA</text>
 </g>
-<!-- 140219162153256 -->
+<!-- 139748204461920 -->
 <g id="node65" class="node">
-<title>140219162153256</title>
+<title>139748204461920</title>
 <ellipse fill="none" stroke="#000000" cx="1618" cy="-1123" rx="27" ry="27"/>
 <text text-anchor="middle" x="1618" y="-1119.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]_MarketSummaryDataBean:getOpenTSIA_0</text>
 </g>
-<!-- 140219162077952&#45;&gt;140219162153256 -->
+<!-- 139748204458672&#45;&gt;139748204461920 -->
 <g id="edge5" class="edge">
-<title>140219162077952&#45;&gt;140219162153256</title>
+<title>139748204458672&#45;&gt;139748204461920</title>
 <path fill="none" stroke="#000000" d="M1496.856,-1123C1527.3205,-1123 1557.7551,-1123 1580.4988,-1123"/>
 <polygon fill="#000000" stroke="#000000" points="1580.6955,-1126.5001 1590.6955,-1123 1580.6954,-1119.5001 1580.6955,-1126.5001"/>
 </g>
-<!-- 140219162077168 -->
+<!-- 139748204458616 -->
 <g id="node6" class="node">
-<title>140219162077168</title>
+<title>139748204458616</title>
 <polygon fill="none" stroke="#000000" points="1482,-1658 1268,-1658 1268,-1622 1482,-1622 1482,-1658"/>
 <text text-anchor="middle" x="1375" y="-1636.3" font-family="Times,serif" font-size="14.00" fill="#000000">MarketSummaryDataBean:getTSIA</text>
 </g>
-<!-- 140219169029312 -->
+<!-- 139748204437744 -->
 <g id="node66" class="node">
-<title>140219169029312</title>
+<title>139748204437744</title>
 <ellipse fill="none" stroke="#000000" cx="1618" cy="-1665" rx="27" ry="27"/>
 <text text-anchor="middle" x="1618" y="-1661.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]_MarketSummaryDataBean:getTSIA_0</text>
 </g>
-<!-- 140219162077168&#45;&gt;140219169029312 -->
+<!-- 139748204458616&#45;&gt;139748204437744 -->
 <g id="edge6" class="edge">
-<title>140219162077168&#45;&gt;140219169029312</title>
+<title>139748204458616&#45;&gt;139748204437744</title>
 <path fill="none" stroke="#000000" d="M1482.2907,-1651.0381C1517.4904,-1654.6595 1554.3032,-1658.4468 1580.6925,-1661.1618"/>
 <polygon fill="#000000" stroke="#000000" points="1580.6692,-1664.6778 1590.9749,-1662.2196 1581.3857,-1657.7145 1580.6692,-1664.6778"/>
 </g>
-<!-- 140219162075264 -->
+<!-- 139748204458336 -->
 <g id="node7" class="node">
-<title>140219162075264</title>
+<title>139748204458336</title>
 <polygon fill="none" stroke="#000000" points="1496,-1400 1254,-1400 1254,-1364 1496,-1364 1496,-1400"/>
 <text text-anchor="middle" x="1375" y="-1378.3" font-family="Times,serif" font-size="14.00" fill="#000000">MarketSummaryDataBean:setOpenTSIA</text>
 </g>
-<!-- 140219162153312 -->
+<!-- 139748204438192 -->
 <g id="node67" class="node">
-<title>140219162153312</title>
+<title>139748204438192</title>
 <ellipse fill="none" stroke="#000000" cx="1618" cy="-1462" rx="27" ry="27"/>
 <text text-anchor="middle" x="1618" y="-1458.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]_MarketSummaryDataBean:setOpenTSIA_0</text>
 </g>
-<!-- 140219162075264&#45;&gt;140219162153312 -->
+<!-- 139748204458336&#45;&gt;139748204438192 -->
 <g id="edge7" class="edge">
-<title>140219162075264&#45;&gt;140219162153312</title>
+<title>139748204458336&#45;&gt;139748204438192</title>
 <path fill="none" stroke="#000000" d="M1429.8369,-1400.0533C1476.5513,-1415.4325 1542.3078,-1437.0807 1582.4373,-1450.2921"/>
 <polygon fill="#000000" stroke="#000000" points="1581.4674,-1453.6576 1592.0604,-1453.4602 1583.6564,-1447.0086 1581.4674,-1453.6576"/>
 </g>
-<!-- 140219162078400 -->
+<!-- 139748204458560 -->
 <g id="node8" class="node">
-<title>140219162078400</title>
+<title>139748204458560</title>
 <polygon fill="none" stroke="#000000" points="1506,-1223 1244,-1223 1244,-1187 1506,-1187 1506,-1223"/>
 <text text-anchor="middle" x="1375" y="-1201.3" font-family="Times,serif" font-size="14.00" fill="#000000">MarketSummaryDataBean:setSummaryDate</text>
 </g>
-<!-- 140219162156280 -->
+<!-- 139748204438080 -->
 <g id="node68" class="node">
-<title>140219162156280</title>
+<title>139748204438080</title>
 <ellipse fill="none" stroke="#000000" cx="1618" cy="-1264" rx="27" ry="27"/>
 <text text-anchor="middle" x="1618" y="-1260.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]_MarketSummaryDataBean:setSummaryDate_0</text>
 </g>
-<!-- 140219162078400&#45;&gt;140219162156280 -->
+<!-- 139748204458560&#45;&gt;139748204438080 -->
 <g id="edge8" class="edge">
-<title>140219162078400&#45;&gt;140219162156280</title>
+<title>139748204458560&#45;&gt;139748204438080</title>
 <path fill="none" stroke="#000000" d="M1449.2284,-1223.0225C1493.1822,-1233.6944 1546.9144,-1246.7405 1581.7683,-1255.203"/>
 <polygon fill="#000000" stroke="#000000" points="1580.9669,-1258.61 1591.5104,-1257.5684 1582.6186,-1251.8077 1580.9669,-1258.61"/>
 </g>
-<!-- 140219162075320 -->
+<!-- 139748204458280 -->
 <g id="node9" class="node">
-<title>140219162075320</title>
+<title>139748204458280</title>
 <polygon fill="none" stroke="#000000" points="1481,-1069 1269,-1069 1269,-1033 1481,-1033 1481,-1069"/>
 <text text-anchor="middle" x="1375" y="-1047.3" font-family="Times,serif" font-size="14.00" fill="#000000">MarketSummaryDataBean:setTSIA</text>
 </g>
-<!-- 140219169029648 -->
+<!-- 139748204461808 -->
 <g id="node69" class="node">
-<title>140219169029648</title>
+<title>139748204461808</title>
 <ellipse fill="none" stroke="#000000" cx="1618" cy="-1051" rx="27" ry="27"/>
 <text text-anchor="middle" x="1618" y="-1047.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]_MarketSummaryDataBean:setTSIA_0</text>
 </g>
-<!-- 140219162075320&#45;&gt;140219169029648 -->
+<!-- 139748204458280&#45;&gt;139748204461808 -->
 <g id="edge9" class="edge">
-<title>140219162075320&#45;&gt;140219169029648</title>
+<title>139748204458280&#45;&gt;139748204461808</title>
 <path fill="none" stroke="#000000" d="M1481.2298,-1051C1516.857,-1051 1554.2639,-1051 1580.9343,-1051"/>
 <polygon fill="#000000" stroke="#000000" points="1580.9585,-1054.5001 1590.9585,-1051 1580.9584,-1047.5001 1580.9585,-1054.5001"/>
 </g>
-<!-- 140219162079128 -->
+<!-- 139748204458448 -->
 <g id="node10" class="node">
-<title>140219162079128</title>
+<title>139748204458448</title>
 <polygon fill="none" stroke="#000000" points="1498,-1510 1252,-1510 1252,-1474 1498,-1474 1498,-1510"/>
 <text text-anchor="middle" x="1375" y="-1488.3" font-family="Times,serif" font-size="14.00" fill="#000000">MarketSummaryDataBean:setTopGainers</text>
 </g>
-<!-- 140219169029424 -->
+<!-- 139748204438304 -->
 <g id="node70" class="node">
-<title>140219169029424</title>
+<title>139748204438304</title>
 <ellipse fill="none" stroke="#000000" cx="1618" cy="-1545" rx="27" ry="27"/>
 <text text-anchor="middle" x="1618" y="-1541.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]_MarketSummaryDataBean:setTopGainers_0</text>
 </g>
-<!-- 140219162079128&#45;&gt;140219169029424 -->
+<!-- 139748204458448&#45;&gt;139748204438304 -->
 <g id="edge10" class="edge">
-<title>140219162079128&#45;&gt;140219169029424</title>
+<title>139748204458448&#45;&gt;139748204438304</title>
 <path fill="none" stroke="#000000" d="M1457.6078,-1510.0173C1499.6958,-1519.197 1548.7443,-1529.8949 1581.413,-1537.0201"/>
 <polygon fill="#000000" stroke="#000000" points="1580.8985,-1540.4901 1591.4146,-1539.2015 1582.3902,-1533.6509 1580.8985,-1540.4901"/>
 </g>
-<!-- 140219162078064 -->
+<!-- 139748204458504 -->
 <g id="node11" class="node">
-<title>140219162078064</title>
+<title>139748204458504</title>
 <polygon fill="none" stroke="#000000" points="1495,-577 1255,-577 1255,-541 1495,-541 1495,-577"/>
 <text text-anchor="middle" x="1375" y="-555.3" font-family="Times,serif" font-size="14.00" fill="#000000">MarketSummaryDataBean:setTopLosers</text>
 </g>
-<!-- 140219162155216 -->
+<!-- 139748204462032 -->
 <g id="node71" class="node">
-<title>140219162155216</title>
+<title>139748204462032</title>
 <ellipse fill="none" stroke="#000000" cx="1618" cy="-425" rx="27" ry="27"/>
 <text text-anchor="middle" x="1618" y="-421.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]_MarketSummaryDataBean:setTopLosers_0</text>
 </g>
-<!-- 140219162078064&#45;&gt;140219162155216 -->
+<!-- 139748204458504&#45;&gt;139748204462032 -->
 <g id="edge11" class="edge">
-<title>140219162078064&#45;&gt;140219162155216</title>
+<title>139748204458504&#45;&gt;139748204462032</title>
 <path fill="none" stroke="#000000" d="M1404.1185,-540.8536C1437.0975,-520.5516 1492.6719,-487.0913 1542,-461 1555.5006,-453.8591 1570.6581,-446.5429 1583.864,-440.3871"/>
 <polygon fill="#000000" stroke="#000000" points="1585.4726,-443.4995 1593.0835,-436.1289 1582.5374,-437.1446 1585.4726,-443.4995"/>
 </g>
-<!-- 140219162077672 -->
+<!-- 139748204458392 -->
 <g id="node12" class="node">
-<title>140219162077672</title>
+<title>139748204458392</title>
 <polygon fill="none" stroke="#000000" points="1488.5,-1290 1261.5,-1290 1261.5,-1254 1488.5,-1254 1488.5,-1290"/>
 <text text-anchor="middle" x="1375" y="-1268.3" font-family="Times,serif" font-size="14.00" fill="#000000">MarketSummaryDataBean:setVolume</text>
 </g>
-<!-- 140219169029536 -->
+<!-- 139748204437856 -->
 <g id="node72" class="node">
-<title>140219169029536</title>
+<title>139748204437856</title>
 <ellipse fill="none" stroke="#000000" cx="1618" cy="-1355" rx="27" ry="27"/>
 <text text-anchor="middle" x="1618" y="-1351.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]_MarketSummaryDataBean:setVolume_0</text>
 </g>
-<!-- 140219162077672&#45;&gt;140219169029536 -->
+<!-- 139748204458392&#45;&gt;139748204437856 -->
 <g id="edge12" class="edge">
-<title>140219162077672&#45;&gt;140219169029536</title>
+<title>139748204458392&#45;&gt;139748204437856</title>
 <path fill="none" stroke="#000000" d="M1427.7274,-1290.0098C1474.6666,-1306.0425 1542.025,-1329.0497 1582.7326,-1342.9539"/>
 <polygon fill="#000000" stroke="#000000" points="1581.6374,-1346.2783 1592.232,-1346.1986 1583.9001,-1339.6541 1581.6374,-1346.2783"/>
 </g>
-<!-- 140219162075936 -->
+<!-- 139748204458112 -->
 <g id="node13" class="node">
-<title>140219162075936</title>
+<title>139748204458112</title>
 <polygon fill="none" stroke="#000000" points="2660,-925 2332,-925 2332,-889 2660,-889 2660,-925"/>
 <text text-anchor="middle" x="2496" y="-903.3" font-family="Times,serif" font-size="14.00" fill="#000000">MarketSummarySingleton:setMarketSummaryDataBean</text>
 </g>
-<!-- 140219162077280 -->
+<!-- 139748204459904 -->
 <g id="node76" class="node">
-<title>140219162077280</title>
+<title>139748204459904</title>
 <ellipse fill="none" stroke="#000000" cx="2723" cy="-930" rx="27" ry="27"/>
 <text text-anchor="middle" x="2723" y="-926.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_MarketSummarySingleton:updateMarketSummary_MarketSummarySingleton:setMarketSummaryDataBean_0</text>
 </g>
-<!-- 140219162075936&#45;&gt;140219162077280 -->
+<!-- 139748204458112&#45;&gt;139748204459904 -->
 <g id="edge13" class="edge">
-<title>140219162075936&#45;&gt;140219162077280</title>
+<title>139748204458112&#45;&gt;139748204459904</title>
 <path fill="none" stroke="#000000" d="M2660.0693,-923.6238C2669.3556,-924.5647 2678.0742,-925.448 2685.8907,-926.24"/>
 <polygon fill="#000000" stroke="#000000" points="2685.6572,-929.7342 2695.9591,-927.2602 2686.3629,-922.7699 2685.6572,-929.7342"/>
 </g>
-<!-- 140219162077392 -->
+<!-- 139748204469664 -->
 <g id="node14" class="node">
-<title>140219162077392</title>
+<title>139748204469664</title>
 <polygon fill="none" stroke="#000000" points="2026,-506 1730,-506 1730,-470 2026,-470 2026,-506"/>
 <text text-anchor="middle" x="1878" y="-484.3" font-family="Times,serif" font-size="14.00" fill="#000000">MarketSummarySingleton:updateMarketSummary</text>
 </g>
-<!-- 140219168020464 -->
+<!-- 139748204440656 -->
 <g id="node38" class="node">
-<title>140219168020464</title>
+<title>139748204440656</title>
 <ellipse fill="none" stroke="#000000" cx="2089" cy="-479" rx="27" ry="27"/>
 <text text-anchor="middle" x="2089" y="-475.3" font-family="Times,serif" font-size="14.00" fill="#000000">intplace_MarketSummarySingleton:updateMarketSummary</text>
 </g>
-<!-- 140219162077392&#45;&gt;140219168020464 -->
+<!-- 139748204469664&#45;&gt;139748204440656 -->
 <g id="edge14" class="edge">
-<title>140219162077392&#45;&gt;140219168020464</title>
+<title>139748204469664&#45;&gt;139748204440656</title>
 <path fill="none" stroke="#000000" d="M2026.2643,-481.6759C2035.4307,-481.2849 2044.0786,-480.9161 2051.8562,-480.5843"/>
 <polygon fill="#000000" stroke="#000000" points="2052.0477,-484.0794 2061.8894,-480.1564 2051.7493,-477.0858 2052.0477,-484.0794"/>
 </g>
-<!-- 140219162075376 -->
+<!-- 139748204458896 -->
 <g id="node15" class="node">
-<title>140219162075376</title>
+<title>139748204458896</title>
 <polygon fill="none" stroke="#000000" points="1694,-100 1542,-100 1542,-64 1694,-64 1694,-100"/>
 <text text-anchor="middle" x="1618" y="-78.3" font-family="Times,serif" font-size="14.00" fill="#000000">PingServletWriter:doGet</text>
 </g>
-<!-- 140219168018616 -->
+<!-- 139748204438920 -->
 <g id="node83" class="node">
-<title>140219168018616</title>
+<title>139748204438920</title>
 <ellipse fill="none" stroke="#000000" cx="1878" cy="-82" rx="27" ry="27"/>
 <text text-anchor="middle" x="1878" y="-78.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_Root_PingServletWriter:doGet_0</text>
 </g>
-<!-- 140219162075376&#45;&gt;140219168018616 -->
+<!-- 139748204458896&#45;&gt;139748204438920 -->
 <g id="edge15" class="edge">
-<title>140219162075376&#45;&gt;140219168018616</title>
+<title>139748204458896&#45;&gt;139748204438920</title>
 <path fill="none" stroke="#000000" d="M1694.2518,-82C1742.4631,-82 1802.6446,-82 1840.7126,-82"/>
 <polygon fill="#000000" stroke="#000000" points="1840.835,-85.5001 1850.835,-82 1840.8349,-78.5001 1840.835,-85.5001"/>
 </g>
-<!-- 140219162076328 -->
+<!-- 139748204458840 -->
 <g id="node16" class="node">
-<title>140219162076328</title>
+<title>139748204458840</title>
 <polygon fill="none" stroke="#000000" points="1443.5,-49 1306.5,-49 1306.5,-13 1443.5,-13 1443.5,-49"/>
 <text text-anchor="middle" x="1375" y="-27.3" font-family="Times,serif" font-size="14.00" fill="#000000">PingServletWriter:init</text>
 </g>
-<!-- 140219168018728 -->
+<!-- 139748204439032 -->
 <g id="node84" class="node">
-<title>140219168018728</title>
+<title>139748204439032</title>
 <ellipse fill="none" stroke="#000000" cx="2089" cy="-27" rx="27" ry="27"/>
 <text text-anchor="middle" x="2089" y="-23.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_Root_PingServletWriter:init_0</text>
 </g>
-<!-- 140219162076328&#45;&gt;140219168018728 -->
+<!-- 139748204458840&#45;&gt;139748204439032 -->
 <g id="edge16" class="edge">
-<title>140219162076328&#45;&gt;140219168018728</title>
+<title>139748204458840&#45;&gt;139748204439032</title>
 <path fill="none" stroke="#000000" d="M1443.7854,-30.6146C1591.9166,-29.7848 1936.9287,-27.8519 2051.3651,-27.2108"/>
 <polygon fill="#000000" stroke="#000000" points="2051.7253,-30.709 2061.7055,-27.1529 2051.686,-23.7091 2051.7253,-30.709"/>
 </g>
-<!-- 140219162075544 -->
+<!-- 139748204470056 -->
 <g id="node17" class="node">
-<title>140219162075544</title>
+<title>139748204470056</title>
 <polygon fill="none" stroke="#000000" points="2645.5,-778 2346.5,-778 2346.5,-742 2645.5,-742 2645.5,-778"/>
 <text text-anchor="middle" x="2496" y="-756.3" font-family="Times,serif" font-size="14.00" fill="#000000">QuoteDataBean:QuoteDataBean [overloaded_#001]</text>
 </g>
-<!-- 140219162078624 -->
+<!-- 139748204459680 -->
 <g id="node77" class="node">
-<title>140219162078624</title>
+<title>139748204459680</title>
 <ellipse fill="none" stroke="#000000" cx="2723" cy="-846" rx="27" ry="27"/>
 <text text-anchor="middle" x="2723" y="-842.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_MarketSummarySingleton:updateMarketSummary_QuoteDataBean:QuoteDataBean [overloaded_#001]_0</text>
 </g>
-<!-- 140219162075544&#45;&gt;140219162078624 -->
+<!-- 139748204470056&#45;&gt;139748204459680 -->
 <g id="edge17" class="edge">
-<title>140219162075544&#45;&gt;140219162078624</title>
+<title>139748204470056&#45;&gt;139748204459680</title>
 <path fill="none" stroke="#000000" d="M2543.5866,-778.0284C2586.6693,-794.3505 2649.142,-818.0186 2687.8567,-832.6858"/>
 <polygon fill="#000000" stroke="#000000" points="2687.0441,-836.1207 2697.6355,-836.3905 2689.5241,-829.5747 2687.0441,-836.1207"/>
 </g>
-<!-- 140219162076216 -->
+<!-- 139748204470168 -->
 <g id="node18" class="node">
-<title>140219162076216</title>
+<title>139748204470168</title>
 <polygon fill="none" stroke="#000000" points="2572,-385 2420,-385 2420,-349 2572,-349 2572,-385"/>
 <text text-anchor="middle" x="2496" y="-363.3" font-family="Times,serif" font-size="14.00" fill="#000000">QuoteDataBean:getOpen</text>
 </g>
-<!-- 140219162075208 -->
+<!-- 139748204460016 -->
 <g id="node78" class="node">
-<title>140219162075208</title>
+<title>139748204460016</title>
 <ellipse fill="none" stroke="#000000" cx="2723" cy="-458" rx="27" ry="27"/>
 <text text-anchor="middle" x="2723" y="-454.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_MarketSummarySingleton:updateMarketSummary_QuoteDataBean:getOpen_0</text>
 </g>
-<!-- 140219162076216&#45;&gt;140219162075208 -->
+<!-- 139748204470168&#45;&gt;139748204460016 -->
 <g id="edge18" class="edge">
-<title>140219162076216&#45;&gt;140219162075208</title>
+<title>139748204470168&#45;&gt;139748204460016</title>
 <path fill="none" stroke="#000000" d="M2572.1611,-375.5712C2600.7863,-380.8542 2632.9286,-389.3542 2660,-403 2673.6671,-409.8891 2686.7608,-420.4304 2697.436,-430.448"/>
 <polygon fill="#000000" stroke="#000000" points="2695.1538,-433.1112 2704.7554,-437.5901 2700.0425,-428.1012 2695.1538,-433.1112"/>
 </g>
-<!-- 140219162076384 -->
+<!-- 139748204470112 -->
 <g id="node19" class="node">
-<title>140219162076384</title>
+<title>139748204470112</title>
 <polygon fill="none" stroke="#000000" points="2571.5,-668 2420.5,-668 2420.5,-632 2571.5,-632 2571.5,-668"/>
 <text text-anchor="middle" x="2496" y="-646.3" font-family="Times,serif" font-size="14.00" fill="#000000">QuoteDataBean:getPrice</text>
 </g>
-<!-- 140219162078120 -->
+<!-- 139748204459456 -->
 <g id="node79" class="node">
-<title>140219162078120</title>
+<title>139748204459456</title>
 <ellipse fill="none" stroke="#000000" cx="2723" cy="-773" rx="27" ry="27"/>
 <text text-anchor="middle" x="2723" y="-769.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_MarketSummarySingleton:updateMarketSummary_QuoteDataBean:getPrice_0</text>
 </g>
-<!-- 140219162076384&#45;&gt;140219162078120 -->
+<!-- 139748204470112&#45;&gt;139748204459456 -->
 <g id="edge19" class="edge">
-<title>140219162076384&#45;&gt;140219162078120</title>
+<title>139748204470112&#45;&gt;139748204459456</title>
 <path fill="none" stroke="#000000" d="M2534.3323,-668.0924C2567.9263,-684.2562 2617.8372,-709.0209 2660,-733 2670.5396,-738.9941 2681.7926,-745.9514 2691.829,-752.3665"/>
 <polygon fill="#000000" stroke="#000000" points="2689.9874,-755.3436 2700.2872,-757.8266 2693.7839,-749.4625 2689.9874,-755.3436"/>
 </g>
-<!-- 140219162075824 -->
+<!-- 139748204470224 -->
 <g id="node20" class="node">
-<title>140219162075824</title>
+<title>139748204470224</title>
 <polygon fill="none" stroke="#000000" points="2579.5,-558 2412.5,-558 2412.5,-522 2579.5,-522 2579.5,-558"/>
 <text text-anchor="middle" x="2496" y="-536.3" font-family="Times,serif" font-size="14.00" fill="#000000">QuoteDataBean:getVolume</text>
 </g>
-<!-- 140219162077616 -->
+<!-- 139748204459344 -->
 <g id="node80" class="node">
-<title>140219162077616</title>
+<title>139748204459344</title>
 <ellipse fill="none" stroke="#000000" cx="2723" cy="-672" rx="27" ry="27"/>
 <text text-anchor="middle" x="2723" y="-668.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_MarketSummarySingleton:updateMarketSummary_QuoteDataBean:getVolume_0</text>
 </g>
-<!-- 140219162075824&#45;&gt;140219162077616 -->
+<!-- 139748204470224&#45;&gt;139748204459344 -->
 <g id="edge20" class="edge">
-<title>140219162075824&#45;&gt;140219162077616</title>
+<title>139748204470224&#45;&gt;139748204459344</title>
 <path fill="none" stroke="#000000" d="M2536.9519,-558.0413C2570.8691,-573.6094 2619.8365,-597.5513 2660,-623 2671.7292,-630.4319 2683.9293,-639.5538 2694.4343,-647.9038"/>
 <polygon fill="#000000" stroke="#000000" points="2692.4774,-650.8224 2702.4543,-654.3877 2696.8783,-645.3789 2692.4774,-650.8224"/>
 </g>
-<!-- 140219162075768 -->
+<!-- 139748204458168 -->
 <g id="node21" class="node">
-<title>140219162075768</title>
+<title>139748204458168</title>
 <polygon fill="none" stroke="#000000" points="2856,-100 2802,-100 2802,-64 2856,-64 2856,-100"/>
 <text text-anchor="middle" x="2829" y="-78.3" font-family="Times,serif" font-size="14.00" fill="#000000">Root</text>
 </g>
-<!-- 140219162076048 -->
+<!-- 139748204469832 -->
 <g id="node85" class="node">
-<title>140219162076048</title>
+<title>139748204469832</title>
 <ellipse fill="#ffa500" stroke="#000000" cx="2935" cy="-82" rx="27" ry="27"/>
 </g>
-<!-- 140219162075768&#45;&gt;140219162076048 -->
+<!-- 139748204458168&#45;&gt;139748204469832 -->
 <g id="edge21" class="edge">
-<title>140219162075768&#45;&gt;140219162076048</title>
+<title>139748204458168&#45;&gt;139748204469832</title>
 <path fill="none" stroke="#000000" d="M2856.0225,-82C2868.6333,-82 2883.8509,-82 2897.5484,-82"/>
 <polygon fill="#000000" stroke="#000000" points="2897.6583,-85.5001 2907.6582,-82 2897.6582,-78.5001 2897.6583,-85.5001"/>
 </g>
-<!-- 140219162076440 -->
+<!-- 139748204470000 -->
 <g id="node22" class="node">
-<title>140219162076440</title>
+<title>139748204470000</title>
 <polygon fill="none" stroke="#000000" points="2591,-448 2401,-448 2401,-412 2591,-412 2591,-448"/>
 <text text-anchor="middle" x="2496" y="-426.3" font-family="Times,serif" font-size="14.00" fill="#000000">TradeConfig:getRunTimeMode</text>
 </g>
-<!-- 140219162077896 -->
+<!-- 139748204459568 -->
 <g id="node81" class="node">
-<title>140219162077896</title>
+<title>139748204459568</title>
 <ellipse fill="none" stroke="#000000" cx="2723" cy="-571" rx="27" ry="27"/>
 <text text-anchor="middle" x="2723" y="-567.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_MarketSummarySingleton:updateMarketSummary_TradeConfig:getRunTimeMode_0</text>
 </g>
-<!-- 140219162076440&#45;&gt;140219162077896 -->
+<!-- 139748204470000&#45;&gt;139748204459568 -->
 <g id="edge22" class="edge">
-<title>140219162076440&#45;&gt;140219162077896</title>
+<title>139748204470000&#45;&gt;139748204459568</title>
 <path fill="none" stroke="#000000" d="M2539.6109,-448.0987C2573.7562,-463.1885 2621.7143,-486.4514 2660,-513 2673.1027,-522.0859 2686.2842,-533.7386 2697.1788,-544.2128"/>
 <polygon fill="#000000" stroke="#000000" points="2694.7387,-546.7221 2704.3267,-551.2299 2699.6425,-541.7268 2694.7387,-546.7221"/>
 </g>
-<!-- 140219162078792 -->
+<!-- 139748204458784 -->
 <g id="node23" class="node">
-<title>140219162078792</title>
+<title>139748204458784</title>
 <polygon fill="none" stroke="#000000" points="3890,-389 3753,-389 3753,-353 3890,-353 3890,-389"/>
 <text text-anchor="middle" x="3821.5" y="-367.3" font-family="Times,serif" font-size="14.00" fill="#000000">TradeConfig:getTrace</text>
 </g>
-<!-- 140219168019232 -->
+<!-- 139748204439536 -->
 <g id="node63" class="node">
-<title>140219168019232</title>
+<title>139748204439536</title>
 <ellipse fill="none" stroke="#000000" cx="3953" cy="-396" rx="27" ry="27"/>
 <text text-anchor="middle" x="3953" y="-392.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_Log:getTrace_TradeConfig:getTrace_0</text>
 </g>
-<!-- 140219162078792&#45;&gt;140219168019232 -->
+<!-- 139748204458784&#45;&gt;139748204439536 -->
 <g id="edge23" class="edge">
-<title>140219162078792&#45;&gt;140219168019232</title>
+<title>139748204458784&#45;&gt;139748204439536</title>
 <path fill="none" stroke="#000000" d="M3890.331,-384.0857C3899.3319,-385.7969 3908.2555,-387.4934 3916.4254,-389.0466"/>
 <polygon fill="#000000" stroke="#000000" points="3915.8419,-392.4983 3926.3197,-390.9277 3917.1494,-385.6215 3915.8419,-392.4983"/>
 </g>
-<!-- 140219162075992 -->
+<!-- 139748204459064 -->
 <g id="node24" class="node">
-<title>140219162075992</title>
+<title>139748204459064</title>
 <polygon fill="none" stroke="#000000" points="1402,-716 1348,-716 1348,-680 1402,-680 1402,-716"/>
 <text text-anchor="middle" x="1375" y="-694.3" font-family="Times,serif" font-size="14.00" fill="#000000">hid_1</text>
 </g>
-<!-- 140219162076272 -->
+<!-- 139748204458952 -->
 <g id="node52" class="node">
-<title>140219162076272</title>
+<title>139748204458952</title>
 <ellipse fill="none" stroke="#000000" cx="1618" cy="-497" rx="27" ry="27"/>
 <text text-anchor="middle" x="1618" y="-493.3" font-family="Times,serif" font-size="14.00" fill="#000000">pre_MarketSummarySingleton:updateMarketSummary</text>
 </g>
-<!-- 140219162075992&#45;&gt;140219162076272 -->
+<!-- 139748204459064&#45;&gt;139748204458952 -->
 <g id="edge24" class="edge">
-<title>140219162075992&#45;&gt;140219162076272</title>
+<title>139748204459064&#45;&gt;139748204458952</title>
 <path fill="none" stroke="#000000" d="M1399.5884,-679.6371C1427.0238,-658.5642 1472.0168,-622.226 1506,-586 1524.2445,-566.5514 1521.7946,-555.4027 1542,-538 1554.2753,-527.4274 1569.7294,-518.475 1583.4913,-511.6589"/>
 <polygon fill="#000000" stroke="#000000" points="1585.1592,-514.7415 1592.6886,-507.2877 1582.1543,-508.4192 1585.1592,-514.7415"/>
 </g>
-<!-- 140219168194744 -->
+<!-- 139748203185376 -->
 <g id="node25" class="node">
-<title>140219168194744</title>
+<title>139748203185376</title>
 <polygon fill="none" stroke="#000000" points="1118,-1177 1064,-1177 1064,-1141 1118,-1141 1118,-1177"/>
 <text text-anchor="middle" x="1091" y="-1155.3" font-family="Times,serif" font-size="14.00" fill="#000000">hid_11</text>
 </g>
-<!-- 140219168020240 -->
+<!-- 139748204440432 -->
 <g id="node39" class="node">
-<title>140219168020240</title>
+<title>139748204440432</title>
 <ellipse fill="none" stroke="#000000" cx="1181" cy="-797" rx="27" ry="27"/>
 <text text-anchor="middle" x="1181" y="-793.3" font-family="Times,serif" font-size="14.00" fill="#000000">pre_FinancialUtils:computeGainPercent</text>
 </g>
-<!-- 140219168194744&#45;&gt;140219168020240 -->
+<!-- 139748203185376&#45;&gt;139748204440432 -->
 <g id="edge25" class="edge">
-<title>140219168194744&#45;&gt;140219168020240</title>
+<title>139748203185376&#45;&gt;139748204440432</title>
 <path fill="none" stroke="#000000" d="M1094.0793,-1140.927C1102.0546,-1095.2223 1124.8123,-971.5158 1154,-871 1157.7915,-857.9428 1162.7104,-843.8662 1167.3092,-831.5314"/>
 <polygon fill="#000000" stroke="#000000" points="1170.6257,-832.6567 1170.901,-822.0654 1164.0809,-830.1733 1170.6257,-832.6567"/>
 </g>
-<!-- 140219168020128 -->
+<!-- 139748204440320 -->
 <g id="node43" class="node">
-<title>140219168020128</title>
+<title>139748204440320</title>
 <ellipse fill="none" stroke="#000000" cx="1181" cy="-1123" rx="27" ry="27"/>
 <text text-anchor="middle" x="1181" y="-1119.3" font-family="Times,serif" font-size="14.00" fill="#000000">pre_MarketSummaryDataBean:getOpenTSIA</text>
 </g>
-<!-- 140219168194744&#45;&gt;140219168020128 -->
+<!-- 139748203185376&#45;&gt;139748204440320 -->
 <g id="edge26" class="edge">
-<title>140219168194744&#45;&gt;140219168020128</title>
+<title>139748203185376&#45;&gt;139748204440320</title>
 <path fill="none" stroke="#000000" d="M1118.003,-1148.1988C1126.9184,-1144.6326 1136.9622,-1140.6151 1146.3671,-1136.8531"/>
 <polygon fill="#000000" stroke="#000000" points="1147.8778,-1140.0186 1155.8627,-1133.0549 1145.278,-1133.5192 1147.8778,-1140.0186"/>
 </g>
-<!-- 140219168020016 -->
+<!-- 139748204440208 -->
 <g id="node44" class="node">
-<title>140219168020016</title>
+<title>139748204440208</title>
 <ellipse fill="none" stroke="#000000" cx="1181" cy="-1635" rx="27" ry="27"/>
 <text text-anchor="middle" x="1181" y="-1631.3" font-family="Times,serif" font-size="14.00" fill="#000000">pre_MarketSummaryDataBean:getTSIA</text>
 </g>
-<!-- 140219168194744&#45;&gt;140219168020016 -->
+<!-- 139748203185376&#45;&gt;139748204440208 -->
 <g id="edge27" class="edge">
-<title>140219168194744&#45;&gt;140219168020016</title>
+<title>139748203185376&#45;&gt;139748204440208</title>
 <path fill="none" stroke="#000000" d="M1093.7289,-1177.2593C1101.8025,-1230.662 1126.7193,-1391.1105 1154,-1523 1159.2813,-1548.5325 1166.1848,-1577.1027 1171.6891,-1598.9967"/>
 <polygon fill="#000000" stroke="#000000" points="1168.3386,-1600.0235 1174.187,-1608.8579 1175.1243,-1598.3046 1168.3386,-1600.0235"/>
 </g>
-<!-- 140219168019456 -->
+<!-- 139748204439648 -->
 <g id="node45" class="node">
-<title>140219168019456</title>
+<title>139748204439648</title>
 <ellipse fill="none" stroke="#000000" cx="1181" cy="-1377" rx="27" ry="27"/>
 <text text-anchor="middle" x="1181" y="-1373.3" font-family="Times,serif" font-size="14.00" fill="#000000">pre_MarketSummaryDataBean:setOpenTSIA</text>
 </g>
-<!-- 140219168194744&#45;&gt;140219168019456 -->
+<!-- 139748203185376&#45;&gt;139748204439648 -->
 <g id="edge28" class="edge">
-<title>140219168194744&#45;&gt;140219168019456</title>
+<title>139748203185376&#45;&gt;139748204439648</title>
 <path fill="none" stroke="#000000" d="M1098.5185,-1177.2116C1113.5064,-1213.5155 1147.3244,-1295.4303 1166.6819,-1342.3183"/>
 <polygon fill="#000000" stroke="#000000" points="1163.5298,-1343.8554 1170.5811,-1351.763 1170.0001,-1341.1841 1163.5298,-1343.8554"/>
 </g>
-<!-- 140219168019904 -->
+<!-- 139748204440096 -->
 <g id="node46" class="node">
-<title>140219168019904</title>
+<title>139748204440096</title>
 <ellipse fill="none" stroke="#000000" cx="1181" cy="-1195" rx="27" ry="27"/>
 <text text-anchor="middle" x="1181" y="-1191.3" font-family="Times,serif" font-size="14.00" fill="#000000">pre_MarketSummaryDataBean:setSummaryDate</text>
 </g>
-<!-- 140219168194744&#45;&gt;140219168019904 -->
+<!-- 139748203185376&#45;&gt;139748204440096 -->
 <g id="edge29" class="edge">
-<title>140219168194744&#45;&gt;140219168019904</title>
+<title>139748203185376&#45;&gt;139748204440096</title>
 <path fill="none" stroke="#000000" d="M1118.003,-1169.8012C1126.9184,-1173.3674 1136.9622,-1177.3849 1146.3671,-1181.1469"/>
 <polygon fill="#000000" stroke="#000000" points="1145.278,-1184.4808 1155.8627,-1184.9451 1147.8778,-1177.9814 1145.278,-1184.4808"/>
 </g>
-<!-- 140219168018952 -->
+<!-- 139748204439144 -->
 <g id="node47" class="node">
-<title>140219168018952</title>
+<title>139748204439144</title>
 <ellipse fill="none" stroke="#000000" cx="1181" cy="-1051" rx="27" ry="27"/>
 <text text-anchor="middle" x="1181" y="-1047.3" font-family="Times,serif" font-size="14.00" fill="#000000">pre_MarketSummaryDataBean:setTSIA</text>
 </g>
-<!-- 140219168194744&#45;&gt;140219168018952 -->
+<!-- 139748203185376&#45;&gt;139748204439144 -->
 <g id="edge30" class="edge">
-<title>140219168194744&#45;&gt;140219168018952</title>
+<title>139748203185376&#45;&gt;139748204439144</title>
 <path fill="none" stroke="#000000" d="M1106.2673,-1140.6793C1120.1341,-1124.0391 1140.8189,-1099.2174 1156.9135,-1079.9038"/>
 <polygon fill="#000000" stroke="#000000" points="1159.7839,-1081.9265 1163.497,-1072.0036 1154.4063,-1077.4452 1159.7839,-1081.9265"/>
 </g>
-<!-- 140219168019680 -->
+<!-- 139748204439872 -->
 <g id="node48" class="node">
-<title>140219168019680</title>
+<title>139748204439872</title>
 <ellipse fill="none" stroke="#000000" cx="1181" cy="-1487" rx="27" ry="27"/>
 <text text-anchor="middle" x="1181" y="-1483.3" font-family="Times,serif" font-size="14.00" fill="#000000">pre_MarketSummaryDataBean:setTopGainers</text>
 </g>
-<!-- 140219168194744&#45;&gt;140219168019680 -->
+<!-- 139748203185376&#45;&gt;139748204439872 -->
 <g id="edge31" class="edge">
-<title>140219168194744&#45;&gt;140219168019680</title>
+<title>139748203185376&#45;&gt;139748204439872</title>
 <path fill="none" stroke="#000000" d="M1094.7797,-1177.0408C1103.6979,-1218.8891 1127.3191,-1325.6634 1154,-1413 1157.9725,-1426.0034 1162.9317,-1440.0679 1167.5122,-1452.4081"/>
 <polygon fill="#000000" stroke="#000000" points="1164.2797,-1453.7559 1171.0783,-1461.8818 1170.831,-1451.2898 1164.2797,-1453.7559"/>
 </g>
-<!-- 140219168019792 -->
+<!-- 139748204439984 -->
 <g id="node49" class="node">
-<title>140219168019792</title>
+<title>139748204439984</title>
 <ellipse fill="none" stroke="#000000" cx="1181" cy="-907" rx="27" ry="27"/>
 <text text-anchor="middle" x="1181" y="-903.3" font-family="Times,serif" font-size="14.00" fill="#000000">pre_MarketSummaryDataBean:setTopLosers</text>
 </g>
-<!-- 140219168194744&#45;&gt;140219168019792 -->
+<!-- 139748203185376&#45;&gt;139748204439984 -->
 <g id="edge32" class="edge">
-<title>140219168194744&#45;&gt;140219168019792</title>
+<title>139748203185376&#45;&gt;139748204439984</title>
 <path fill="none" stroke="#000000" d="M1094.0126,-1140.837C1100.8298,-1102.6364 1119.5855,-1011.829 1154,-943 1155.1311,-940.7377 1156.408,-938.4719 1157.7756,-936.2396"/>
 <polygon fill="#000000" stroke="#000000" points="1160.7225,-938.1293 1163.3842,-927.8742 1154.9083,-934.2311 1160.7225,-938.1293"/>
 </g>
-<!-- 140219168019568 -->
+<!-- 139748204439760 -->
 <g id="node50" class="node">
-<title>140219168019568</title>
+<title>139748204439760</title>
 <ellipse fill="none" stroke="#000000" cx="1181" cy="-1267" rx="27" ry="27"/>
 <text text-anchor="middle" x="1181" y="-1263.3" font-family="Times,serif" font-size="14.00" fill="#000000">pre_MarketSummaryDataBean:setVolume</text>
 </g>
-<!-- 140219168194744&#45;&gt;140219168019568 -->
+<!-- 139748203185376&#45;&gt;139748204439760 -->
 <g id="edge33" class="edge">
-<title>140219168194744&#45;&gt;140219168019568</title>
+<title>139748203185376&#45;&gt;139748204439760</title>
 <path fill="none" stroke="#000000" d="M1106.2673,-1177.3207C1120.1341,-1193.9609 1140.8189,-1218.7826 1156.9135,-1238.0962"/>
 <polygon fill="#000000" stroke="#000000" points="1154.4063,-1240.5548 1163.497,-1245.9964 1159.7839,-1236.0735 1154.4063,-1240.5548"/>
 </g>
-<!-- 140219162076104 -->
+<!-- 139748204460128 -->
 <g id="node75" class="node">
-<title>140219162076104</title>
+<title>139748204460128</title>
 <ellipse fill="none" stroke="#000000" cx="1181" cy="-979" rx="27" ry="27"/>
 <text text-anchor="middle" x="1181" y="-975.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_MarketSummarySingleton:updateMarketSummary_MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]_0</text>
 </g>
-<!-- 140219168194744&#45;&gt;140219162076104 -->
+<!-- 139748203185376&#45;&gt;139748204460128 -->
 <g id="edge34" class="edge">
-<title>140219168194744&#45;&gt;140219162076104</title>
+<title>139748203185376&#45;&gt;139748204460128</title>
 <path fill="none" stroke="#000000" d="M1097.4774,-1140.6137C1107.6936,-1112.5847 1128.9809,-1057.9016 1154,-1015 1155.2742,-1012.8151 1156.6579,-1010.6071 1158.1031,-1008.4167"/>
 <polygon fill="#000000" stroke="#000000" points="1161.0251,-1010.3454 1163.8799,-1000.1424 1155.2856,-1006.3382 1161.0251,-1010.3454"/>
 </g>
-<!-- 140219168195920 -->
+<!-- 139748203186608 -->
 <g id="node26" class="node">
-<title>140219168195920</title>
+<title>139748203186608</title>
 <polygon fill="none" stroke="#000000" points="3627,-385 3573,-385 3573,-349 3627,-349 3627,-385"/>
 <text text-anchor="middle" x="3600" y="-363.3" font-family="Times,serif" font-size="14.00" fill="#000000">hid_13</text>
 </g>
-<!-- 140219168020352 -->
+<!-- 139748204440544 -->
 <g id="node59" class="node">
-<title>140219168020352</title>
+<title>139748204440544</title>
 <ellipse fill="none" stroke="#000000" cx="3690" cy="-367" rx="27" ry="27"/>
 <text text-anchor="middle" x="3690" y="-363.3" font-family="Times,serif" font-size="14.00" fill="#000000">pre_TradeConfig:getTrace</text>
 </g>
-<!-- 140219168195920&#45;&gt;140219168020352 -->
+<!-- 139748203186608&#45;&gt;139748204440544 -->
 <g id="edge35" class="edge">
-<title>140219168195920&#45;&gt;140219168020352</title>
+<title>139748203186608&#45;&gt;139748204440544</title>
 <path fill="none" stroke="#000000" d="M3627.003,-367C3635.0277,-367 3643.9665,-367 3652.5309,-367"/>
 <polygon fill="#000000" stroke="#000000" points="3652.7051,-370.5001 3662.705,-367 3652.705,-363.5001 3652.7051,-370.5001"/>
 </g>
-<!-- 140219162156784 -->
+<!-- 139748204460856 -->
 <g id="node60" class="node">
-<title>140219162156784</title>
+<title>139748204460856</title>
 <ellipse fill="none" stroke="#000000" cx="3690" cy="-295" rx="27" ry="27"/>
 <text text-anchor="middle" x="3690" y="-291.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_Log:doTrace_Log:getTrace_0</text>
 </g>
-<!-- 140219168195920&#45;&gt;140219162156784 -->
+<!-- 139748203186608&#45;&gt;139748204460856 -->
 <g id="edge36" class="edge">
-<title>140219168195920&#45;&gt;140219162156784</title>
+<title>139748203186608&#45;&gt;139748204460856</title>
 <path fill="none" stroke="#000000" d="M3622.7108,-348.8314C3634.3298,-339.5362 3648.601,-328.1192 3661.0062,-318.195"/>
 <polygon fill="#000000" stroke="#000000" points="3663.2199,-320.9063 3668.8421,-311.9263 3658.847,-315.4402 3663.2199,-320.9063"/>
 </g>
-<!-- 140219162078568 -->
+<!-- 139748204459288 -->
 <g id="node27" class="node">
-<title>140219162078568</title>
+<title>139748204459288</title>
 <polygon fill="none" stroke="#000000" points="1402,-243 1348,-243 1348,-207 1402,-207 1402,-243"/>
 <text text-anchor="middle" x="1375" y="-221.3" font-family="Times,serif" font-size="14.00" fill="#000000">hid_2</text>
 </g>
-<!-- 140219162078568&#45;&gt;140219162076272 -->
+<!-- 139748204459288&#45;&gt;139748204458952 -->
 <g id="edge37" class="edge">
-<title>140219162078568&#45;&gt;140219162076272</title>
+<title>139748204459288&#45;&gt;139748204458952</title>
 <path fill="none" stroke="#000000" d="M1383.6354,-243.0478C1404.9784,-286.0086 1464.1742,-395.6247 1542,-461 1553.8743,-470.9746 1568.9787,-478.8696 1582.5886,-484.6935"/>
 <polygon fill="#000000" stroke="#000000" points="1581.5843,-488.0627 1592.1671,-488.5683 1584.2094,-481.5735 1581.5843,-488.0627"/>
 </g>
-<!-- 140219162155832 -->
+<!-- 139748204460520 -->
 <g id="node28" class="node">
-<title>140219162155832</title>
+<title>139748204460520</title>
 <polygon fill="none" stroke="#000000" points="2523,-313 2469,-313 2469,-277 2523,-277 2523,-313"/>
 <text text-anchor="middle" x="2496" y="-291.3" font-family="Times,serif" font-size="14.00" fill="#000000">hid_3</text>
 </g>
-<!-- 140219162077560 -->
+<!-- 139748204459120 -->
 <g id="node40" class="node">
-<title>140219162077560</title>
+<title>139748204459120</title>
 <ellipse fill="none" stroke="#000000" cx="2723" cy="-373" rx="27" ry="27"/>
 <text text-anchor="middle" x="2723" y="-369.3" font-family="Times,serif" font-size="14.00" fill="#000000">pre_Log:doTrace</text>
 </g>
-<!-- 140219162155832&#45;&gt;140219162077560 -->
+<!-- 139748204460520&#45;&gt;139748204459120 -->
 <g id="edge38" class="edge">
-<title>140219162155832&#45;&gt;140219162077560</title>
+<title>139748204460520&#45;&gt;139748204459120</title>
 <path fill="none" stroke="#000000" d="M2523.2779,-300.5967C2556.3022,-307.7994 2613.299,-321.6088 2660,-340 2670.2732,-344.0456 2681.0562,-349.2914 2690.7396,-354.4053"/>
 <polygon fill="#000000" stroke="#000000" points="2689.1743,-357.5379 2699.634,-359.2243 2692.509,-351.3832 2689.1743,-357.5379"/>
 </g>
-<!-- 140219162155776 -->
+<!-- 139748204461528 -->
 <g id="node29" class="node">
-<title>140219162155776</title>
+<title>139748204461528</title>
 <polygon fill="none" stroke="#000000" points="391,-1177 337,-1177 337,-1141 391,-1141 391,-1177"/>
 <text text-anchor="middle" x="364" y="-1155.3" font-family="Times,serif" font-size="14.00" fill="#000000">hid_4</text>
 </g>
-<!-- 140219162156000 -->
+<!-- 139748204461416 -->
 <g id="node42" class="node">
-<title>140219162156000</title>
+<title>139748204461416</title>
 <ellipse fill="none" stroke="#000000" cx="454" cy="-1159" rx="27" ry="27"/>
 <text text-anchor="middle" x="454" y="-1155.3" font-family="Times,serif" font-size="14.00" fill="#000000">pre_MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]</text>
 </g>
-<!-- 140219162155776&#45;&gt;140219162156000 -->
+<!-- 139748204461528&#45;&gt;139748204461416 -->
 <g id="edge39" class="edge">
-<title>140219162155776&#45;&gt;140219162156000</title>
+<title>139748204461528&#45;&gt;139748204461416</title>
 <path fill="none" stroke="#000000" d="M391.003,-1159C399.0277,-1159 407.9665,-1159 416.5309,-1159"/>
 <polygon fill="#000000" stroke="#000000" points="416.7051,-1162.5001 426.705,-1159 416.705,-1155.5001 416.7051,-1162.5001"/>
 </g>
-<!-- 140219169030040 -->
+<!-- 139748204438584 -->
 <g id="node30" class="node">
-<title>140219169030040</title>
+<title>139748204438584</title>
 <polygon fill="none" stroke="#000000" points="2523,-100 2469,-100 2469,-64 2523,-64 2523,-100"/>
 <text text-anchor="middle" x="2496" y="-78.3" font-family="Times,serif" font-size="14.00" fill="#000000">hid_5</text>
 </g>
-<!-- 140219169029872 -->
+<!-- 139748204438416 -->
 <g id="node57" class="node">
-<title>140219169029872</title>
+<title>139748204438416</title>
 <ellipse fill="none" stroke="#000000" cx="2723" cy="-82" rx="27" ry="27"/>
 <text text-anchor="middle" x="2723" y="-78.3" font-family="Times,serif" font-size="14.00" fill="#000000">pre_Root</text>
 </g>
-<!-- 140219169030040&#45;&gt;140219169029872 -->
+<!-- 139748204438584&#45;&gt;139748204438416 -->
 <g id="edge40" class="edge">
-<title>140219169030040&#45;&gt;140219169029872</title>
+<title>139748204438584&#45;&gt;139748204438416</title>
 <path fill="none" stroke="#000000" d="M2523.3815,-82C2563.9683,-82 2640.1969,-82 2685.8054,-82"/>
 <polygon fill="#000000" stroke="#000000" points="2685.8748,-85.5001 2695.8747,-82 2685.8747,-78.5001 2685.8748,-85.5001"/>
 </g>
-<!-- 140219168019008 -->
+<!-- 139748204439200 -->
 <g id="node31" class="node">
-<title>140219168019008</title>
+<title>139748204439200</title>
 <polygon fill="none" stroke="#000000" points="3232,-433 3178,-433 3178,-397 3232,-397 3232,-433"/>
 <text text-anchor="middle" x="3205" y="-411.3" font-family="Times,serif" font-size="14.00" fill="#000000">hid_6</text>
 </g>
-<!-- 140219169029984 -->
+<!-- 139748204438528 -->
 <g id="node41" class="node">
-<title>140219169029984</title>
+<title>139748204438528</title>
 <ellipse fill="none" stroke="#000000" cx="3295" cy="-367" rx="27" ry="27"/>
 <text text-anchor="middle" x="3295" y="-363.3" font-family="Times,serif" font-size="14.00" fill="#000000">pre_Log:getTrace</text>
 </g>
-<!-- 140219168019008&#45;&gt;140219169029984 -->
+<!-- 139748204439200&#45;&gt;139748204438528 -->
 <g id="edge41" class="edge">
-<title>140219168019008&#45;&gt;140219169029984</title>
+<title>139748204439200&#45;&gt;139748204438528</title>
 <path fill="none" stroke="#000000" d="M3232.003,-400.5984C3241.42,-395.576 3252.096,-389.8822 3261.9482,-384.6277"/>
 <polygon fill="#000000" stroke="#000000" points="3263.8972,-387.5549 3271.0737,-379.7607 3260.6031,-381.3784 3263.8972,-387.5549"/>
 </g>
-<!-- 140219168020688 -->
+<!-- 139748204440880 -->
 <g id="node32" class="node">
-<title>140219168020688</title>
+<title>139748204440880</title>
 <polygon fill="none" stroke="#000000" points="2206,-479 2152,-479 2152,-443 2206,-443 2206,-479"/>
 <text text-anchor="middle" x="2179" y="-457.3" font-family="Times,serif" font-size="14.00" fill="#000000">hid_7</text>
 </g>
-<!-- 140219162155888 -->
+<!-- 139748204461472 -->
 <g id="node51" class="node">
-<title>140219162155888</title>
+<title>139748204461472</title>
 <ellipse fill="none" stroke="#000000" cx="2269" cy="-903" rx="27" ry="27"/>
 <text text-anchor="middle" x="2269" y="-899.3" font-family="Times,serif" font-size="14.00" fill="#000000">pre_MarketSummarySingleton:setMarketSummaryDataBean</text>
 </g>
-<!-- 140219168020688&#45;&gt;140219162155888 -->
+<!-- 139748204440880&#45;&gt;139748204461472 -->
 <g id="edge42" class="edge">
-<title>140219168020688&#45;&gt;140219162155888</title>
+<title>139748204440880&#45;&gt;139748204461472</title>
 <path fill="none" stroke="#000000" d="M2182.1771,-479.3071C2190.9338,-529.369 2216.4632,-672.6976 2242,-791 2247.5014,-816.486 2254.4009,-845.057 2259.8482,-866.9631"/>
 <polygon fill="#000000" stroke="#000000" points="2256.4943,-867.9785 2262.3157,-876.8307 2263.2852,-866.2803 2256.4943,-867.9785"/>
 </g>
-<!-- 140219162155552 -->
+<!-- 139748204460968 -->
 <g id="node53" class="node">
-<title>140219162155552</title>
+<title>139748204460968</title>
 <ellipse fill="none" stroke="#000000" cx="2269" cy="-755" rx="27" ry="27"/>
 <text text-anchor="middle" x="2269" y="-751.3" font-family="Times,serif" font-size="14.00" fill="#000000">pre_QuoteDataBean:QuoteDataBean [overloaded_#001]</text>
 </g>
-<!-- 140219168020688&#45;&gt;140219162155552 -->
+<!-- 139748204440880&#45;&gt;139748204460968 -->
 <g id="edge43" class="edge">
-<title>140219168020688&#45;&gt;140219162155552</title>
+<title>139748204440880&#45;&gt;139748204460968</title>
 <path fill="none" stroke="#000000" d="M2183.7155,-479.097C2193.6602,-516.8701 2217.8592,-606.7575 2242,-681 2246.171,-693.8276 2251.136,-707.7555 2255.6639,-720.0317"/>
 <polygon fill="#000000" stroke="#000000" points="2252.4088,-721.3199 2259.178,-729.4702 2258.9689,-718.8775 2252.4088,-721.3199"/>
 </g>
-<!-- 140219162156392 -->
+<!-- 139748204461192 -->
 <g id="node54" class="node">
-<title>140219162156392</title>
+<title>139748204461192</title>
 <ellipse fill="none" stroke="#000000" cx="2269" cy="-353" rx="27" ry="27"/>
 <text text-anchor="middle" x="2269" y="-349.3" font-family="Times,serif" font-size="14.00" fill="#000000">pre_QuoteDataBean:getOpen</text>
 </g>
-<!-- 140219168020688&#45;&gt;140219162156392 -->
+<!-- 139748204440880&#45;&gt;139748204461192 -->
 <g id="edge44" class="edge">
-<title>140219168020688&#45;&gt;140219162156392</title>
+<title>139748204440880&#45;&gt;139748204461192</title>
 <path fill="none" stroke="#000000" d="M2194.2673,-442.6793C2208.1341,-426.0391 2228.8189,-401.2174 2244.9135,-381.9038"/>
 <polygon fill="#000000" stroke="#000000" points="2247.7839,-383.9265 2251.497,-374.0036 2242.4063,-379.4452 2247.7839,-383.9265"/>
 </g>
-<!-- 140219162155664 -->
+<!-- 139748204461080 -->
 <g id="node55" class="node">
-<title>140219162155664</title>
+<title>139748204461080</title>
 <ellipse fill="none" stroke="#000000" cx="2269" cy="-645" rx="27" ry="27"/>
 <text text-anchor="middle" x="2269" y="-641.3" font-family="Times,serif" font-size="14.00" fill="#000000">pre_QuoteDataBean:getPrice</text>
 </g>
-<!-- 140219168020688&#45;&gt;140219162155664 -->
+<!-- 139748204440880&#45;&gt;139748204461080 -->
 <g id="edge45" class="edge">
-<title>140219168020688&#45;&gt;140219162155664</title>
+<title>139748204440880&#45;&gt;139748204461080</title>
 <path fill="none" stroke="#000000" d="M2187.9586,-479.3153C2203.0013,-510.0692 2233.5506,-572.5256 2252.5446,-611.3579"/>
 <polygon fill="#000000" stroke="#000000" points="2249.5702,-613.2427 2257.1082,-620.6879 2255.8583,-610.167 2249.5702,-613.2427"/>
 </g>
-<!-- 140219162155944 -->
+<!-- 139748204461304 -->
 <g id="node56" class="node">
-<title>140219162155944</title>
+<title>139748204461304</title>
 <ellipse fill="none" stroke="#000000" cx="2269" cy="-535" rx="27" ry="27"/>
 <text text-anchor="middle" x="2269" y="-531.3" font-family="Times,serif" font-size="14.00" fill="#000000">pre_QuoteDataBean:getVolume</text>
 </g>
-<!-- 140219168020688&#45;&gt;140219162155944 -->
+<!-- 139748204440880&#45;&gt;139748204461304 -->
 <g id="edge46" class="edge">
-<title>140219168020688&#45;&gt;140219162155944</title>
+<title>139748204440880&#45;&gt;139748204461304</title>
 <path fill="none" stroke="#000000" d="M2201.2472,-479.2921C2212.9471,-488.9121 2227.4317,-500.8216 2240.0013,-511.1566"/>
 <polygon fill="#000000" stroke="#000000" points="2237.9891,-514.0334 2247.9363,-517.6809 2242.4349,-508.6264 2237.9891,-514.0334"/>
 </g>
-<!-- 140219162156560 -->
+<!-- 139748204460464 -->
 <g id="node58" class="node">
-<title>140219162156560</title>
+<title>139748204460464</title>
 <ellipse fill="none" stroke="#000000" cx="2269" cy="-425" rx="27" ry="27"/>
 <text text-anchor="middle" x="2269" y="-421.3" font-family="Times,serif" font-size="14.00" fill="#000000">pre_TradeConfig:getRunTimeMode</text>
 </g>
-<!-- 140219168020688&#45;&gt;140219162156560 -->
+<!-- 139748204440880&#45;&gt;139748204460464 -->
 <g id="edge47" class="edge">
-<title>140219168020688&#45;&gt;140219162156560</title>
+<title>139748204440880&#45;&gt;139748204460464</title>
 <path fill="none" stroke="#000000" d="M2206.003,-450.1988C2214.9184,-446.6326 2224.9622,-442.6151 2234.3671,-438.8531"/>
 <polygon fill="#000000" stroke="#000000" points="2235.8778,-442.0186 2243.8627,-435.0549 2233.278,-435.5192 2235.8778,-442.0186"/>
 </g>
-<!-- 140219162156840 -->
+<!-- 139748204460744 -->
 <g id="node61" class="node">
-<title>140219162156840</title>
+<title>139748204460744</title>
 <ellipse fill="none" stroke="#000000" cx="2269" cy="-281" rx="27" ry="27"/>
 <text text-anchor="middle" x="2269" y="-277.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_Log:doTrace_MarketSummarySingleton:updateMarketSummary_0</text>
 </g>
-<!-- 140219168020688&#45;&gt;140219162156840 -->
+<!-- 139748204440880&#45;&gt;139748204460744 -->
 <g id="edge48" class="edge">
-<title>140219168020688&#45;&gt;140219162156840</title>
+<title>139748204440880&#45;&gt;139748204460744</title>
 <path fill="none" stroke="#000000" d="M2185.4774,-442.6137C2195.6936,-414.5847 2216.9809,-359.9016 2242,-317 2243.2742,-314.8151 2244.6579,-312.6071 2246.1031,-310.4167"/>
 <polygon fill="#000000" stroke="#000000" points="2249.0251,-312.3454 2251.8799,-302.1424 2243.2856,-308.3382 2249.0251,-312.3454"/>
 </g>
-<!-- 140219169029760 -->
+<!-- 139748204437968 -->
 <g id="node73" class="node">
-<title>140219169029760</title>
+<title>139748204437968</title>
 <ellipse fill="none" stroke="#000000" cx="2269" cy="-137" rx="27" ry="27"/>
 <text text-anchor="middle" x="2269" y="-133.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]_MarketSummarySingleton:updateMarketSummary_0</text>
 </g>
-<!-- 140219168020688&#45;&gt;140219169029760 -->
+<!-- 139748204440880&#45;&gt;139748204437968 -->
 <g id="edge49" class="edge">
-<title>140219168020688&#45;&gt;140219169029760</title>
+<title>139748204440880&#45;&gt;139748204437968</title>
 <path fill="none" stroke="#000000" d="M2186.3168,-442.9091C2192.3235,-427.4721 2200.6787,-404.572 2206,-384 2229.8238,-291.8984 2204.407,-260.3902 2242,-173 2242.9995,-170.6766 2244.178,-168.365 2245.4743,-166.0995"/>
 <polygon fill="#000000" stroke="#000000" points="2248.4388,-167.9606 2250.9279,-157.6622 2242.56,-164.1606 2248.4388,-167.9606"/>
 </g>
-<!-- 140219168018840 -->
+<!-- 139748204438808 -->
 <g id="node82" class="node">
-<title>140219168018840</title>
+<title>139748204438808</title>
 <ellipse fill="none" stroke="#000000" cx="2269" cy="-209" rx="27" ry="27"/>
 <text text-anchor="middle" x="2269" y="-205.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_Root_MarketSummarySingleton:updateMarketSummary_0</text>
 </g>
-<!-- 140219168020688&#45;&gt;140219168018840 -->
+<!-- 139748204440880&#45;&gt;139748204438808 -->
 <g id="edge50" class="edge">
-<title>140219168020688&#45;&gt;140219168018840</title>
+<title>139748204440880&#45;&gt;139748204438808</title>
 <path fill="none" stroke="#000000" d="M2185.8727,-442.7842C2191.6085,-427.2709 2199.8152,-404.3291 2206,-384 2224.5746,-322.9469 2214.3306,-302.5056 2242,-245 2243.0967,-242.7208 2244.3478,-240.4423 2245.6967,-238.2009"/>
 <polygon fill="#000000" stroke="#000000" points="2248.6486,-240.0824 2251.2647,-229.8156 2242.8171,-236.2102 2248.6486,-240.0824"/>
 </g>
-<!-- 140219168021752 -->
+<!-- 139748203184536 -->
 <g id="node33" class="node">
-<title>140219168021752</title>
+<title>139748203184536</title>
 <polygon fill="none" stroke="#000000" points="3052,-433 2998,-433 2998,-397 3052,-397 3052,-433"/>
 <text text-anchor="middle" x="3025" y="-411.3" font-family="Times,serif" font-size="14.00" fill="#000000">hid_9</text>
 </g>
-<!-- 140219168019344 -->
+<!-- 139748204439424 -->
 <g id="node62" class="node">
-<title>140219168019344</title>
+<title>139748204439424</title>
 <ellipse fill="none" stroke="#000000" cx="3115" cy="-415" rx="27" ry="27"/>
 <text text-anchor="middle" x="3115" y="-411.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_Log:getTrace_Log:doTrace_0</text>
 </g>
-<!-- 140219168021752&#45;&gt;140219168019344 -->
+<!-- 139748203184536&#45;&gt;139748204439424 -->
 <g id="edge51" class="edge">
-<title>140219168021752&#45;&gt;140219168019344</title>
+<title>139748203184536&#45;&gt;139748204439424</title>
 <path fill="none" stroke="#000000" d="M3052.003,-415C3060.0277,-415 3068.9665,-415 3077.5309,-415"/>
 <polygon fill="#000000" stroke="#000000" points="3077.7051,-418.5001 3087.705,-415 3077.705,-411.5001 3077.7051,-418.5001"/>
 </g>
-<!-- 140219162078960 -->
+<!-- 139748204459792 -->
 <g id="node74" class="node">
-<title>140219162078960</title>
+<title>139748204459792</title>
 <ellipse fill="none" stroke="#000000" cx="3115" cy="-742" rx="27" ry="27"/>
 <text text-anchor="middle" x="3115" y="-738.3" font-family="Times,serif" font-size="14.00" fill="#000000">splace_in_MarketSummarySingleton:updateMarketSummary_Log:doTrace_0</text>
 </g>
-<!-- 140219168021752&#45;&gt;140219162078960 -->
+<!-- 139748203184536&#45;&gt;139748204459792 -->
 <g id="edge52" class="edge">
-<title>140219168021752&#45;&gt;140219162078960</title>
+<title>139748203184536&#45;&gt;139748204459792</title>
 <path fill="none" stroke="#000000" d="M3029.967,-433.0467C3044.2973,-485.1134 3085.9125,-636.3153 3105.0989,-706.0259"/>
 <polygon fill="#000000" stroke="#000000" points="3101.7328,-706.9856 3107.761,-715.6983 3108.4818,-705.128 3101.7328,-706.9856"/>
 </g>
-<!-- 140219162078176 -->
+<!-- 139748204469720 -->
 <g id="node34" class="node">
-<title>140219162078176</title>
+<title>139748204469720</title>
 <ellipse fill="#00ff00" stroke="#000000" cx="1181" cy="-82" rx="27" ry="27"/>
 <text text-anchor="middle" x="1181" y="-78.3" font-family="Times,serif" font-size="14.00" fill="#000000">1</text>
 </g>
-<!-- 140219162078176&#45;&gt;140219162075376 -->
+<!-- 139748204469720&#45;&gt;139748204458896 -->
 <g id="edge78" class="edge">
-<title>140219162078176&#45;&gt;140219162075376</title>
+<title>139748204469720&#45;&gt;139748204458896</title>
 <path fill="none" stroke="#000000" d="M1208.0065,-82C1271.2438,-82 1431.1531,-82 1531.5481,-82"/>
 <polygon fill="#000000" stroke="#000000" points="1531.675,-85.5001 1541.675,-82 1531.6749,-78.5001 1531.675,-85.5001"/>
 </g>
-<!-- 140219162078176&#45;&gt;140219162076328 -->
+<!-- 139748204469720&#45;&gt;139748204458840 -->
 <g id="edge79" class="edge">
-<title>140219162078176&#45;&gt;140219162076328</title>
+<title>139748204469720&#45;&gt;139748204458840</title>
 <path fill="none" stroke="#000000" d="M1207.1637,-75.1219C1230.1273,-69.0851 1264.7371,-59.9866 1296.5737,-51.6172"/>
 <polygon fill="#000000" stroke="#000000" points="1297.5675,-54.975 1306.349,-49.0474 1295.7878,-48.205 1297.5675,-54.975"/>
 </g>
-<!-- 140219162078176&#45;&gt;140219162078568 -->
+<!-- 139748204469720&#45;&gt;139748204459288 -->
 <g id="edge80" class="edge">
-<title>140219162078176&#45;&gt;140219162078568</title>
+<title>139748204469720&#45;&gt;139748204459288</title>
 <path fill="none" stroke="#000000" d="M1202.8772,-98.1259C1236.7796,-123.1159 1302.2282,-171.3589 1341.9262,-200.6209"/>
 <polygon fill="#000000" stroke="#000000" points="1340.3404,-203.8 1350.4666,-206.9161 1344.4938,-198.1654 1340.3404,-203.8"/>
 </g>
-<!-- 140219168020744&#45;&gt;140219168021752 -->
+<!-- 139748204440936&#45;&gt;139748203184536 -->
 <g id="edge53" class="edge">
-<title>140219168020744&#45;&gt;140219168021752</title>
+<title>139748204440936&#45;&gt;139748203184536</title>
 <path fill="none" stroke="#000000" d="M2962.003,-405.9004C2970.0277,-407.0596 2978.9665,-408.3507 2987.5309,-409.5878"/>
 <polygon fill="#000000" stroke="#000000" points="2987.3074,-413.0918 2997.705,-411.0574 2988.3081,-406.1637 2987.3074,-413.0918"/>
 </g>
-<!-- 140219168195696&#45;&gt;140219168195920 -->
+<!-- 139748203186384&#45;&gt;139748203186608 -->
 <g id="edge54" class="edge">
-<title>140219168195696&#45;&gt;140219168195920</title>
+<title>139748203186384&#45;&gt;139748203186608</title>
 <path fill="none" stroke="#000000" d="M3537.003,-367C3545.0277,-367 3553.9665,-367 3562.5309,-367"/>
 <polygon fill="#000000" stroke="#000000" points="3562.7051,-370.5001 3572.705,-367 3562.705,-363.5001 3562.7051,-370.5001"/>
 </g>
-<!-- 140219168022480&#45;&gt;140219168194744 -->
+<!-- 139748203185264&#45;&gt;139748203185376 -->
 <g id="edge55" class="edge">
-<title>140219168022480&#45;&gt;140219168194744</title>
+<title>139748203185264&#45;&gt;139748203185376</title>
 <path fill="none" stroke="#000000" d="M1028.003,-1159C1036.0277,-1159 1044.9665,-1159 1053.5309,-1159"/>
 <polygon fill="#000000" stroke="#000000" points="1053.7051,-1162.5001 1063.705,-1159 1053.705,-1155.5001 1053.7051,-1162.5001"/>
 </g>
-<!-- 140219168020464&#45;&gt;140219168020688 -->
+<!-- 139748204440656&#45;&gt;139748204440880 -->
 <g id="edge56" class="edge">
-<title>140219168020464&#45;&gt;140219168020688</title>
+<title>139748204440656&#45;&gt;139748204440880</title>
 <path fill="none" stroke="#000000" d="M2115.5162,-473.6968C2123.7151,-472.057 2132.9049,-470.219 2141.6915,-468.4617"/>
 <polygon fill="#000000" stroke="#000000" points="2142.6181,-471.8458 2151.7375,-466.4525 2141.2453,-464.9817 2142.6181,-471.8458"/>
 </g>
-<!-- 140219168020240&#45;&gt;140219162079016 -->
+<!-- 139748204440432&#45;&gt;139748204458728 -->
 <g id="edge57" class="edge">
-<title>140219168020240&#45;&gt;140219162079016</title>
+<title>139748204440432&#45;&gt;139748204458728</title>
 <path fill="none" stroke="#000000" d="M1170.6475,-771.9536C1129.808,-677.6074 970.1476,-349 727.5,-349 364,-349 364,-349 364,-349 184.8703,-349 124.3675,-633.9906 109.5197,-725.8393"/>
 <polygon fill="#000000" stroke="#000000" points="106.0473,-725.3916 107.9663,-735.8112 112.9639,-726.4691 106.0473,-725.3916"/>
 </g>
-<!-- 140219162077560&#45;&gt;140219162078456 -->
+<!-- 139748204459120&#45;&gt;139748204469944 -->
 <g id="edge58" class="edge">
-<title>140219162077560&#45;&gt;140219162078456</title>
+<title>139748204459120&#45;&gt;139748204469944</title>
 <path fill="none" stroke="#000000" d="M2750.0225,-374.7845C2757.9553,-375.3084 2766.9196,-375.9003 2775.8881,-376.4926"/>
 <polygon fill="#000000" stroke="#000000" points="2775.752,-379.9912 2785.961,-377.1578 2776.2134,-373.0064 2775.752,-379.9912"/>
 </g>
-<!-- 140219169029984&#45;&gt;140219162077728 -->
+<!-- 139748204438528&#45;&gt;139748204458224 -->
 <g id="edge59" class="edge">
-<title>140219169029984&#45;&gt;140219162077728</title>
+<title>139748204438528&#45;&gt;139748204458224</title>
 <path fill="none" stroke="#000000" d="M3322.1268,-367C3329.9901,-367 3338.8705,-367 3347.7862,-367"/>
 <polygon fill="#000000" stroke="#000000" points="3347.8151,-370.5001 3357.8151,-367 3347.815,-363.5001 3347.8151,-370.5001"/>
 </g>
-<!-- 140219162156000&#45;&gt;140219162078008 -->
+<!-- 139748204461416&#45;&gt;139748204458056 -->
 <g id="edge60" class="edge">
-<title>140219162156000&#45;&gt;140219162078008</title>
+<title>139748204461416&#45;&gt;139748204458056</title>
 <path fill="none" stroke="#000000" d="M481.2241,-1159C488.5947,-1159 497.1904,-1159 506.6664,-1159"/>
 <polygon fill="#000000" stroke="#000000" points="506.8457,-1162.5001 516.8456,-1159 506.8456,-1155.5001 506.8457,-1162.5001"/>
 </g>
-<!-- 140219168020128&#45;&gt;140219162077952 -->
+<!-- 139748204440320&#45;&gt;139748204458672 -->
 <g id="edge61" class="edge">
-<title>140219168020128&#45;&gt;140219162077952</title>
+<title>139748204440320&#45;&gt;139748204458672</title>
 <path fill="none" stroke="#000000" d="M1208.384,-1123C1218.2884,-1123 1230.2394,-1123 1243.1393,-1123"/>
 <polygon fill="#000000" stroke="#000000" points="1243.1706,-1126.5001 1253.1706,-1123 1243.1705,-1119.5001 1243.1706,-1126.5001"/>
 </g>
-<!-- 140219168020016&#45;&gt;140219162077168 -->
+<!-- 139748204440208&#45;&gt;139748204458616 -->
 <g id="edge62" class="edge">
-<title>140219168020016&#45;&gt;140219162077168</title>
+<title>139748204440208&#45;&gt;139748204458616</title>
 <path fill="none" stroke="#000000" d="M1208.384,-1635.7058C1221.9297,-1636.0549 1239.3036,-1636.5027 1257.6972,-1636.9767"/>
 <polygon fill="#000000" stroke="#000000" points="1257.61,-1640.4756 1267.6969,-1637.2345 1257.7905,-1633.4779 1257.61,-1640.4756"/>
 </g>
-<!-- 140219168019456&#45;&gt;140219162075264 -->
+<!-- 139748204439648&#45;&gt;139748204458336 -->
 <g id="edge63" class="edge">
-<title>140219168019456&#45;&gt;140219162075264</title>
+<title>139748204439648&#45;&gt;139748204458336</title>
 <path fill="none" stroke="#000000" d="M1208.384,-1377.7058C1218.3716,-1377.9632 1230.4404,-1378.2742 1243.4647,-1378.6099"/>
 <polygon fill="#000000" stroke="#000000" points="1243.5051,-1382.112 1253.5919,-1378.8709 1243.6855,-1375.1143 1243.5051,-1382.112"/>
 </g>
-<!-- 140219168019904&#45;&gt;140219162078400 -->
+<!-- 139748204440096&#45;&gt;139748204458560 -->
 <g id="edge64" class="edge">
-<title>140219168019904&#45;&gt;140219162078400</title>
+<title>139748204440096&#45;&gt;139748204458560</title>
 <path fill="none" stroke="#000000" d="M1207.9749,-1196.3905C1215.4702,-1196.7768 1224.16,-1197.2247 1233.5601,-1197.7093"/>
 <polygon fill="#000000" stroke="#000000" points="1233.4259,-1201.2069 1243.5928,-1198.2264 1233.7863,-1194.2162 1233.4259,-1201.2069"/>
 </g>
-<!-- 140219168018952&#45;&gt;140219162075320 -->
+<!-- 139748204439144&#45;&gt;139748204458280 -->
 <g id="edge65" class="edge">
-<title>140219168018952&#45;&gt;140219162075320</title>
+<title>139748204439144&#45;&gt;139748204458280</title>
 <path fill="none" stroke="#000000" d="M1208.384,-1051C1222.1953,-1051 1239.9864,-1051 1258.7803,-1051"/>
 <polygon fill="#000000" stroke="#000000" points="1258.9933,-1054.5001 1268.9933,-1051 1258.9932,-1047.5001 1258.9933,-1054.5001"/>
 </g>
-<!-- 140219168019680&#45;&gt;140219162079128 -->
+<!-- 139748204439872&#45;&gt;139748204458448 -->
 <g id="edge66" class="edge">
-<title>140219168019680&#45;&gt;140219162079128</title>
+<title>139748204439872&#45;&gt;139748204458448</title>
 <path fill="none" stroke="#000000" d="M1208.384,-1487.7058C1217.944,-1487.9522 1229.4109,-1488.2477 1241.7973,-1488.5669"/>
 <polygon fill="#000000" stroke="#000000" points="1241.8223,-1492.0687 1251.9092,-1488.8276 1242.0027,-1485.071 1241.8223,-1492.0687"/>
 </g>
-<!-- 140219168019792&#45;&gt;140219162078064 -->
+<!-- 139748204439984&#45;&gt;139748204458504 -->
 <g id="edge67" class="edge">
-<title>140219168019792&#45;&gt;140219162078064</title>
+<title>139748204439984&#45;&gt;139748204458504</title>
 <path fill="none" stroke="#000000" d="M1191.0778,-881.9284C1196.5513,-867.7246 1203.1675,-849.5398 1208,-833 1228.6849,-762.2036 1206.0129,-734.2217 1244,-671 1266.4422,-633.6497 1305.742,-602.5508 1335.4586,-582.6773"/>
 <polygon fill="#000000" stroke="#000000" points="1337.4976,-585.5259 1343.9532,-577.1249 1333.6677,-579.6665 1337.4976,-585.5259"/>
 </g>
-<!-- 140219168019568&#45;&gt;140219162077672 -->
+<!-- 139748204439760&#45;&gt;139748204458392 -->
 <g id="edge68" class="edge">
-<title>140219168019568&#45;&gt;140219162077672</title>
+<title>139748204439760&#45;&gt;139748204458392</title>
 <path fill="none" stroke="#000000" d="M1208.384,-1267.7058C1220.3202,-1268.0134 1235.2289,-1268.3977 1251.1884,-1268.809"/>
 <polygon fill="#000000" stroke="#000000" points="1251.1572,-1272.3092 1261.2441,-1269.0681 1251.3376,-1265.3116 1251.1572,-1272.3092"/>
 </g>
-<!-- 140219162155888&#45;&gt;140219162075936 -->
+<!-- 139748204461472&#45;&gt;139748204458112 -->
 <g id="edge69" class="edge">
-<title>140219162155888&#45;&gt;140219162075936</title>
+<title>139748204461472&#45;&gt;139748204458112</title>
 <path fill="none" stroke="#000000" d="M2296.3815,-903.4825C2303.8206,-903.6136 2312.4571,-903.7658 2321.8829,-903.9319"/>
 <polygon fill="#000000" stroke="#000000" points="2321.9141,-907.4329 2331.9742,-904.1097 2322.0375,-900.4339 2321.9141,-907.4329"/>
 </g>
-<!-- 140219162076272&#45;&gt;140219162077392 -->
+<!-- 139748204458952&#45;&gt;139748204469664 -->
 <g id="edge70" class="edge">
-<title>140219162076272&#45;&gt;140219162077392</title>
+<title>139748204458952&#45;&gt;139748204469664</title>
 <path fill="none" stroke="#000000" d="M1645.3331,-496.0539C1664.1686,-495.4019 1690.8985,-494.4766 1719.5684,-493.4842"/>
 <polygon fill="#000000" stroke="#000000" points="1719.9075,-496.9746 1729.7804,-493.1307 1719.6653,-489.9788 1719.9075,-496.9746"/>
 </g>
-<!-- 140219162155552&#45;&gt;140219162075544 -->
+<!-- 139748204460968&#45;&gt;139748204470056 -->
 <g id="edge71" class="edge">
-<title>140219162155552&#45;&gt;140219162075544</title>
+<title>139748204460968&#45;&gt;139748204470056</title>
 <path fill="none" stroke="#000000" d="M2296.3815,-755.6031C2307.4089,-755.846 2321.0673,-756.1469 2336.0278,-756.4764"/>
 <polygon fill="#000000" stroke="#000000" points="2335.9578,-759.9756 2346.0325,-756.6968 2336.112,-752.9773 2335.9578,-759.9756"/>
 </g>
-<!-- 140219162156392&#45;&gt;140219162076216 -->
+<!-- 139748204461192&#45;&gt;139748204470168 -->
 <g id="edge72" class="edge">
-<title>140219162156392&#45;&gt;140219162076216</title>
+<title>139748204461192&#45;&gt;139748204470168</title>
 <path fill="none" stroke="#000000" d="M2296.3815,-354.6887C2324.4281,-356.4185 2369.4941,-359.1979 2409.7149,-361.6784"/>
 <polygon fill="#000000" stroke="#000000" points="2409.6263,-365.1795 2419.8228,-362.3018 2410.0572,-358.1928 2409.6263,-365.1795"/>
 </g>
-<!-- 140219162155664&#45;&gt;140219162076384 -->
+<!-- 139748204461080&#45;&gt;139748204470112 -->
 <g id="edge73" class="edge">
-<title>140219162155664&#45;&gt;140219162076384</title>
+<title>139748204461080&#45;&gt;139748204470112</title>
 <path fill="none" stroke="#000000" d="M2296.3815,-645.6031C2324.5368,-646.2233 2369.8437,-647.2212 2410.1823,-648.1097"/>
 <polygon fill="#000000" stroke="#000000" points="2410.2427,-651.6118 2420.3174,-648.333 2410.3969,-644.6135 2410.2427,-651.6118"/>
 </g>
-<!-- 140219162155944&#45;&gt;140219162075824 -->
+<!-- 139748204461304&#45;&gt;139748204470224 -->
 <g id="edge74" class="edge">
-<title>140219162155944&#45;&gt;140219162075824</title>
+<title>139748204461304&#45;&gt;139748204470224</title>
 <path fill="none" stroke="#000000" d="M2296.3815,-535.6031C2322.6855,-536.1825 2363.9598,-537.0916 2402.1672,-537.9332"/>
 <polygon fill="#000000" stroke="#000000" points="2402.249,-541.4358 2412.3237,-538.1569 2402.4032,-534.4375 2402.249,-541.4358"/>
 </g>
-<!-- 140219169029872&#45;&gt;140219162075768 -->
+<!-- 139748204438416&#45;&gt;139748204458168 -->
 <g id="edge75" class="edge">
-<title>140219169029872&#45;&gt;140219162075768</title>
+<title>139748204438416&#45;&gt;139748204458168</title>
 <path fill="none" stroke="#000000" d="M2750.0225,-82C2762.6333,-82 2777.8509,-82 2791.5484,-82"/>
 <polygon fill="#000000" stroke="#000000" points="2791.6583,-85.5001 2801.6582,-82 2791.6582,-78.5001 2791.6583,-85.5001"/>
 </g>
-<!-- 140219162156560&#45;&gt;140219162076440 -->
+<!-- 139748204460464&#45;&gt;139748204470000 -->
 <g id="edge76" class="edge">
-<title>140219162156560&#45;&gt;140219162076440</title>
+<title>139748204460464&#45;&gt;139748204470000</title>
 <path fill="none" stroke="#000000" d="M2296.3815,-425.6031C2320.0468,-426.1244 2355.8296,-426.9125 2390.5945,-427.6783"/>
 <polygon fill="#000000" stroke="#000000" points="2390.7726,-431.183 2400.8473,-427.9041 2390.9268,-424.1847 2390.7726,-431.183"/>
 </g>
-<!-- 140219168020352&#45;&gt;140219162078792 -->
+<!-- 139748204440544&#45;&gt;139748204458784 -->
 <g id="edge77" class="edge">
-<title>140219168020352&#45;&gt;140219162078792</title>
+<title>139748204440544&#45;&gt;139748204458784</title>
 <path fill="none" stroke="#000000" d="M3717.2469,-367.8288C3724.8444,-368.0599 3733.501,-368.3232 3742.5031,-368.5971"/>
 <polygon fill="#000000" stroke="#000000" points="3742.6739,-372.1038 3752.7757,-368.9095 3742.8868,-365.107 3742.6739,-372.1038"/>
 </g>
-<!-- 140219162156784&#45;&gt;140219162155832 -->
+<!-- 139748204460856&#45;&gt;139748204460520 -->
 <g id="edge81" class="edge">
-<title>140219162156784&#45;&gt;140219162155832</title>
+<title>139748204460856&#45;&gt;139748204460520</title>
 <path fill="none" stroke="#000000" d="M3662.8597,-295C3627.624,-295 3564.2188,-295 3510,-295 2829,-295 2829,-295 2829,-295 2721.611,-295 2594.7417,-295 2533.2019,-295"/>
 <polygon fill="#000000" stroke="#000000" points="2533.1938,-291.5001 2523.1938,-295 2533.1937,-298.5001 2533.1938,-291.5001"/>
 </g>
-<!-- 140219162156840&#45;&gt;140219162155832 -->
+<!-- 139748204460744&#45;&gt;139748204460520 -->
 <g id="edge82" class="edge">
-<title>140219162156840&#45;&gt;140219162155832</title>
+<title>139748204460744&#45;&gt;139748204460520</title>
 <path fill="none" stroke="#000000" d="M2296.3815,-282.6887C2336.9683,-285.1919 2413.1969,-289.8932 2458.8054,-292.7061"/>
 <polygon fill="#000000" stroke="#000000" points="2458.6782,-296.2048 2468.8747,-293.3271 2459.1092,-289.2181 2458.6782,-296.2048"/>
 </g>
-<!-- 140219168019344&#45;&gt;140219168019008 -->
+<!-- 139748204439424&#45;&gt;139748204439200 -->
 <g id="edge83" class="edge">
-<title>140219168019344&#45;&gt;140219168019008</title>
+<title>139748204439424&#45;&gt;139748204439200</title>
 <path fill="none" stroke="#000000" d="M3142.003,-415C3150.0277,-415 3158.9665,-415 3167.5309,-415"/>
 <polygon fill="#000000" stroke="#000000" points="3167.7051,-418.5001 3177.705,-415 3167.705,-411.5001 3167.7051,-418.5001"/>
 </g>
-<!-- 140219168019232&#45;&gt;140219168019008 -->
+<!-- 139748204439536&#45;&gt;139748204439200 -->
 <g id="edge84" class="edge">
-<title>140219168019232&#45;&gt;140219168019008</title>
+<title>139748204439536&#45;&gt;139748204439200</title>
 <path fill="none" stroke="#000000" d="M3926.2052,-400.4105C3878.7418,-407.8285 3776.7175,-422 3690,-422 3402.5,-422 3402.5,-422 3402.5,-422 3346.5959,-422 3281.8466,-419.1642 3242.159,-417.1025"/>
 <polygon fill="#000000" stroke="#000000" points="3242.3154,-413.606 3232.1439,-416.5709 3241.9443,-420.5962 3242.3154,-413.606"/>
 </g>
-<!-- 140219162156504&#45;&gt;140219162155776 -->
+<!-- 139748204437632&#45;&gt;139748204461528 -->
 <g id="edge85" class="edge">
-<title>140219162156504&#45;&gt;140219162155776</title>
+<title>139748204437632&#45;&gt;139748204461528</title>
 <path fill="none" stroke="#000000" d="M285.0358,-981.7692C301.955,-1019.7433 334.1886,-1092.0901 351.788,-1131.5909"/>
 <polygon fill="#000000" stroke="#000000" points="348.6621,-1133.175 355.9289,-1140.8849 355.0561,-1130.3261 348.6621,-1133.175"/>
 </g>
-<!-- 140219162153256&#45;&gt;140219162155776 -->
+<!-- 139748204461920&#45;&gt;139748204461528 -->
 <g id="edge86" class="edge">
-<title>140219162153256&#45;&gt;140219162155776</title>
+<title>139748204461920&#45;&gt;139748204461528</title>
 <path fill="none" stroke="#000000" d="M1592.0924,-1115.1913C1576.2041,-1109.3949 1556.2473,-1100.1934 1542,-1087 1518.3382,-1065.0884 1529.1698,-1046.4313 1506,-1024 1388.5844,-910.3271 1344.4257,-852 1181,-852 727.5,-852 727.5,-852 727.5,-852 554.8106,-852 421.7541,-1056.7361 378.7646,-1131.819"/>
 <polygon fill="#000000" stroke="#000000" points="375.6111,-1130.2856 373.7468,-1140.7151 381.7082,-1133.7246 375.6111,-1130.2856"/>
 </g>
-<!-- 140219169029312&#45;&gt;140219162155776 -->
+<!-- 139748204437744&#45;&gt;139748204461528 -->
 <g id="edge87" class="edge">
-<title>140219169029312&#45;&gt;140219162155776</title>
+<title>139748204437744&#45;&gt;139748204461528</title>
 <path fill="none" stroke="#000000" d="M1590.9269,-1667.6282C1522.387,-1674.0468 1336.4039,-1690 1181,-1690 727.5,-1690 727.5,-1690 727.5,-1690 553.7681,-1690 501.0307,-1597.1694 427,-1440 386.326,-1353.6479 371.2799,-1239.8061 366.2585,-1187.5053"/>
 <polygon fill="#000000" stroke="#000000" points="369.7229,-1186.9538 365.3335,-1177.311 362.7516,-1187.5864 369.7229,-1186.9538"/>
 </g>
-<!-- 140219162153312&#45;&gt;140219162155776 -->
+<!-- 139748204438192&#45;&gt;139748204461528 -->
 <g id="edge88" class="edge">
-<title>140219162153312&#45;&gt;140219162155776</title>
+<title>139748204438192&#45;&gt;139748204461528</title>
 <path fill="none" stroke="#000000" d="M1595.0948,-1477.1312C1573.2118,-1490.7231 1538.7962,-1509.8984 1506,-1519 1366.4679,-1557.7231 1325.8057,-1542 1181,-1542 727.5,-1542 727.5,-1542 727.5,-1542 531.318,-1542 409.115,-1274.3567 374.2994,-1186.5414"/>
 <polygon fill="#000000" stroke="#000000" points="377.557,-1185.2614 370.6642,-1177.2152 371.035,-1187.8036 377.557,-1185.2614"/>
 </g>
-<!-- 140219162156280&#45;&gt;140219162155776 -->
+<!-- 139748204438080&#45;&gt;139748204461528 -->
 <g id="edge89" class="edge">
-<title>140219162156280&#45;&gt;140219162155776</title>
+<title>139748204438080&#45;&gt;139748204461528</title>
 <path fill="none" stroke="#000000" d="M1592.6302,-1273.789C1570.206,-1281.9895 1536.4266,-1293.2503 1506,-1299 1363.7125,-1325.8881 1325.8057,-1322 1181,-1322 727.5,-1322 727.5,-1322 727.5,-1322 593.6823,-1322 454.5005,-1228.8893 394.5038,-1183.4138"/>
 <polygon fill="#000000" stroke="#000000" points="396.2998,-1180.3801 386.2364,-1177.0666 392.037,-1185.9325 396.2998,-1180.3801"/>
 </g>
-<!-- 140219169029648&#45;&gt;140219162155776 -->
+<!-- 139748204461808&#45;&gt;139748204461528 -->
 <g id="edge90" class="edge">
-<title>140219169029648&#45;&gt;140219162155776</title>
+<title>139748204461808&#45;&gt;139748204461528</title>
 <path fill="none" stroke="#000000" d="M1592.0593,-1043.2574C1575.3225,-1036.9427 1554.4307,-1026.3502 1542,-1010 1498.4106,-952.6666 1555.052,-904.7358 1506,-852 1376.0426,-712.2826 1281.8137,-742 1091,-742 727.5,-742 727.5,-742 727.5,-742 553.7681,-742 504.0763,-836.3016 427,-992 403.5774,-1039.3148 383.4272,-1097.6198 372.5681,-1131.3294"/>
 <polygon fill="#000000" stroke="#000000" points="369.2001,-1130.3715 369.503,-1140.962 375.8705,-1132.4941 369.2001,-1130.3715"/>
 </g>
-<!-- 140219169029424&#45;&gt;140219162155776 -->
+<!-- 139748204438304&#45;&gt;139748204461528 -->
 <g id="edge91" class="edge">
-<title>140219169029424&#45;&gt;140219162155776</title>
+<title>139748204438304&#45;&gt;139748204461528</title>
 <path fill="none" stroke="#000000" d="M1591.207,-1548.6466C1522.9392,-1557.6109 1336.8373,-1580 1181,-1580 727.5,-1580 727.5,-1580 727.5,-1580 628.0335,-1580 593.72,-1567.3058 517,-1504 414.7918,-1419.6624 378.5851,-1253.2619 367.8858,-1187.0944"/>
 <polygon fill="#000000" stroke="#000000" points="371.3134,-1186.3563 366.3291,-1177.0071 364.3953,-1187.424 371.3134,-1186.3563"/>
 </g>
-<!-- 140219162155216&#45;&gt;140219162155776 -->
+<!-- 139748204462032&#45;&gt;139748204461528 -->
 <g id="edge92" class="edge">
-<title>140219162155216&#45;&gt;140219162155776</title>
+<title>139748204462032&#45;&gt;139748204461528</title>
 <path fill="none" stroke="#000000" d="M1590.8961,-425C1522.2849,-425 1336.1502,-425 1181,-425 727.5,-425 727.5,-425 727.5,-425 706.1416,-425 475.6802,-766.4108 427,-886 392.2314,-971.4135 374.4077,-1080.0455 367.5,-1130.6597"/>
 <polygon fill="#000000" stroke="#000000" points="363.9961,-1130.4591 366.1534,-1140.832 370.9356,-1131.3778 363.9961,-1130.4591"/>
 </g>
-<!-- 140219169029536&#45;&gt;140219162155776 -->
+<!-- 139748204437856&#45;&gt;139748204461528 -->
 <g id="edge93" class="edge">
-<title>140219169029536&#45;&gt;140219162155776</title>
+<title>139748204437856&#45;&gt;139748204461528</title>
 <path fill="none" stroke="#000000" d="M1594.9791,-1369.3197C1573.0145,-1382.1855 1538.5435,-1400.3443 1506,-1409 1366.0596,-1446.2205 1325.8057,-1432 1181,-1432 727.5,-1432 727.5,-1432 727.5,-1432 564.7277,-1432 428.299,-1254.814 381.4124,-1185.9332"/>
 <polygon fill="#000000" stroke="#000000" points="384.1223,-1183.6902 375.6443,-1177.3362 378.3095,-1187.5904 384.1223,-1183.6902"/>
 </g>
-<!-- 140219169029760&#45;&gt;140219162155776 -->
+<!-- 139748204437968&#45;&gt;139748204461528 -->
 <g id="edge94" class="edge">
-<title>140219169029760&#45;&gt;140219162155776</title>
+<title>139748204437968&#45;&gt;139748204461528</title>
 <path fill="none" stroke="#000000" d="M2252.4229,-158.9201C2208.5134,-216.9222 2092.3146,-370 2089,-370 1878,-370 1878,-370 1878,-370 1272.6866,-370 986.1938,-38.5585 517,-421 403.6556,-513.3874 371.6022,-1006.9883 365.291,-1130.8111"/>
 <polygon fill="#000000" stroke="#000000" points="361.7859,-1130.8302 364.7884,-1140.9907 368.7774,-1131.1755 361.7859,-1130.8302"/>
 </g>
-<!-- 140219162078960&#45;&gt;140219162075992 -->
+<!-- 139748204459792&#45;&gt;139748204459064 -->
 <g id="edge95" class="edge">
-<title>140219162078960&#45;&gt;140219162075992</title>
+<title>139748204459792&#45;&gt;139748204459064</title>
 <path fill="none" stroke="#000000" d="M3109.4962,-768.7024C3094.3326,-833.9159 3045.527,-996 2935,-996 1878,-996 1878,-996 1878,-996 1720.7288,-996 1643.8291,-1004.8543 1542,-885 1497.6093,-832.7515 1553.5066,-784.4324 1506,-735 1481.7896,-709.8081 1441.8513,-701.3732 1412.4261,-698.7426"/>
 <polygon fill="#000000" stroke="#000000" points="1412.3308,-695.2273 1402.1095,-698.0158 1411.8388,-702.21 1412.3308,-695.2273"/>
 </g>
-<!-- 140219162076104&#45;&gt;140219162075992 -->
+<!-- 139748204460128&#45;&gt;139748204459064 -->
 <g id="edge96" class="edge">
-<title>140219162076104&#45;&gt;140219162075992</title>
+<title>139748204460128&#45;&gt;139748204459064</title>
 <path fill="none" stroke="#000000" d="M1197.4363,-957.4151C1200.9617,-952.694 1204.6367,-947.7022 1208,-943 1264.1507,-864.4965 1327.6352,-769.5601 1357.589,-724.375"/>
 <polygon fill="#000000" stroke="#000000" points="1360.5179,-726.2912 1363.1206,-716.021 1354.6814,-722.4265 1360.5179,-726.2912"/>
 </g>
-<!-- 140219162077280&#45;&gt;140219162075992 -->
+<!-- 139748204459904&#45;&gt;139748204459064 -->
 <g id="edge97" class="edge">
-<title>140219162077280&#45;&gt;140219162075992</title>
+<title>139748204459904&#45;&gt;139748204459064</title>
 <path fill="none" stroke="#000000" d="M2695.9146,-932.8389C2625.5749,-939.9573 2431.2817,-958 2269,-958 1878,-958 1878,-958 1878,-958 1715.5302,-958 1658.1794,-927.5729 1542,-814 1514.4086,-787.0277 1535.2803,-760.1288 1506,-735 1479.8054,-712.5194 1440.8567,-703.6469 1412.2351,-700.1724"/>
 <polygon fill="#000000" stroke="#000000" points="1412.5105,-696.6821 1402.2003,-699.1213 1411.7812,-703.6441 1412.5105,-696.6821"/>
 </g>
-<!-- 140219162078624&#45;&gt;140219162075992 -->
+<!-- 139748204459680&#45;&gt;139748204459064 -->
 <g id="edge98" class="edge">
-<title>140219162078624&#45;&gt;140219162075992</title>
+<title>139748204459680&#45;&gt;139748204459064</title>
 <path fill="none" stroke="#000000" d="M2695.8788,-846.2028C2625.4541,-846.7112 2430.9755,-848 2269,-848 1878,-848 1878,-848 1878,-848 1724.4922,-848 1677.6003,-839.9527 1542,-768 1522.8269,-757.8263 1524.9577,-745.5696 1506,-735 1476.532,-718.5705 1439.191,-708.9587 1411.9221,-703.67"/>
 <polygon fill="#000000" stroke="#000000" points="1412.4692,-700.212 1402.0017,-701.8495 1411.2057,-707.0971 1412.4692,-700.212"/>
 </g>
-<!-- 140219162075208&#45;&gt;140219162075992 -->
+<!-- 139748204460016&#45;&gt;139748204459064 -->
 <g id="edge99" class="edge">
-<title>140219162075208&#45;&gt;140219162075992</title>
+<title>139748204460016&#45;&gt;139748204459064</title>
 <path fill="none" stroke="#000000" d="M2695.814,-459.6797C2622.4373,-464.3511 2414.2725,-478.5144 2242,-499 2163.8693,-508.2908 1616.4965,-580.682 1542,-606 1493.299,-622.5512 1442.1906,-652.9061 1409.5409,-674.2091"/>
 <polygon fill="#000000" stroke="#000000" points="1407.2528,-671.5258 1400.8388,-679.9585 1411.1116,-677.3662 1407.2528,-671.5258"/>
 </g>
-<!-- 140219162078120&#45;&gt;140219162075992 -->
+<!-- 139748204459456&#45;&gt;139748204459064 -->
 <g id="edge100" class="edge">
-<title>140219162078120&#45;&gt;140219162075992</title>
+<title>139748204459456&#45;&gt;139748204459064</title>
 <path fill="none" stroke="#000000" d="M2696.8099,-779.804C2685.5547,-782.4714 2672.2064,-785.2959 2660,-787 2487.5939,-811.0694 2443.0782,-810 2269,-810 1878,-810 1878,-810 1878,-810 1854.2775,-810 1524.5005,-733.0989 1412.1654,-706.7408"/>
 <polygon fill="#000000" stroke="#000000" points="1412.8315,-703.3021 1402.2963,-704.4239 1411.2316,-710.1168 1412.8315,-703.3021"/>
 </g>
-<!-- 140219162077616&#45;&gt;140219162075992 -->
+<!-- 139748204459344&#45;&gt;139748204459064 -->
 <g id="edge101" class="edge">
-<title>140219162077616&#45;&gt;140219162075992</title>
+<title>139748204459344&#45;&gt;139748204459064</title>
 <path fill="none" stroke="#000000" d="M2695.9146,-674.8389C2625.5749,-681.9573 2431.2817,-700 2269,-700 1878,-700 1878,-700 1878,-700 1703.8098,-700 1495.6908,-698.7858 1412.2691,-698.2495"/>
 <polygon fill="#000000" stroke="#000000" points="1412.2846,-694.7496 1402.2621,-698.1846 1412.2391,-701.7495 1412.2846,-694.7496"/>
 </g>
-<!-- 140219162077896&#45;&gt;140219162075992 -->
+<!-- 139748204459568&#45;&gt;139748204459064 -->
 <g id="edge102" class="edge">
-<title>140219162077896&#45;&gt;140219162075992</title>
+<title>139748204459568&#45;&gt;139748204459064</title>
 <path fill="none" stroke="#000000" d="M2695.8952,-572.9264C2625.5094,-577.7567 2431.1157,-590 2269,-590 1878,-590 1878,-590 1878,-590 1699.8742,-590 1494.0142,-655.544 1411.7342,-684.5104"/>
 <polygon fill="#000000" stroke="#000000" points="1410.345,-681.2896 1402.0947,-687.9366 1412.6894,-687.8854 1410.345,-681.2896"/>
 </g>
-<!-- 140219168018840&#45;&gt;140219169030040 -->
+<!-- 139748204438808&#45;&gt;139748204438584 -->
 <g id="edge103" class="edge">
-<title>140219168018840&#45;&gt;140219169030040</title>
+<title>139748204438808&#45;&gt;139748204438584</title>
 <path fill="none" stroke="#000000" d="M2292.8639,-195.6488C2332.7759,-173.3192 2413.2882,-128.2749 2460.0758,-102.0985"/>
 <polygon fill="#000000" stroke="#000000" points="2461.9436,-105.0642 2468.9617,-97.1272 2458.5258,-98.9553 2461.9436,-105.0642"/>
 </g>
-<!-- 140219168018616&#45;&gt;140219169030040 -->
+<!-- 139748204438920&#45;&gt;139748204438584 -->
 <g id="edge104" class="edge">
-<title>140219168018616&#45;&gt;140219169030040</title>
+<title>139748204438920&#45;&gt;139748204438584</title>
 <path fill="none" stroke="#000000" d="M1905.3521,-82C2004.4702,-82 2344.9613,-82 2458.6822,-82"/>
 <polygon fill="#000000" stroke="#000000" points="2458.9638,-85.5001 2468.9638,-82 2458.9637,-78.5001 2458.9638,-85.5001"/>
 </g>
-<!-- 140219168018728&#45;&gt;140219169030040 -->
+<!-- 139748204439032&#45;&gt;139748204438584 -->
 <g id="edge105" class="edge">
-<title>140219168018728&#45;&gt;140219169030040</title>
+<title>139748204439032&#45;&gt;139748204438584</title>
 <path fill="none" stroke="#000000" d="M2116.0196,-30.6513C2186.7886,-40.2147 2377.6722,-66.0098 2458.7536,-76.9667"/>
 <polygon fill="#000000" stroke="#000000" points="2458.6113,-80.4792 2468.99,-78.35 2459.5488,-73.5423 2458.6113,-80.4792"/>
 </g>

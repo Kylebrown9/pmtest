@@ -1,0 +1,3415 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<log>
+  <trace>
+    <event>
+      <int key="time" value="1567027564843"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="OrdersAlertFilter:doFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564845"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getDisplayOrderAlerts"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564845"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="OrdersAlertFilter:doFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564851"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="new TradeAction"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564851"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564851"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564851"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564851"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="new TradeAction"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564851"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:useRemoteEJBInterface"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564851"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="new TradeAction"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564851"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="OrdersAlertFilter:doFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564851"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564851"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564851"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564851"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564851"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564851"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564851"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564855"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="new TradeSLSBBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564856"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564856"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564856"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564856"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="new TradeSLSBBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564856"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564881"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:postConstruct"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564881"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564881"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564881"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564881"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:postConstruct"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564881"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564881"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564881"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564881"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564881"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027564882"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565011"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="new OrderDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565012"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565065"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="new QuoteDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565065"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565065"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="new OrderDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565065"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565067"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="new QuoteDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565067"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565067"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="new OrderDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565067"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565070"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="new QuoteDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565070"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565070"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="new OrderDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565070"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565072"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="new QuoteDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565072"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565073"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="new OrderDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565073"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565074"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="new QuoteDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565074"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565074"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="new OrderDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565074"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565076"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="new QuoteDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565076"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565076"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getLongRun"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565076"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565077"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getLongRun"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565077"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565077"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getLongRun"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565077"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565077"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getLongRun"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565077"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565077"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getLongRun"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565077"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565077"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getLongRun"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565077"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565077"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565197"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="OrdersAlertFilter:doFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565197"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565197"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565197"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565197"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="OrdersAlertFilter:doFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565198"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565198"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="new TradeAction"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565198"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565198"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565198"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565198"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="new TradeAction"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565198"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:useRemoteEJBInterface"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565198"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="new TradeAction"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565198"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565198"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:login"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565198"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565198"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565198"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565198"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565199"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565199"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:login"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565199"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:login"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565214"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountProfileDataBean"/>
+      <string key="dest_class_func" value="new AccountProfileDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565214"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:login"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565220"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountProfileDataBean"/>
+      <string key="dest_class_func" value="AccountProfileDataBean:getAccount"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565220"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:login"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565234"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="new AccountDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565234"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:login"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565235"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565235"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565236"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565236"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:login"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565236"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:login"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565236"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountProfileDataBean"/>
+      <string key="dest_class_func" value="AccountProfileDataBean:getPassword"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565236"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:login"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565237"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:login"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565237"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565237"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565238"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565238"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:login"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565238"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:login"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565348"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:hashCode"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565348"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:login"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565348"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:hashCode"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565348"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:login"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565354"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:hashCode"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565354"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:login"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565354"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:hashCode"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565354"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:login"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565357"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:hashCode"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565357"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:login"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565357"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:hashCode"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565357"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:login"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565401"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565413"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getAccountData"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565413"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565413"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565413"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565413"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565413"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565413"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getAccountData"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565414"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getAccountData"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565414"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565414"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565414"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565414"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getAccountData"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565416"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountProfileDataBean"/>
+      <string key="dest_class_func" value="new AccountProfileDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565416"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getAccountData"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565416"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountProfileDataBean"/>
+      <string key="dest_class_func" value="AccountProfileDataBean:getAccount"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565416"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getAccountData"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565424"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="new AccountDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565425"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getAccountData"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565425"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountProfileDataBean"/>
+      <string key="dest_class_func" value="AccountProfileDataBean:getUserID"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565425"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getAccountData"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565425"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:setProfileID"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565425"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getAccountData"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565425"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getAccountData"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565426"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565426"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getHoldings"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565426"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565426"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565426"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565426"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565426"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565426"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getHoldings"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565427"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getHoldings"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565427"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565427"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565427"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565427"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getHoldings"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565455"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="HoldingDataBean"/>
+      <string key="dest_class_func" value="new HoldingDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565455"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getHoldings"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565456"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="new QuoteDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565457"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getHoldings"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565457"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="HoldingDataBean"/>
+      <string key="dest_class_func" value="new HoldingDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565457"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getHoldings"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565458"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="new QuoteDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565458"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getHoldings"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565458"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="HoldingDataBean"/>
+      <string key="dest_class_func" value="new HoldingDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565458"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getHoldings"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565459"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="new QuoteDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565459"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getHoldings"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565459"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="HoldingDataBean"/>
+      <string key="dest_class_func" value="new HoldingDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565459"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getHoldings"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565460"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="new QuoteDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565460"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getHoldings"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565460"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="HoldingDataBean"/>
+      <string key="dest_class_func" value="new HoldingDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565460"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getHoldings"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565461"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="new QuoteDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565461"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getHoldings"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565461"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="HoldingDataBean"/>
+      <string key="dest_class_func" value="new HoldingDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565461"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getHoldings"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565461"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="new QuoteDataBean"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565462"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getHoldings"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565462"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getHoldings"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565462"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565462"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPage"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565462"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565474"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderID"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565474"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565474"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderStatus"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565474"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565474"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOpenDate"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565474"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565474"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getCompletionDate"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565474"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565474"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderFee"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565474"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565474"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderType"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565474"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565475"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565475"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565475"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565475"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565475"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:printQuoteLink"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565475"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565476"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getQuantity"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565476"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565476"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderID"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565476"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565476"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderStatus"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565476"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565476"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOpenDate"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565476"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565476"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getCompletionDate"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565476"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565476"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderFee"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565476"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565476"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderType"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565476"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565476"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565476"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565476"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565476"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565477"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:printQuoteLink"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565477"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565477"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getQuantity"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565477"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565477"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderID"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565477"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565477"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderStatus"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565477"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565477"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOpenDate"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565477"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565477"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getCompletionDate"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565477"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565477"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderFee"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565477"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565478"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderType"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565478"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565478"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565478"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565478"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565478"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565478"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:printQuoteLink"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565478"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565478"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getQuantity"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565478"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565481"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderID"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565481"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565481"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderStatus"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565482"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565482"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOpenDate"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565482"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565482"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getCompletionDate"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565482"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565482"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderFee"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565482"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565482"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderType"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565482"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565482"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565482"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565482"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565482"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565482"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:printQuoteLink"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565482"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565482"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getQuantity"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565482"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565482"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderID"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderStatus"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOpenDate"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getCompletionDate"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderFee"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderType"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:printQuoteLink"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getQuantity"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderID"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderStatus"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOpenDate"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565483"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getCompletionDate"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565484"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565484"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderFee"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565484"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565484"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getOrderType"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565484"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565484"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565484"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="QuoteDataBean"/>
+      <string key="dest_class_func" value="QuoteDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565484"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getSymbol"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565484"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565484"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:printQuoteLink"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565487"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565487"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrderDataBean"/>
+      <string key="dest_class_func" value="OrderDataBean:getQuantity"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565488"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565489"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:getProfileID"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565489"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565489"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:getAccountID"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565489"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565489"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:getCreationDate"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565489"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565489"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:getLoginCount"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565489"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565489"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:getOpenBalance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565490"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565490"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:getBalance"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565490"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565490"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:computeHoldingsTotal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565490"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="HoldingDataBean"/>
+      <string key="dest_class_func" value="HoldingDataBean:getPurchasePrice"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565490"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:computeHoldingsTotal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565490"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="HoldingDataBean"/>
+      <string key="dest_class_func" value="HoldingDataBean:getQuantity"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565490"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:computeHoldingsTotal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565490"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="HoldingDataBean"/>
+      <string key="dest_class_func" value="HoldingDataBean:getPurchasePrice"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565490"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:computeHoldingsTotal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565490"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="HoldingDataBean"/>
+      <string key="dest_class_func" value="HoldingDataBean:getQuantity"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565490"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:computeHoldingsTotal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565490"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="HoldingDataBean"/>
+      <string key="dest_class_func" value="HoldingDataBean:getPurchasePrice"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565490"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:computeHoldingsTotal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565490"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="HoldingDataBean"/>
+      <string key="dest_class_func" value="HoldingDataBean:getQuantity"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565490"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:computeHoldingsTotal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565490"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="HoldingDataBean"/>
+      <string key="dest_class_func" value="HoldingDataBean:getPurchasePrice"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565491"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:computeHoldingsTotal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565491"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="HoldingDataBean"/>
+      <string key="dest_class_func" value="HoldingDataBean:getQuantity"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565491"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:computeHoldingsTotal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565491"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="HoldingDataBean"/>
+      <string key="dest_class_func" value="HoldingDataBean:getPurchasePrice"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565491"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:computeHoldingsTotal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565491"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="HoldingDataBean"/>
+      <string key="dest_class_func" value="HoldingDataBean:getQuantity"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565491"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:computeHoldingsTotal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565491"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="HoldingDataBean"/>
+      <string key="dest_class_func" value="HoldingDataBean:getPurchasePrice"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565491"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:computeHoldingsTotal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565492"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="HoldingDataBean"/>
+      <string key="dest_class_func" value="HoldingDataBean:getQuantity"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565492"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:computeHoldingsTotal"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565492"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565492"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:computeGain"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565493"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565493"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:computeGainPercent"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565493"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565493"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:printGainHTML"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565493"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565493"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:printGainPercentHTML"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565493"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565495"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="OrdersAlertFilter:doFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1567027565496"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+  <trace>
+    <event>
+      <int key="time" value="1583517183562"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="OrdersAlertFilter:doFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183562"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getDisplayOrderAlerts"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183562"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="OrdersAlertFilter:doFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183562"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:TradeAction [overloaded_#001]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183563"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183563"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183563"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183563"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183563"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183563"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:TradeAction [overloaded_#001]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183563"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:createTrade"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183563"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:useRemoteEJBInterface"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183563"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:createTrade"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183563"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:TradeAction [overloaded_#001]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183563"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="OrdersAlertFilter:doFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183563"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183563"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183563"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183563"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183564"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183564"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183564"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183564"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183564"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183564"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183564"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183566"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="new TradeSLSBBean"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183566"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183566"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183566"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183566"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183566"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183566"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="new TradeSLSBBean"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183566"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183598"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:postConstruct"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183598"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183598"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183598"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183598"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183598"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183598"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:postConstruct"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183598"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183599"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183599"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183599"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183599"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183599"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183599"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183599"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183616"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getClosedOrders"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183616"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="OrdersAlertFilter:doFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183616"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183616"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183616"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183617"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183617"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183617"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="OrdersAlertFilter:doFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183617"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:doPost"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183617"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183617"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:TradeAction [overloaded_#001]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183617"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183617"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183618"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183618"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183618"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183618"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:TradeAction [overloaded_#001]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183618"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:createTrade"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183618"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:useRemoteEJBInterface"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183618"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:createTrade"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183618"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:TradeAction [overloaded_#001]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183618"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183618"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:doLogin"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183618"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:login"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183618"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183618"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183618"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183618"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183618"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183618"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183618"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183618"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183618"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183618"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:login"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183619"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:login"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183626"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountProfileDataBean"/>
+      <string key="dest_class_func" value="AccountProfileDataBean:AccountProfileDataBean [overloaded_#001]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183626"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:login"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183630"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountProfileDataBean"/>
+      <string key="dest_class_func" value="AccountProfileDataBean:getAccount"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183630"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:login"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183635"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:AccountDataBean [overloaded_#001]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183636"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:login"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183636"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183636"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183636"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183636"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183636"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183637"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:login"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183637"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:login"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183637"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:getProfile"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183637"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:login"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183637"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountProfileDataBean"/>
+      <string key="dest_class_func" value="AccountProfileDataBean:getPassword"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183637"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:login"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183637"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:setLastLogin"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183639"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:login"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183639"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:getLoginCount"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183639"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:login"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183640"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:setLoginCount"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183640"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:login"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183640"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:login"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183640"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183640"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183640"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183640"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183640"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183640"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:login"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183640"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:login"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183747"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:hashCode"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183747"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:login"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183747"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:hashCode"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183747"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:login"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183752"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:hashCode"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183752"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:login"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183752"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:hashCode"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183753"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:login"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183755"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:hashCode"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183756"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:login"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183756"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:hashCode"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183756"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:login"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183769"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:doLogin"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183778"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:doHome"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183778"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getAccountData"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183778"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183778"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183778"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183778"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183778"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183778"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183778"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183778"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183778"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183778"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getAccountData"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183779"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getAccountData"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183779"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183779"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183779"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183779"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183779"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183779"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getAccountData"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183781"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountProfileDataBean"/>
+      <string key="dest_class_func" value="AccountProfileDataBean:AccountProfileDataBean [overloaded_#001]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183782"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getAccountData"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183782"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountProfileDataBean"/>
+      <string key="dest_class_func" value="AccountProfileDataBean:getAccount"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183782"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getAccountData"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183783"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:AccountDataBean [overloaded_#001]"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183783"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getAccountData"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183783"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountProfileDataBean"/>
+      <string key="dest_class_func" value="AccountProfileDataBean:getUserID"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183783"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getAccountData"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183783"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:setProfileID"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183783"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getAccountData"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183783"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getAccountData"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183784"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:doHome"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183784"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getHoldings"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183784"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183784"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183784"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183784"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183784"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183784"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183785"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183785"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183785"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doActionTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183785"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getHoldings"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183785"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getHoldings"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183785"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183785"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183785"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183785"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:getTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183785"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Log"/>
+      <string key="dest_class_func" value="Log:doTrace"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183785"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeSLSBBean"/>
+      <string key="dest_class_func" value="TradeSLSBBean:getHoldings"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183795"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAction"/>
+      <string key="dest_class_func" value="TradeAction:getHoldings"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183796"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:doHome"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183796"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeConfig"/>
+      <string key="dest_class_func" value="TradeConfig:getPage"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183796"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:doHome"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183796"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:requestDispatch"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183808"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:getProfileID"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183808"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:requestDispatch"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183809"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:getAccountID"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183809"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:requestDispatch"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183809"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:getCreationDate"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183809"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:requestDispatch"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183809"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:getLoginCount"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183809"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:requestDispatch"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183809"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:getOpenBalance"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183809"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:requestDispatch"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183809"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="AccountDataBean"/>
+      <string key="dest_class_func" value="AccountDataBean:getBalance"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183809"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:requestDispatch"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183810"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:computeHoldingsTotal"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183810"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:requestDispatch"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183810"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:computeGain"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183810"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:requestDispatch"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183810"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:computeGainPercent"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183810"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:requestDispatch"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183810"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:printGainHTML"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183810"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:requestDispatch"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183810"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="FinancialUtils"/>
+      <string key="dest_class_func" value="FinancialUtils:printGainPercentHTML"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183810"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:requestDispatch"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183813"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:doHome"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183813"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeServletAction"/>
+      <string key="dest_class_func" value="TradeServletAction:doLogin"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183819"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:performTask"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183819"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="TradeAppServlet"/>
+      <string key="dest_class_func" value="TradeAppServlet:doPost"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183820"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="OrdersAlertFilter"/>
+      <string key="dest_class_func" value="OrdersAlertFilter:doFilter"/>
+    </event>
+    <event>
+      <int key="time" value="1583517183821"/>
+      <string key="label" value="login"/>
+      <string key="dest_class" value="Root"/>
+      <string key="dest_class_func" value="Root"/>
+    </event>
+  </trace>
+</log>
