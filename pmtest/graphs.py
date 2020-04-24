@@ -35,8 +35,6 @@ def strategy_b(contexts):
     (set((src-activity, dest-activity, distance)), set(contexts))
     """
 
-    all_group_activities = {}
-
     group_collector = defaultdict(set)
 
     for name, context_graph, nodes, filtered_nodes in contexts:
@@ -44,14 +42,14 @@ def strategy_b(contexts):
         # print(f"Unfiltered Nodes = {filtered_nodes}")
         # print("\n")
 
-        # print(set([label for label in nodes_in_shortest_path(graph) if heuristic_filter(label)]))
+        # print(set([label for label in nodes_in_shortest_path(context_graph) if heuristic_filter(label)]))
         # print("\n")
 
         # plot.figure()
         # draw_spring(context_graph, with_labels=True)
         # plot.show()
 
-        for source, target_dict in shortest_path_length(graph):
+        for source, target_dict in shortest_path_length(context_graph):
             if source not in filtered_nodes:
                 continue
 
@@ -72,82 +70,51 @@ def strategy_b(contexts):
     initial_groups = set()
 
     for left, right in group_collector.items():
-        group = (left, frozenset(right))
-        group_activities = strategy_b_activities_in_group(group)
-        initial_groups.add(group)
-        all_group_activities[group] = set(group_activities)
+        initial_groups.add((left, frozenset(right)))
 
-    for i, group in enumerate(initial_groups):
-        print(f"Group #{i}")
-        print(f"Contexts = {group[1]}")
-        print(f"Edges = {group[0]}")
-        print()
+    # for i, group in enumerate(initial_groups):
+        # print(f"Group #{i}")
+        # print(f"Contexts = {group[1]}")
+        # print(f"Edges = {group[0]}")
+        # print()
 
-    # all_groups = set()
+    all_groups = set()
 
-    old_groups = set()
-    new_groups = initial_groups
+    print("Processing groups...")
+    for g1 in initial_groups:
+        new_group = g1
+        new_score = strategy_b_score(new_group)
 
-    while new_groups:
-        next_groups = set()
-        merged = set()
+        for g2 in initial_groups:
+            if g1 == g2:
+                continue
 
-        num_old = len(old_groups)
-        num_new = len(new_groups)
+            if strategy_b_can_merge(new_group, g2):
+                potential_group = strategy_b_merge(new_group, g2)
+                potential_score = strategy_b_score(potential_group)
 
-        print(f"Looking for merges between new groups ({num_new} x {num_new})")
-        for g1 in new_groups:
-            for g2 in new_groups:
-                if g1 == g2:
-                    continue
+                if potential_score > new_score:
+                    new_group = potential_group
+                    new_score = potential_score
 
-                if strategy_b_can_merge(g1, g2, all_group_activities):
-                    print("ASDFASDFASDFASDF")
-                    print(g1)
-                    print(g2)
-                    new_group = strategy_b_merge(g1, g2)
-                    print(new_group)
-                    print("\n\n\n\n")
-                    new_activities = strategy_b_activities_in_group(new_group)
+        all_groups.add(new_group)
 
-                    all_group_activities[new_group] = set(new_activities)
-                    next_groups.add(new_group)
-                    merged.add(g1)
-                    merged.add(g2)
-
-        print(f"Looking for merges between new and old groups ({num_old} x {num_new})")
-        for g1 in old_groups:
-            for g2 in new_groups:
-                if strategy_b_can_merge(g1, g2, all_group_activities):
-                    new_group = strategy_b_merge(g1, g2)
-                    new_activities = strategy_b_activities_in_group(new_group)
-
-                    all_group_activities[new_group] = set(new_activities)
-                    next_groups.add(new_group)
-                    merged.add(g1)
-                    merged.add(g2)
-
-        print("Updating group sets")
-        # all_groups = all_groups.union(new_groups)
-        # print(f"len(all_groups) = {len(all_groups)}")
-        print(f"len(merged) = {len(merged)}")
-        old_groups = old_groups.union(new_groups).difference(merged)
-        print(f"len(old_groups) = {len(old_groups)}")
-        new_groups = next_groups
-        print(f"len(new_groups) = {len(new_groups)}")
-        print()
+    print("Done")
+    print()
 
     print("Scoring groups")
     scored_groups = []
-    for group in old_groups:
+    for group in all_groups:
         scored_groups.append((group, strategy_b_score(group)))
 
     print("Sorting Groups")
-    sorted_groups = sorted(scored_groups, key=lambda a: a[1], reverse=True)
+    sorted_groups = sorted(scored_groups, key=lambda a: a[1], reverse=True)[:10]
     for i, (group, score) in enumerate(sorted_groups):
+        contexts = group[1]
+        activities = set(strategy_b_activities_in_group(group))
         print(f"Group #{i} - Score = {score}")
-        print(f"Contexts = {group[1]}")
-        print(f"Activities = {all_group_activities[group]}")
+        print(f"Contexts = {contexts}")
+        print(f"Activities = {activities}")
         print()
 
 
@@ -157,9 +124,9 @@ def strategy_b_activities_in_group(group):
         yield dest
 
 
-def strategy_b_can_merge(g1, g2, activity_dict):
-    g1_activities = activity_dict[g1]
-    g2_activities = activity_dict[g2]
+def strategy_b_can_merge(g1, g2):
+    g1_activities = set(strategy_b_activities_in_group(g1))
+    g2_activities = set(strategy_b_activities_in_group(g2))
 
     return g1_activities.intersection(g2_activities) != set()
 
@@ -170,7 +137,13 @@ def strategy_b_merge(g1, g2):
 
 def strategy_b_score(group):
     # TODO: Improve metric
-    return len(group[0]) * len(group[1])
+    # edges = len(group[0])
+    activities = len(set(strategy_b_activities_in_group(group)))
+    contexts = len(group[1])
+
+    # cliqueness = edges / (activities * activities)
+
+    return activities * contexts
 
 
 if __name__ == "__main__":
@@ -188,8 +161,8 @@ if __name__ == "__main__":
         label = filename.split(".")[0]
         filepath = os.path.join(XES_PATH, filename)
 
-        if label not in ('trade_buy', 'trade_sell', 'trade-quotes-buy', 'trade-portfolio-sell'):
-            continue
+        # if label not in ('trade_buy', 'trade_sell', 'trade-quotes-buy', 'trade-portfolio-sell'):
+        #     continue
 
         print(f'Processing log file {filepath}...')
         log = xes_import_factory.apply(filepath)
@@ -218,11 +191,12 @@ if __name__ == "__main__":
         filtered_nodes = set([label for label in all_nodes
                              if heuristic_filter(label)])
 
-        print("Filtered Nodes")
-        print(filtered_nodes)
-        print()
-        print("Shortest Path Nodes")
-        print(sp_nodes)
+        # print("Filtered Nodes")
+        # print(filtered_nodes)
+        # print()
+        # print("Shortest Path Nodes")
+        # print(sp_nodes)
+        # print()
         print()
 
         strategy_b_list.append((label, graph, all_nodes, filtered_nodes))
