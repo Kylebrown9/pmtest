@@ -4,7 +4,7 @@ from collections import Counter
 from pm4py.objects.log.importer.xes import factory as xes_import_factory
 
 from networkx.classes.digraph import DiGraph, Graph
-from networkx.drawing.nx_pylab import draw_kamada_kawai
+from networkx.drawing.nx_pylab import draw_spring
 
 from matplotlib import pyplot as plot
 
@@ -15,55 +15,61 @@ from .iMBEA.viz import plot_biclique
 
 def label_to_label_count(bipartite_edges, lower_labels, upper_labels):
     label_to_label = Counter()
+    label_count = Counter()
 
     for graph1, label1 in bipartite_edges:
         for graph2, label2 in bipartite_edges:
             if graph1 == graph2:
+                label_count[label1] += 1
                 label_to_label[(label1, label2)] += 1
 
-    next_counter = Counter()
+    next_counter = {}
     graph = Graph()
-    weights = []
-    colors = []
 
     for (label1, label2), count in label_to_label.items():
-        if count > lower_labels and count < upper_labels:
-            next_counter[(label1, label2)] = count
-            graph.add_edge(label1, label2)
-            weights.append(count*count/200.0)
-            colors.append("gray")
+        weighted_count = count / label_count[label1]
 
-    print(next_counter)
+        if weighted_count > lower_labels and count < upper_labels:
+            next_counter[(label1, label2)] = weighted_count
+            graph.add_edge(label1, label2, weight=weighted_count/10)
 
     plot.figure()
-    draw_kamada_kawai(graph, with_labels=True,
-                      width=weights, edge_colors=colors)
+    plot.hist(next_counter.values())
+    plot.show()
+
+    plot.figure()
+    draw_spring(graph, with_labels=True)
     plot.show()
 
 
 def graph_to_graph_count(bipartite_edges, lower_graph, upper_graph):
     graph_to_graph = Counter()
+    graph_count = Counter()
 
     for graph1, label1 in bipartite_edges:
         for graph2, label2 in bipartite_edges:
             if label1 == label2:
+                graph_count[graph1] += 1
                 graph_to_graph[(graph1, graph2)] += 1
 
-    next_counter = Counter()
+    unfiltered = {}
+    next_graph = {}
     graph = Graph()
-    weights = []
 
     for (graph1, graph2), count in graph_to_graph.items():
-        if count > lower_graph and count < upper_graph:
-            next_counter[(graph1, graph2)] = count
-            graph.add_edge(graph1, graph2, count=count)
-            weights.append(count*count/2000.0)
+        weighted_count = count / graph_count[graph1]
+        unfiltered[(graph1, graph2)] = weighted_count
 
-    print(next_counter)
+        if weighted_count > lower_graph and weighted_count < upper_graph:
+            next_graph[(graph1, graph2)] = weighted_count
+            graph.add_edge(graph1, graph2, weight=weighted_count)
 
     plot.figure()
-    draw_kamada_kawai(graph, with_labels=True,
-                      width=weights)
+    plot.hist(unfiltered.values())
+    plot.show()
+
+    plot.figure()
+    draw_spring(graph, with_labels=True)
     plot.show()
 
 
@@ -160,8 +166,8 @@ if __name__ == "__main__":
         print(f'Graph added to collection, {added_nodes} new nodes found')
         print()
 
-    label_to_label_count(bipartite_edges, 8, 10000)
+    # label_to_label_count(bipartite_edges, 0.02, 10000)
 
-    graph_to_graph_count(bipartite_edges, 14, 100000000)
+    graph_to_graph_count(bipartite_edges, 0.075, 100000000)
 
     # run_biclique(bipartite_edges)
