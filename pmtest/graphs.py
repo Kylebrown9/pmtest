@@ -108,14 +108,28 @@ def strategy_b(contexts):
         scored_groups.append((group, strategy_b_score(group)))
 
     print("Sorting Groups")
-    sorted_groups = sorted(scored_groups, key=lambda a: a[1], reverse=True)[:10]
+    sorted_groups = sorted(scored_groups, key=lambda a: a[1], reverse=True)
+    found = set()
     for i, (group, score) in enumerate(sorted_groups):
         contexts = group[1]
         activities = set(strategy_b_activities_in_group(group))
+
+        if len(contexts) == 1:
+            continue
+
+        found_record = (frozenset(contexts), frozenset(activities))
+        if found_record in found:
+            continue
+
+        found.add(found_record)
+
         print(f"Group #{i} - Score = {score}")
         print(f"Contexts = {contexts}")
         print(f"Activities = {activities}")
         print()
+
+    print(len(found))
+    print(len(initial_groups))
 
 
 def strategy_b_activities_in_group(group):
@@ -141,7 +155,7 @@ def strategy_b_score(group):
     activities = len(set(strategy_b_activities_in_group(group)))
     contexts = len(group[1])
 
-    # cliqueness = edges / (activities * activities)
+    # density = edges / (activities * activities)
 
     return activities * contexts
 
