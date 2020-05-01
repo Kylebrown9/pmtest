@@ -1,0 +1,730 @@
+Processing log file ./data/xes/login.xes...
+Running Heuristic miner on login...
+Creating graph for petri net...
+
+Processing log file ./data/xes/trade-account.xes...
+Running Heuristic miner on trade-account...
+Creating graph for petri net...
+
+Processing log file ./data/xes/trade-quotes-buy.xes...
+Running Heuristic miner on trade-quotes-buy...
+Creating graph for petri net...
+
+Processing log file ./data/xes/trade-account-updateprofile.xes...
+Running Heuristic miner on trade-account-updateprofile...
+Creating graph for petri net...
+
+Processing log file ./data/xes/trade-marketsummary-glossary.xes...
+Running Heuristic miner on trade-marketsummary-glossary...
+Creating graph for petri net...
+
+Processing log file ./data/xes/trade-portfolio-sell.xes...
+Running Heuristic miner on trade-portfolio-sell...
+Creating graph for petri net...
+
+Processing log file ./data/xes/trade-logoff.xes...
+Running Heuristic miner on trade-logoff...
+Creating graph for petri net...
+
+Processing log file ./data/xes/Unknown.xes...
+Running Heuristic miner on Unknown...
+Creating graph for petri net...
+
+Processing log file ./data/xes/init.xes...
+Running Heuristic miner on init...
+Creating graph for petri net...
+
+Processing log file ./data/xes/recreate_db_tables.xes...
+Running Heuristic miner on recreate_db_tables...
+Creating graph for petri net...
+
+Processing log file ./data/xes/config.xes...
+Running Heuristic miner on config...
+Creating graph for petri net...
+
+Processing log file ./data/xes/repopulate_db_tables.xes...
+Running Heuristic miner on repopulate_db_tables...
+Creating graph for petri net...
+
+Processing log file ./data/xes/account.xes...
+Running Heuristic miner on account...
+Creating graph for petri net...
+
+Processing log file ./data/xes/trade_buy.xes...
+Running Heuristic miner on trade_buy...
+Creating graph for petri net...
+
+Processing log file ./data/xes/trade_sell.xes...
+Running Heuristic miner on trade_sell...
+Creating graph for petri net...
+
+Processing log file ./data/xes/logoff.xes...
+Running Heuristic miner on logoff...
+Creating graph for petri net...
+
+Processing log file ./data/xes/market_summary_glossary.xes...
+Running Heuristic miner on market_summary_glossary...
+Creating graph for petri net...
+
+Processing log file ./data/xes/market_summary.xes...
+Running Heuristic miner on market_summary...
+Creating graph for petri net...
+
+Processing log file ./data/xes/register.xes...
+Running Heuristic miner on register...
+Creating graph for petri net...
+
+Processing log file ./data/xes/primitives.xes...
+Running Heuristic miner on primitives...
+Creating graph for petri net...
+
+Processing log file ./data/xes/explicit_gc.xes...
+Running Heuristic miner on explicit_gc...
+Creating graph for petri net...
+
+Processing log file ./data/xes/ping_servlet_cdi.xes...
+Running Heuristic miner on ping_servlet_cdi...
+Creating graph for petri net...
+
+Processing log file ./data/xes/ping_servlet_cdi_manager.xes...
+Running Heuristic miner on ping_servlet_cdi_manager...
+Creating graph for petri net...
+
+Processing log file ./data/xes/ping_servlet.xes...
+Running Heuristic miner on ping_servlet...
+Creating graph for petri net...
+
+Processing log file ./data/xes/ping_servlet_writer.xes...
+Running Heuristic miner on ping_servlet_writer...
+Creating graph for petri net...
+
+Processing log file ./data/xes/ping_servlet2_include.xes...
+Running Heuristic miner on ping_servlet2_include...
+Creating graph for petri net...
+
+Adding to groups for login
+Adding to groups for trade-account
+Adding to groups for trade-quotes-buy
+Adding to groups for trade-account-updateprofile
+Adding to groups for trade-marketsummary-glossary
+Adding to groups for trade-portfolio-sell
+Adding to groups for trade-logoff
+Adding to groups for Unknown
+Adding to groups for init
+Adding to groups for recreate_db_tables
+Adding to groups for config
+Adding to groups for repopulate_db_tables
+Adding to groups for account
+Adding to groups for trade_buy
+Adding to groups for trade_sell
+Adding to groups for logoff
+Adding to groups for market_summary_glossary
+Adding to groups for market_summary
+Adding to groups for register
+Adding to groups for primitives
+Adding to groups for explicit_gc
+Adding to groups for ping_servlet_cdi
+Adding to groups for ping_servlet_cdi_manager
+Adding to groups for ping_servlet
+Adding to groups for ping_servlet_writer
+Adding to groups for ping_servlet2_include
+
+Processing groups...
+Done
+
+Scoring groups
+Sorting Groups
+Group #0 - Score = 164
+Contexts = frozenset({'trade_buy', 'trade_sell'})
+Activities = {'TradeConfig:getLongRun', 'OrderDataBean:OrderDataBean [overloaded_#001]', 'Log:getActionTrace', 'OrderDataBean:setOpenDate', 'TradeServletAction:requestDispatch', 'FinancialUtils:printQuoteLink', 'QuoteDataBean:getPrice', 'Log:doTrace', 'TradeConfig:useRemoteEJBInterface', 'TradeSLSBBean:publishQuotePriceChange', 'OrderDataBean:getOrderFee', 'TradeSLSBBean:getClosedOrders', 'RecentStockChangeList:addStockChange', 'OrderDataBean:isSell', 'TradeSLSBBean:createOrder', 'TradeConfig:getTrace', 'TradeAction:updateQuotePriceVolume', 'OrderDataBean:setQuantity', 'OrderDataBean:getOrderStatus', 'OrderDataBean:setOrderType', 'TradeConfig:getMAX_QUOTES', 'TradeAppServlet:doGet', 'TimerStat:setMin', 'AccountDataBean:getProfile', 'MDBStats:addTiming', 'TradeAction:getClosedOrders', 'OrderDataBean:getQuantity', 'DTStreamer3MDB:onMessage', 'QuoteDataBean:hashCode', 'OrdersAlertFilter:doFilter', 'OrderDataBean:getPrice', 'OrderDataBean:setHolding', 'TradeConfig:getActionTrace', 'QuoteDataBean:getVolume', 'QuoteDataBean:getOpen', 'RecentStockChangeList:stockChangesInJSON', 'OrderDataBean:setCompletionDate', 'TimerStat:getMin', 'TimerStat:getTotalTime', 'OrderDataBean:getOrderID', 'TimerStat:setTotalTime', 'TradeSLSBBean:completeOrder', 'OrderDataBean:isCompleted', 'TradeAction:createTrade', 'Log:getTrace', 'OrderDataBean:setPrice', 'OrderDataBean:OrderDataBean [overloaded_#003]', 'QuoteDataBean:setPrice', 'FinancialUtils:printGainHTML', 'OrderDataBean:getAccount', 'TradeConfig:getUpdateQuotePrices', 'OrderDataBean:setOrderFee', 'QuoteDataBean:setVolume', 'TradeAction:getQuote', 'TradeConfig:getDisplayOrderAlerts', 'TradeConfig:getPercentSentToWebsocket', 'FinancialUtils:printGainPercentHTML', 'QuoteDataBean:getSymbol', 'OrderDataBean:setAccount', 'Log:doActionTrace', 'TradeConfig:getOrderFee', 'TradeAction:orderCompleted', 'OrderDataBean:getOpenDate', 'TimerStat:setCount', 'OrderDataBean:getQuote', 'OrderDataBean:getHolding', 'QuoteDataBean:QuoteDataBean [overloaded_#001]', 'OrderDataBean:getCompletionDate', 'TradeAction:TradeAction [overloaded_#001]', 'MarketSummaryWebSocket:onJMSMessage', 'OrderDataBean:getOrderType', 'OrderDataBean:isBuy', 'QuoteDataBean:setChange', 'TradeConfig:getPublishQuotePriceChange', 'OrderDataBean:setQuote', 'AccountProfileDataBean:getUserID', 'OrderDataBean:setOrderStatus', 'TradeAppServlet:performTask', 'TradeSLSBBean:getQuote', 'OrderDataBean:hashCode', 'TradeSLSBBean:updateQuotePriceVolume', 'OrderDataBean:getSymbol'}
+
+Group #4 - Score = 160
+Contexts = frozenset({'trade_buy', 'trade_sell'})
+Activities = {'TradeConfig:getLongRun', 'OrderDataBean:OrderDataBean [overloaded_#001]', 'OrderDataBean:setOpenDate', 'TradeServletAction:requestDispatch', 'FinancialUtils:printQuoteLink', 'QuoteDataBean:getPrice', 'Log:doTrace', 'TradeConfig:useRemoteEJBInterface', 'TradeSLSBBean:publishQuotePriceChange', 'OrderDataBean:getOrderFee', 'TradeSLSBBean:getClosedOrders', 'RecentStockChangeList:addStockChange', 'OrderDataBean:isSell', 'TradeSLSBBean:createOrder', 'TradeConfig:getTrace', 'TradeAction:updateQuotePriceVolume', 'OrderDataBean:setQuantity', 'OrderDataBean:getOrderStatus', 'OrderDataBean:setOrderType', 'TradeConfig:getMAX_QUOTES', 'TradeAppServlet:doGet', 'TimerStat:setMin', 'AccountDataBean:getProfile', 'MDBStats:addTiming', 'TradeAction:getClosedOrders', 'OrderDataBean:getQuantity', 'DTStreamer3MDB:onMessage', 'QuoteDataBean:hashCode', 'OrdersAlertFilter:doFilter', 'OrderDataBean:getPrice', 'OrderDataBean:setHolding', 'QuoteDataBean:getVolume', 'QuoteDataBean:getOpen', 'RecentStockChangeList:stockChangesInJSON', 'OrderDataBean:setCompletionDate', 'TimerStat:getMin', 'TimerStat:getTotalTime', 'OrderDataBean:getOrderID', 'TimerStat:setTotalTime', 'TradeSLSBBean:completeOrder', 'OrderDataBean:isCompleted', 'TradeAction:createTrade', 'Log:getTrace', 'OrderDataBean:setPrice', 'OrderDataBean:OrderDataBean [overloaded_#003]', 'QuoteDataBean:setPrice', 'FinancialUtils:printGainHTML', 'OrderDataBean:getAccount', 'TradeConfig:getUpdateQuotePrices', 'OrderDataBean:setOrderFee', 'QuoteDataBean:setVolume', 'TradeAction:getQuote', 'TradeConfig:getDisplayOrderAlerts', 'TradeConfig:getPercentSentToWebsocket', 'FinancialUtils:printGainPercentHTML', 'QuoteDataBean:getSymbol', 'OrderDataBean:setAccount', 'Log:doActionTrace', 'TradeConfig:getOrderFee', 'OrderDataBean:getOpenDate', 'TradeAction:orderCompleted', 'TimerStat:setCount', 'OrderDataBean:getQuote', 'OrderDataBean:getHolding', 'QuoteDataBean:QuoteDataBean [overloaded_#001]', 'OrderDataBean:getCompletionDate', 'TradeAction:TradeAction [overloaded_#001]', 'MarketSummaryWebSocket:onJMSMessage', 'OrderDataBean:getOrderType', 'OrderDataBean:isBuy', 'QuoteDataBean:setChange', 'TradeConfig:getPublishQuotePriceChange', 'OrderDataBean:setQuote', 'AccountProfileDataBean:getUserID', 'OrderDataBean:setOrderStatus', 'TradeAppServlet:performTask', 'TradeSLSBBean:getQuote', 'OrderDataBean:hashCode', 'TradeSLSBBean:updateQuotePriceVolume', 'OrderDataBean:getSymbol'}
+
+Group #12 - Score = 158
+Contexts = frozenset({'trade_buy', 'trade_sell'})
+Activities = {'TradeConfig:getLongRun', 'OrderDataBean:OrderDataBean [overloaded_#001]', 'OrderDataBean:setOpenDate', 'TradeServletAction:requestDispatch', 'FinancialUtils:printQuoteLink', 'QuoteDataBean:getPrice', 'Log:doTrace', 'TradeConfig:useRemoteEJBInterface', 'TradeSLSBBean:publishQuotePriceChange', 'OrderDataBean:getOrderFee', 'TradeSLSBBean:getClosedOrders', 'RecentStockChangeList:addStockChange', 'OrderDataBean:isSell', 'TradeSLSBBean:createOrder', 'TradeConfig:getTrace', 'TradeAction:updateQuotePriceVolume', 'OrderDataBean:setQuantity', 'OrderDataBean:getOrderStatus', 'OrderDataBean:setOrderType', 'TradeConfig:getMAX_QUOTES', 'TradeAppServlet:doGet', 'TimerStat:setMin', 'AccountDataBean:getProfile', 'MDBStats:addTiming', 'TradeAction:getClosedOrders', 'OrderDataBean:getQuantity', 'DTStreamer3MDB:onMessage', 'QuoteDataBean:hashCode', 'OrdersAlertFilter:doFilter', 'OrderDataBean:getPrice', 'OrderDataBean:setHolding', 'QuoteDataBean:getVolume', 'QuoteDataBean:getOpen', 'RecentStockChangeList:stockChangesInJSON', 'OrderDataBean:setCompletionDate', 'TimerStat:getMin', 'TimerStat:getTotalTime', 'OrderDataBean:getOrderID', 'TimerStat:setTotalTime', 'TradeSLSBBean:completeOrder', 'OrderDataBean:isCompleted', 'TradeAction:createTrade', 'Log:getTrace', 'OrderDataBean:setPrice', 'OrderDataBean:OrderDataBean [overloaded_#003]', 'QuoteDataBean:setPrice', 'FinancialUtils:printGainHTML', 'OrderDataBean:getAccount', 'TradeConfig:getUpdateQuotePrices', 'OrderDataBean:setOrderFee', 'QuoteDataBean:setVolume', 'TradeAction:getQuote', 'TradeConfig:getDisplayOrderAlerts', 'TradeConfig:getPercentSentToWebsocket', 'FinancialUtils:printGainPercentHTML', 'QuoteDataBean:getSymbol', 'OrderDataBean:setAccount', 'Log:doActionTrace', 'TradeConfig:getOrderFee', 'TradeAction:orderCompleted', 'OrderDataBean:getOpenDate', 'TimerStat:setCount', 'OrderDataBean:getQuote', 'OrderDataBean:getHolding', 'QuoteDataBean:QuoteDataBean [overloaded_#001]', 'OrderDataBean:getCompletionDate', 'TradeAction:TradeAction [overloaded_#001]', 'MarketSummaryWebSocket:onJMSMessage', 'OrderDataBean:getOrderType', 'OrderDataBean:isBuy', 'QuoteDataBean:setChange', 'OrderDataBean:setQuote', 'AccountProfileDataBean:getUserID', 'OrderDataBean:setOrderStatus', 'TradeAppServlet:performTask', 'TradeSLSBBean:getQuote', 'OrderDataBean:hashCode', 'TradeSLSBBean:updateQuotePriceVolume', 'OrderDataBean:getSymbol'}
+
+Group #14 - Score = 158
+Contexts = frozenset({'trade_buy', 'trade_sell'})
+Activities = {'TradeConfig:getLongRun', 'Log:getActionTrace', 'OrderDataBean:setOpenDate', 'TradeServletAction:requestDispatch', 'FinancialUtils:printQuoteLink', 'QuoteDataBean:getPrice', 'Log:doTrace', 'TradeConfig:useRemoteEJBInterface', 'TradeSLSBBean:publishQuotePriceChange', 'OrderDataBean:getOrderFee', 'TradeSLSBBean:getClosedOrders', 'RecentStockChangeList:addStockChange', 'OrderDataBean:isSell', 'TradeSLSBBean:createOrder', 'TradeConfig:getTrace', 'TradeAction:updateQuotePriceVolume', 'OrderDataBean:setQuantity', 'OrderDataBean:getOrderStatus', 'OrderDataBean:setOrderType', 'TradeConfig:getMAX_QUOTES', 'TradeAppServlet:doGet', 'TimerStat:setMin', 'AccountDataBean:getProfile', 'MDBStats:addTiming', 'TradeAction:getClosedOrders', 'OrderDataBean:getQuantity', 'DTStreamer3MDB:onMessage', 'OrdersAlertFilter:doFilter', 'OrderDataBean:getPrice', 'OrderDataBean:setHolding', 'TradeConfig:getActionTrace', 'QuoteDataBean:getVolume', 'QuoteDataBean:getOpen', 'RecentStockChangeList:stockChangesInJSON', 'OrderDataBean:setCompletionDate', 'TimerStat:getMin', 'TimerStat:getTotalTime', 'OrderDataBean:getOrderID', 'TimerStat:setTotalTime', 'TradeSLSBBean:completeOrder', 'OrderDataBean:isCompleted', 'TradeAction:createTrade', 'Log:getTrace', 'OrderDataBean:setPrice', 'OrderDataBean:OrderDataBean [overloaded_#003]', 'QuoteDataBean:setPrice', 'FinancialUtils:printGainHTML', 'OrderDataBean:getAccount', 'TradeConfig:getUpdateQuotePrices', 'OrderDataBean:setOrderFee', 'QuoteDataBean:setVolume', 'TradeAction:getQuote', 'TradeConfig:getDisplayOrderAlerts', 'TradeConfig:getPercentSentToWebsocket', 'FinancialUtils:printGainPercentHTML', 'QuoteDataBean:getSymbol', 'OrderDataBean:setAccount', 'Log:doActionTrace', 'TradeConfig:getOrderFee', 'OrderDataBean:getOpenDate', 'TradeAction:orderCompleted', 'TimerStat:setCount', 'OrderDataBean:getQuote', 'OrderDataBean:getHolding', 'QuoteDataBean:QuoteDataBean [overloaded_#001]', 'OrderDataBean:getCompletionDate', 'TradeAction:TradeAction [overloaded_#001]', 'MarketSummaryWebSocket:onJMSMessage', 'QuoteDataBean:setChange', 'OrderDataBean:isBuy', 'OrderDataBean:getOrderType', 'OrderDataBean:setQuote', 'AccountProfileDataBean:getUserID', 'OrderDataBean:setOrderStatus', 'TradeAppServlet:performTask', 'TradeSLSBBean:getQuote', 'OrderDataBean:hashCode', 'TradeSLSBBean:updateQuotePriceVolume', 'OrderDataBean:getSymbol'}
+
+Group #22 - Score = 156
+Contexts = frozenset({'trade_buy', 'trade_sell'})
+Activities = {'TradeConfig:getLongRun', 'OrderDataBean:setOpenDate', 'TradeServletAction:requestDispatch', 'FinancialUtils:printQuoteLink', 'QuoteDataBean:getPrice', 'Log:doTrace', 'TradeConfig:useRemoteEJBInterface', 'TradeSLSBBean:publishQuotePriceChange', 'OrderDataBean:getOrderFee', 'TradeSLSBBean:getClosedOrders', 'RecentStockChangeList:addStockChange', 'OrderDataBean:isSell', 'TradeSLSBBean:createOrder', 'TradeConfig:getTrace', 'TradeAction:updateQuotePriceVolume', 'OrderDataBean:setQuantity', 'OrderDataBean:getOrderStatus', 'OrderDataBean:setOrderType', 'TradeConfig:getMAX_QUOTES', 'TradeAppServlet:doGet', 'TimerStat:setMin', 'AccountDataBean:getProfile', 'MDBStats:addTiming', 'TradeAction:getClosedOrders', 'OrderDataBean:getQuantity', 'DTStreamer3MDB:onMessage', 'OrdersAlertFilter:doFilter', 'OrderDataBean:getPrice', 'OrderDataBean:setHolding', 'QuoteDataBean:getVolume', 'QuoteDataBean:getOpen', 'RecentStockChangeList:stockChangesInJSON', 'OrderDataBean:setCompletionDate', 'TimerStat:getMin', 'TimerStat:getTotalTime', 'OrderDataBean:getOrderID', 'TimerStat:setTotalTime', 'TradeSLSBBean:completeOrder', 'OrderDataBean:isCompleted', 'TradeAction:createTrade', 'Log:getTrace', 'OrderDataBean:setPrice', 'OrderDataBean:OrderDataBean [overloaded_#003]', 'QuoteDataBean:setPrice', 'FinancialUtils:printGainHTML', 'OrderDataBean:getAccount', 'TradeConfig:getUpdateQuotePrices', 'OrderDataBean:setOrderFee', 'QuoteDataBean:setVolume', 'TradeAction:getQuote', 'TradeConfig:getDisplayOrderAlerts', 'TradeConfig:getPercentSentToWebsocket', 'FinancialUtils:printGainPercentHTML', 'QuoteDataBean:getSymbol', 'OrderDataBean:setAccount', 'Log:doActionTrace', 'TradeConfig:getOrderFee', 'OrderDataBean:getOpenDate', 'TradeAction:orderCompleted', 'TimerStat:setCount', 'OrderDataBean:getQuote', 'OrderDataBean:getHolding', 'QuoteDataBean:QuoteDataBean [overloaded_#001]', 'OrderDataBean:getCompletionDate', 'TradeAction:TradeAction [overloaded_#001]', 'MarketSummaryWebSocket:onJMSMessage', 'OrderDataBean:getOrderType', 'OrderDataBean:isBuy', 'QuoteDataBean:setChange', 'TradeConfig:getPublishQuotePriceChange', 'OrderDataBean:setQuote', 'AccountProfileDataBean:getUserID', 'OrderDataBean:setOrderStatus', 'TradeAppServlet:performTask', 'TradeSLSBBean:getQuote', 'OrderDataBean:hashCode', 'TradeSLSBBean:updateQuotePriceVolume', 'OrderDataBean:getSymbol'}
+
+Group #24 - Score = 154
+Contexts = frozenset({'trade_buy', 'trade_sell'})
+Activities = {'TradeConfig:getLongRun', 'OrderDataBean:setOpenDate', 'TradeServletAction:requestDispatch', 'FinancialUtils:printQuoteLink', 'QuoteDataBean:getPrice', 'Log:doTrace', 'TradeConfig:useRemoteEJBInterface', 'TradeSLSBBean:publishQuotePriceChange', 'OrderDataBean:getOrderFee', 'TradeSLSBBean:getClosedOrders', 'RecentStockChangeList:addStockChange', 'OrderDataBean:isSell', 'TradeSLSBBean:createOrder', 'TradeConfig:getTrace', 'TradeAction:updateQuotePriceVolume', 'OrderDataBean:setQuantity', 'OrderDataBean:getOrderStatus', 'OrderDataBean:setOrderType', 'TradeConfig:getMAX_QUOTES', 'TradeAppServlet:doGet', 'TimerStat:setMin', 'AccountDataBean:getProfile', 'MDBStats:addTiming', 'TradeAction:getClosedOrders', 'OrderDataBean:getQuantity', 'DTStreamer3MDB:onMessage', 'OrdersAlertFilter:doFilter', 'OrderDataBean:getPrice', 'OrderDataBean:setHolding', 'QuoteDataBean:getVolume', 'QuoteDataBean:getOpen', 'RecentStockChangeList:stockChangesInJSON', 'OrderDataBean:setCompletionDate', 'TimerStat:getMin', 'TimerStat:getTotalTime', 'OrderDataBean:getOrderID', 'TimerStat:setTotalTime', 'TradeSLSBBean:completeOrder', 'OrderDataBean:isCompleted', 'TradeAction:createTrade', 'Log:getTrace', 'OrderDataBean:setPrice', 'OrderDataBean:OrderDataBean [overloaded_#003]', 'QuoteDataBean:setPrice', 'FinancialUtils:printGainHTML', 'OrderDataBean:getAccount', 'TradeConfig:getUpdateQuotePrices', 'OrderDataBean:setOrderFee', 'QuoteDataBean:setVolume', 'TradeAction:getQuote', 'TradeConfig:getDisplayOrderAlerts', 'TradeConfig:getPercentSentToWebsocket', 'FinancialUtils:printGainPercentHTML', 'QuoteDataBean:getSymbol', 'OrderDataBean:setAccount', 'Log:doActionTrace', 'TradeConfig:getOrderFee', 'OrderDataBean:getOpenDate', 'TradeAction:orderCompleted', 'TimerStat:setCount', 'OrderDataBean:getQuote', 'OrderDataBean:getHolding', 'QuoteDataBean:QuoteDataBean [overloaded_#001]', 'OrderDataBean:getCompletionDate', 'TradeAction:TradeAction [overloaded_#001]', 'MarketSummaryWebSocket:onJMSMessage', 'QuoteDataBean:setChange', 'OrderDataBean:isBuy', 'OrderDataBean:getOrderType', 'OrderDataBean:setQuote', 'AccountProfileDataBean:getUserID', 'OrderDataBean:setOrderStatus', 'TradeAppServlet:performTask', 'TradeSLSBBean:getQuote', 'OrderDataBean:hashCode', 'TradeSLSBBean:updateQuotePriceVolume', 'OrderDataBean:getSymbol'}
+
+Group #57 - Score = 146
+Contexts = frozenset({'trade_buy', 'trade_sell'})
+Activities = {'OrderDataBean:getOrderID', 'OrderDataBean:getOpenDate', 'TradeAction:orderCompleted', 'TradeConfig:getMAX_QUOTES', 'TimerStat:setCount', 'TimerStat:setTotalTime', 'OrderDataBean:getQuote', 'TradeAppServlet:doGet', 'TradeSLSBBean:completeOrder', 'TradeConfig:getLongRun', 'OrderDataBean:getHolding', 'OrderDataBean:isCompleted', 'OrderDataBean:getCompletionDate', 'TimerStat:setMin', 'AccountDataBean:getProfile', 'MDBStats:addTiming', 'Log:getTrace', 'TradeAction:getClosedOrders', 'OrderDataBean:setPrice', 'OrderDataBean:setOpenDate', 'TradeAction:TradeAction [overloaded_#001]', 'TradeServletAction:requestDispatch', 'MarketSummaryWebSocket:onJMSMessage', 'FinancialUtils:printQuoteLink', 'QuoteDataBean:getPrice', 'OrderDataBean:OrderDataBean [overloaded_#003]', 'OrderDataBean:getOrderType', 'OrderDataBean:isBuy', 'OrderDataBean:getQuantity', 'DTStreamer3MDB:onMessage', 'TradeConfig:getPublishQuotePriceChange', 'FinancialUtils:printGainHTML', 'QuoteDataBean:setPrice', 'QuoteDataBean:setChange', 'Log:doTrace', 'OrderDataBean:getAccount', 'TradeConfig:getUpdateQuotePrices', 'TradeSLSBBean:publishQuotePriceChange', 'OrdersAlertFilter:doFilter', 'OrderDataBean:setOrderFee', 'OrderDataBean:getPrice', 'OrderDataBean:getOrderFee', 'OrderDataBean:setQuote', 'OrderDataBean:setHolding', 'QuoteDataBean:setVolume', 'TradeSLSBBean:getClosedOrders', 'RecentStockChangeList:addStockChange', 'OrderDataBean:isSell', 'AccountProfileDataBean:getUserID', 'OrderDataBean:setOrderStatus', 'TradeSLSBBean:createOrder', 'TradeConfig:getTrace', 'QuoteDataBean:getVolume', 'TradeAppServlet:performTask', 'TradeConfig:getDisplayOrderAlerts', 'QuoteDataBean:getOpen', 'RecentStockChangeList:stockChangesInJSON', 'TradeConfig:getPercentSentToWebsocket', 'TradeAction:updateQuotePriceVolume', 'FinancialUtils:printGainPercentHTML', 'OrderDataBean:hashCode', 'QuoteDataBean:getSymbol', 'OrderDataBean:setQuantity', 'OrderDataBean:setCompletionDate', 'TradeSLSBBean:updateQuotePriceVolume', 'TimerStat:getMin', 'Log:doActionTrace', 'OrderDataBean:setAccount', 'OrderDataBean:getOrderStatus', 'OrderDataBean:setOrderType', 'OrderDataBean:getSymbol', 'TimerStat:getTotalTime', 'TradeConfig:getOrderFee'}
+
+Group #64 - Score = 144
+Contexts = frozenset({'trade_buy', 'trade_sell'})
+Activities = {'OrderDataBean:getOrderID', 'OrderDataBean:getOpenDate', 'TradeAction:orderCompleted', 'TradeConfig:getMAX_QUOTES', 'TimerStat:setCount', 'TimerStat:setTotalTime', 'OrderDataBean:getQuote', 'TradeAppServlet:doGet', 'TradeSLSBBean:completeOrder', 'TradeConfig:getLongRun', 'OrderDataBean:getHolding', 'OrderDataBean:isCompleted', 'OrderDataBean:getCompletionDate', 'TimerStat:setMin', 'AccountDataBean:getProfile', 'MDBStats:addTiming', 'Log:getTrace', 'TradeAction:getClosedOrders', 'OrderDataBean:setPrice', 'OrderDataBean:setOpenDate', 'TradeAction:TradeAction [overloaded_#001]', 'TradeServletAction:requestDispatch', 'MarketSummaryWebSocket:onJMSMessage', 'FinancialUtils:printQuoteLink', 'QuoteDataBean:getPrice', 'OrderDataBean:OrderDataBean [overloaded_#003]', 'OrderDataBean:getOrderType', 'OrderDataBean:isBuy', 'OrderDataBean:getQuantity', 'DTStreamer3MDB:onMessage', 'FinancialUtils:printGainHTML', 'QuoteDataBean:setPrice', 'QuoteDataBean:setChange', 'Log:doTrace', 'OrderDataBean:getAccount', 'TradeConfig:getUpdateQuotePrices', 'TradeSLSBBean:publishQuotePriceChange', 'OrdersAlertFilter:doFilter', 'OrderDataBean:setOrderFee', 'OrderDataBean:getPrice', 'OrderDataBean:getOrderFee', 'OrderDataBean:setQuote', 'OrderDataBean:setHolding', 'QuoteDataBean:setVolume', 'TradeSLSBBean:getClosedOrders', 'RecentStockChangeList:addStockChange', 'OrderDataBean:isSell', 'AccountProfileDataBean:getUserID', 'OrderDataBean:setOrderStatus', 'TradeSLSBBean:createOrder', 'QuoteDataBean:getVolume', 'TradeConfig:getTrace', 'TradeAppServlet:performTask', 'TradeConfig:getDisplayOrderAlerts', 'QuoteDataBean:getOpen', 'RecentStockChangeList:stockChangesInJSON', 'TradeConfig:getPercentSentToWebsocket', 'TradeAction:updateQuotePriceVolume', 'FinancialUtils:printGainPercentHTML', 'OrderDataBean:hashCode', 'OrderDataBean:setQuantity', 'QuoteDataBean:getSymbol', 'OrderDataBean:setCompletionDate', 'TradeSLSBBean:updateQuotePriceVolume', 'TimerStat:getMin', 'Log:doActionTrace', 'OrderDataBean:setAccount', 'OrderDataBean:getOrderStatus', 'OrderDataBean:setOrderType', 'OrderDataBean:getSymbol', 'TimerStat:getTotalTime', 'TradeConfig:getOrderFee'}
+
+Group #70 - Score = 132
+Contexts = frozenset({'trade_buy', 'trade_sell'})
+Activities = {'TradeAction:orderCompleted', 'TimerStat:setCount', 'TradeConfig:getMAX_QUOTES', 'TimerStat:setTotalTime', 'TradeAppServlet:doGet', 'OrderDataBean:getQuote', 'TradeSLSBBean:completeOrder', 'TradeConfig:getLongRun', 'OrderDataBean:getHolding', 'TimerStat:getCount', 'QuoteDataBean:QuoteDataBean [overloaded_#001]', 'OrderDataBean:isCompleted', 'TradeAction:createTrade', 'TimerStat:setMin', 'AccountDataBean:getProfile', 'MDBStats:addTiming', 'Log:getTrace', 'TradeAction:getClosedOrders', 'OrderDataBean:setPrice', 'OrderDataBean:setOpenDate', 'TradeAction:TradeAction [overloaded_#001]', 'OrderDataBean:OrderDataBean [overloaded_#003]', 'MarketSummaryWebSocket:onJMSMessage', 'QuoteDataBean:getPrice', 'OrderDataBean:getOrderType', 'QuoteDataBean:setPrice', 'QuoteDataBean:setChange', 'TimerStat:getMax', 'DTStreamer3MDB:onMessage', 'OrderDataBean:isBuy', 'OrderDataBean:getQuantity', 'Log:doTrace', 'OrderDataBean:getAccount', 'TradeConfig:getUpdateQuotePrices', 'TradeSLSBBean:publishQuotePriceChange', 'OrdersAlertFilter:doFilter', 'TradeConfig:useRemoteEJBInterface', 'OrderDataBean:getPrice', 'OrderDataBean:setOrderFee', 'OrderDataBean:setQuote', 'QuoteDataBean:setVolume', 'OrderDataBean:setHolding', 'TradeSLSBBean:getClosedOrders', 'RecentStockChangeList:addStockChange', 'OrderDataBean:isSell', 'AccountProfileDataBean:getUserID', 'TradeAction:getQuote', 'OrderDataBean:setOrderStatus', 'TradeSLSBBean:createOrder', 'TradeConfig:getTrace', 'QuoteDataBean:getVolume', 'TradeAppServlet:performTask', 'TradeConfig:getDisplayOrderAlerts', 'QuoteDataBean:getOpen', 'TradeConfig:getPercentSentToWebsocket', 'RecentStockChangeList:stockChangesInJSON', 'TradeAction:updateQuotePriceVolume', 'TradeSLSBBean:getQuote', 'OrderDataBean:setQuantity', 'OrderDataBean:setCompletionDate', 'TradeSLSBBean:updateQuotePriceVolume', 'TimerStat:getMin', 'Log:doActionTrace', 'OrderDataBean:setAccount', 'OrderDataBean:setOrderType', 'TimerStat:getTotalTime'}
+
+Group #72 - Score = 132
+Contexts = frozenset({'trade_buy', 'trade_sell'})
+Activities = {'TradeAction:orderCompleted', 'TimerStat:setCount', 'TradeConfig:getMAX_QUOTES', 'TimerStat:setTotalTime', 'OrderDataBean:getQuote', 'TradeAppServlet:doGet', 'TradeSLSBBean:completeOrder', 'TradeConfig:getLongRun', 'OrderDataBean:OrderDataBean [overloaded_#001]', 'OrderDataBean:getHolding', 'QuoteDataBean:QuoteDataBean [overloaded_#001]', 'OrderDataBean:isCompleted', 'TradeAction:createTrade', 'TimerStat:setMin', 'AccountDataBean:getProfile', 'MDBStats:addTiming', 'TradeAction:getClosedOrders', 'Log:getTrace', 'OrderDataBean:setPrice', 'OrderDataBean:setOpenDate', 'TradeAction:TradeAction [overloaded_#001]', 'MarketSummaryWebSocket:onJMSMessage', 'OrderDataBean:OrderDataBean [overloaded_#003]', 'QuoteDataBean:getPrice', 'OrderDataBean:getOrderType', 'OrderDataBean:isBuy', 'QuoteDataBean:setPrice', 'QuoteDataBean:setChange', 'DTStreamer3MDB:onMessage', 'OrderDataBean:getQuantity', 'QuoteDataBean:hashCode', 'Log:doTrace', 'OrderDataBean:getAccount', 'TradeConfig:useRemoteEJBInterface', 'TradeSLSBBean:publishQuotePriceChange', 'OrdersAlertFilter:doFilter', 'OrderDataBean:setOrderFee', 'OrderDataBean:getPrice', 'TradeConfig:getUpdateQuotePrices', 'OrderDataBean:setQuote', 'OrderDataBean:setHolding', 'QuoteDataBean:setVolume', 'TradeSLSBBean:getClosedOrders', 'RecentStockChangeList:addStockChange', 'OrderDataBean:isSell', 'AccountProfileDataBean:getUserID', 'TradeAction:getQuote', 'OrderDataBean:setOrderStatus', 'TradeSLSBBean:createOrder', 'TradeConfig:getTrace', 'QuoteDataBean:getVolume', 'TradeAppServlet:performTask', 'TradeConfig:getDisplayOrderAlerts', 'QuoteDataBean:getOpen', 'RecentStockChangeList:stockChangesInJSON', 'TradeConfig:getPercentSentToWebsocket', 'TradeAction:updateQuotePriceVolume', 'TradeSLSBBean:getQuote', 'OrderDataBean:setQuantity', 'OrderDataBean:setCompletionDate', 'TradeSLSBBean:updateQuotePriceVolume', 'TimerStat:getMin', 'Log:doActionTrace', 'OrderDataBean:setAccount', 'OrderDataBean:setOrderType', 'TimerStat:getTotalTime'}
+
+Group #74 - Score = 121
+Contexts = frozenset({'ping_servlet_cdi', 'trade_buy', 'recreate_db_tables', 'ping_servlet_cdi_manager', 'primitives', 'account', 'logoff', 'ping_servlet_writer', 'register', 'repopulate_db_tables', 'Unknown'})
+Activities = {'MarketSummaryDataBean:setVolume', 'MarketSummaryDataBean:getTSIA', 'MarketSummaryDataBean:setTSIA', 'MarketSummaryDataBean:setOpenTSIA', 'MarketSummarySingleton:updateMarketSummary', 'MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]', 'MarketSummaryDataBean:getOpenTSIA', 'MarketSummaryDataBean:setSummaryDate', 'MarketSummaryDataBean:setTopLosers', 'MarketSummarySingleton:setMarketSummaryDataBean', 'MarketSummaryDataBean:setTopGainers'}
+
+Group #102 - Score = 120
+Contexts = frozenset({'ping_servlet_cdi', 'ping_servlet_cdi_manager', 'primitives', 'account', 'logoff', 'ping_servlet_writer', 'repopulate_db_tables', 'Unknown'})
+Activities = {'MarketSummaryDataBean:setVolume', 'MarketSummaryDataBean:getTSIA', 'MarketSummaryDataBean:setTSIA', 'MarketSummaryDataBean:setOpenTSIA', 'MarketSummarySingleton:updateMarketSummary', 'MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]', 'MarketSummaryDataBean:getOpenTSIA', 'FinancialUtils:computeGainPercent', 'MarketSummaryDataBean:setSummaryDate', 'MarketSummaryDataBean:setTopLosers', 'MarketSummarySingleton:setMarketSummaryDataBean', 'QuoteDataBean:QuoteDataBean [overloaded_#001]', 'MarketSummaryDataBean:setTopGainers', 'QuoteDataBean:getVolume', 'QuoteDataBean:getOpen'}
+
+Group #149 - Score = 114
+Contexts = frozenset({'trade_buy', 'trade_sell'})
+Activities = {'OrderDataBean:getOrderID', 'OrderDataBean:getOpenDate', 'TradeAction:orderCompleted', 'TradeConfig:getMAX_QUOTES', 'OrderDataBean:getQuote', 'TradeSLSBBean:completeOrder', 'TradeConfig:getLongRun', 'OrderDataBean:getHolding', 'OrderDataBean:isCompleted', 'OrderDataBean:getCompletionDate', 'AccountDataBean:getProfile', 'OrderDataBean:setPrice', 'OrderDataBean:setOpenDate', 'TradeAction:TradeAction [overloaded_#001]', 'TradeServletAction:requestDispatch', 'MarketSummaryWebSocket:onJMSMessage', 'FinancialUtils:printQuoteLink', 'QuoteDataBean:getPrice', 'OrderDataBean:getOrderType', 'QuoteDataBean:setPrice', 'OrderDataBean:OrderDataBean [overloaded_#003]', 'OrderDataBean:getQuantity', 'DTStreamer3MDB:onMessage', 'OrderDataBean:isBuy', 'QuoteDataBean:setChange', 'FinancialUtils:printGainHTML', 'Log:doTrace', 'OrderDataBean:getAccount', 'TradeConfig:getUpdateQuotePrices', 'TradeSLSBBean:publishQuotePriceChange', 'OrderDataBean:setOrderFee', 'OrderDataBean:getOrderFee', 'OrderDataBean:getPrice', 'OrderDataBean:setQuote', 'QuoteDataBean:setVolume', 'OrderDataBean:setHolding', 'TradeSLSBBean:getClosedOrders', 'RecentStockChangeList:addStockChange', 'OrderDataBean:isSell', 'AccountProfileDataBean:getUserID', 'OrderDataBean:setOrderStatus', 'QuoteDataBean:getVolume', 'TradeAppServlet:performTask', 'TradeSLSBBean:createOrder', 'QuoteDataBean:getOpen', 'RecentStockChangeList:stockChangesInJSON', 'FinancialUtils:printGainPercentHTML', 'OrderDataBean:hashCode', 'QuoteDataBean:getSymbol', 'OrderDataBean:setQuantity', 'OrderDataBean:setCompletionDate', 'TradeSLSBBean:updateQuotePriceVolume', 'OrderDataBean:setAccount', 'OrderDataBean:getOrderStatus', 'OrderDataBean:setOrderType', 'OrderDataBean:getSymbol', 'TradeConfig:getOrderFee'}
+
+Group #161 - Score = 108
+Contexts = frozenset({'trade-portfolio-sell', 'trade-quotes-buy', 'trade_buy', 'trade_sell'})
+Activities = {'TradeAction:orderCompleted', 'TimerStat:setCount', 'TradeConfig:getMAX_QUOTES', 'TimerStat:setTotalTime', 'TradeConfig:getLongRun', 'TimerStat:getCount', 'TimerStat:setMin', 'MDBStats:addTiming', 'TradeAction:getClosedOrders', 'QuoteDataBean:getPrice', 'QuoteDataBean:setChange', 'QuoteDataBean:setPrice', 'TimerStat:getMax', 'DTStreamer3MDB:onMessage', 'Log:doTrace', 'TradeConfig:getUpdateQuotePrices', 'OrdersAlertFilter:doFilter', 'QuoteDataBean:setVolume', 'TradeSLSBBean:getClosedOrders', 'TradeAction:getQuote', 'TradeConfig:getDisplayOrderAlerts', 'TradeConfig:getPercentSentToWebsocket', 'TradeSLSBBean:getQuote', 'TradeSLSBBean:updateQuotePriceVolume', 'TimerStat:getMin', 'Log:doActionTrace', 'TimerStat:getTotalTime'}
+
+Group #162 - Score = 108
+Contexts = frozenset({'ping_servlet_cdi', 'recreate_db_tables', 'ping_servlet_cdi_manager', 'primitives', 'account', 'logoff', 'ping_servlet_writer', 'repopulate_db_tables', 'Unknown'})
+Activities = {'MarketSummaryDataBean:setVolume', 'MarketSummaryDataBean:getTSIA', 'MarketSummaryDataBean:setTSIA', 'MarketSummaryDataBean:setOpenTSIA', 'MarketSummarySingleton:updateMarketSummary', 'MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]', 'MarketSummaryDataBean:getOpenTSIA', 'FinancialUtils:computeGainPercent', 'MarketSummaryDataBean:setSummaryDate', 'MarketSummaryDataBean:setTopLosers', 'MarketSummarySingleton:setMarketSummaryDataBean', 'MarketSummaryDataBean:setTopGainers'}
+
+Group #294 - Score = 102
+Contexts = frozenset({'trade_buy', 'trade_sell'})
+Activities = {'TradeAction:orderCompleted', 'TradeConfig:getMAX_QUOTES', 'OrderDataBean:getQuote', 'TradeAppServlet:doGet', 'TradeSLSBBean:completeOrder', 'TradeConfig:getLongRun', 'OrderDataBean:getHolding', 'OrderDataBean:isCompleted', 'TradeAction:createTrade', 'AccountDataBean:getProfile', 'TradeAction:getClosedOrders', 'Log:getTrace', 'OrderDataBean:setPrice', 'OrderDataBean:setOpenDate', 'TradeAction:TradeAction [overloaded_#001]', 'MarketSummaryWebSocket:onJMSMessage', 'OrderDataBean:OrderDataBean [overloaded_#003]', 'QuoteDataBean:getPrice', 'OrderDataBean:getOrderType', 'OrderDataBean:isBuy', 'QuoteDataBean:setChange', 'QuoteDataBean:setPrice', 'DTStreamer3MDB:onMessage', 'OrderDataBean:getQuantity', 'Log:doTrace', 'OrderDataBean:getAccount', 'TradeConfig:useRemoteEJBInterface', 'OrderDataBean:setOrderFee', 'OrdersAlertFilter:doFilter', 'TradeSLSBBean:publishQuotePriceChange', 'OrderDataBean:getPrice', 'OrderDataBean:setQuote', 'OrderDataBean:setHolding', 'TradeSLSBBean:getClosedOrders', 'RecentStockChangeList:addStockChange', 'OrderDataBean:isSell', 'AccountProfileDataBean:getUserID', 'OrderDataBean:setOrderStatus', 'TradeSLSBBean:createOrder', 'TradeAppServlet:performTask', 'TradeConfig:getDisplayOrderAlerts', 'RecentStockChangeList:stockChangesInJSON', 'TradeAction:updateQuotePriceVolume', 'OrderDataBean:hashCode', 'OrderDataBean:setQuantity', 'OrderDataBean:setCompletionDate', 'TradeSLSBBean:updateQuotePriceVolume', 'OrderDataBean:setAccount', 'Log:doActionTrace', 'OrderDataBean:setOrderType', 'TradeConfig:getOrderFee'}
+
+Group #315 - Score = 100
+Contexts = frozenset({'trade-portfolio-sell', 'trade-quotes-buy', 'trade_buy', 'trade_sell'})
+Activities = {'TradeAction:orderCompleted', 'TimerStat:setCount', 'TradeConfig:getMAX_QUOTES', 'TimerStat:setTotalTime', 'TradeConfig:getLongRun', 'TimerStat:setMin', 'MDBStats:addTiming', 'TradeAction:getClosedOrders', 'QuoteDataBean:getPrice', 'QuoteDataBean:setChange', 'QuoteDataBean:setPrice', 'DTStreamer3MDB:onMessage', 'Log:doTrace', 'TradeConfig:getUpdateQuotePrices', 'OrdersAlertFilter:doFilter', 'QuoteDataBean:setVolume', 'TradeSLSBBean:getClosedOrders', 'TradeAction:getQuote', 'TradeConfig:getDisplayOrderAlerts', 'TradeConfig:getPercentSentToWebsocket', 'TradeSLSBBean:getQuote', 'TradeSLSBBean:updateQuotePriceVolume', 'TimerStat:getMin', 'Log:doActionTrace', 'TimerStat:getTotalTime'}
+
+Group #352 - Score = 94
+Contexts = frozenset({'trade_buy', 'trade_sell'})
+Activities = {'OrderDataBean:getOrderID', 'OrderDataBean:getOpenDate', 'TradeAction:orderCompleted', 'TradeConfig:getMAX_QUOTES', 'TradeSLSBBean:completeOrder', 'TradeConfig:getLongRun', 'OrderDataBean:getHolding', 'OrderDataBean:getCompletionDate', 'OrderDataBean:setPrice', 'OrderDataBean:setOpenDate', 'TradeAction:TradeAction [overloaded_#001]', 'TradeServletAction:requestDispatch', 'MarketSummaryWebSocket:onJMSMessage', 'FinancialUtils:printQuoteLink', 'OrderDataBean:OrderDataBean [overloaded_#003]', 'QuoteDataBean:getPrice', 'QuoteDataBean:setPrice', 'QuoteDataBean:setChange', 'OrderDataBean:getQuantity', 'FinancialUtils:printGainHTML', 'DTStreamer3MDB:onMessage', 'Log:doTrace', 'TradeConfig:getUpdateQuotePrices', 'TradeSLSBBean:publishQuotePriceChange', 'OrderDataBean:setOrderFee', 'OrderDataBean:getOrderFee', 'OrderDataBean:setQuote', 'QuoteDataBean:setVolume', 'OrderDataBean:setHolding', 'TradeSLSBBean:getClosedOrders', 'RecentStockChangeList:addStockChange', 'OrderDataBean:setOrderStatus', 'QuoteDataBean:getVolume', 'TradeSLSBBean:createOrder', 'QuoteDataBean:getOpen', 'RecentStockChangeList:stockChangesInJSON', 'FinancialUtils:printGainPercentHTML', 'OrderDataBean:hashCode', 'QuoteDataBean:getSymbol', 'OrderDataBean:setQuantity', 'OrderDataBean:setCompletionDate', 'TradeSLSBBean:updateQuotePriceVolume', 'OrderDataBean:setAccount', 'OrderDataBean:getOrderStatus', 'OrderDataBean:setOrderType', 'OrderDataBean:getSymbol', 'TradeConfig:getOrderFee'}
+
+Group #572 - Score = 90
+Contexts = frozenset({'recreate_db_tables', 'repopulate_db_tables', 'config'})
+Activities = {'TradeConfig:getPrimIterations', 'TradeConfig:getMAX_QUOTES', 'TradeConfigServlet:service', 'TradeConfig:getMAX_USERS', 'TradeConfig:setActionTrace', 'TradeConfig:getLongRun', 'TradeConfig:getMarketSummaryInterval', 'TradeConfigServlet:doConfigUpdate', 'TradeConfig:setMAX_QUOTES', 'TradeConfig:setOrderProcessingMode', 'TradeConfig:setTrace', 'TradeConfig:getPublishQuotePriceChange', 'TradeConfig:useRemoteEJBInterface', 'TradeConfig:setPrimIterations', 'TradeConfig:setRunTimeMode', 'TradeConfig:setMAX_USERS', 'TradeConfig:getActionTrace', 'TradeConfig:getTrace', 'TradeConfig:setMarketSummaryInterval', 'TradeConfig:getDisplayOrderAlerts', 'TradeConfig:getPercentSentToWebsocket', 'TradeConfig:getPage', 'TradeConfig:setLongRun', 'TradeConfig:setPublishQuotePriceChange', 'TradeConfig:setPercentSentToWebsocket', 'Log:setActionTrace', 'TradeConfig:setWebInterface', 'TradeConfigServlet:doConfigDisplay', 'TradeConfig:setDisplayOrderAlerts', 'Log:setTrace'}
+
+Group #867 - Score = 87
+Contexts = frozenset({'recreate_db_tables', 'repopulate_db_tables', 'config'})
+Activities = {'TradeConfig:getPrimIterations', 'TradeConfig:getMAX_QUOTES', 'TradeConfigServlet:service', 'TradeConfig:getMAX_USERS', 'TradeConfig:getLongRun', 'TradeConfig:getMarketSummaryInterval', 'TradeConfigServlet:doConfigUpdate', 'TradeConfig:setMAX_QUOTES', 'TradeConfig:setOrderProcessingMode', 'TradeConfig:setTrace', 'TradeConfig:getPublishQuotePriceChange', 'TradeConfig:useRemoteEJBInterface', 'TradeConfig:setPrimIterations', 'TradeConfig:setRunTimeMode', 'TradeConfig:setMAX_USERS', 'TradeConfig:getActionTrace', 'TradeConfig:getTrace', 'TradeConfig:setMarketSummaryInterval', 'TradeConfig:getDisplayOrderAlerts', 'TradeConfig:getPercentSentToWebsocket', 'TradeConfig:getPage', 'TradeConfig:setLongRun', 'TradeConfig:setPublishQuotePriceChange', 'TradeConfig:setPercentSentToWebsocket', 'Log:setActionTrace', 'TradeConfig:setWebInterface', 'TradeConfigServlet:doConfigDisplay', 'TradeConfig:setDisplayOrderAlerts', 'Log:setTrace'}
+
+Group #869 - Score = 86
+Contexts = frozenset({'trade_buy', 'trade_sell'})
+Activities = {'TradeAction:orderCompleted', 'TimerStat:setCount', 'TradeConfig:getMAX_QUOTES', 'TimerStat:setTotalTime', 'TradeAppServlet:doGet', 'TradeSLSBBean:completeOrder', 'TradeConfig:getLongRun', 'OrderDataBean:getHolding', 'TimerStat:setMin', 'MDBStats:addTiming', 'TradeAction:getClosedOrders', 'Log:getTrace', 'OrderDataBean:setPrice', 'OrderDataBean:setOpenDate', 'TradeAction:TradeAction [overloaded_#001]', 'OrderDataBean:OrderDataBean [overloaded_#003]', 'MarketSummaryWebSocket:onJMSMessage', 'QuoteDataBean:getPrice', 'QuoteDataBean:setChange', 'QuoteDataBean:setPrice', 'OrderDataBean:getQuantity', 'DTStreamer3MDB:onMessage', 'Log:doTrace', 'OrderDataBean:setOrderFee', 'OrdersAlertFilter:doFilter', 'TradeSLSBBean:publishQuotePriceChange', 'OrderDataBean:setQuote', 'OrderDataBean:setHolding', 'TradeSLSBBean:getClosedOrders', 'RecentStockChangeList:addStockChange', 'TradeSLSBBean:createOrder', 'TradeConfig:getDisplayOrderAlerts', 'TradeConfig:getPercentSentToWebsocket', 'RecentStockChangeList:stockChangesInJSON', 'TradeAction:updateQuotePriceVolume', 'OrderDataBean:setQuantity', 'OrderDataBean:setCompletionDate', 'TradeSLSBBean:updateQuotePriceVolume', 'OrderDataBean:setAccount', 'Log:doActionTrace', 'TimerStat:getMin', 'OrderDataBean:setOrderType', 'TimerStat:getTotalTime'}
+
+Group #887 - Score = 82
+Contexts = frozenset({'trade-portfolio-sell', 'trade_sell'})
+Activities = {'OrderDataBean:getOrderID', 'TradeAction:orderCompleted', 'TimerStat:setCount', 'TradeConfig:getMAX_QUOTES', 'TimerStat:setTotalTime', 'TradeConfig:getLongRun', 'AccountProfileDataBean:getAccount', 'TradeSLSBBean:getHoldings', 'HoldingDataBean:setPurchaseDate', 'TimerStat:setMin', 'MDBStats:addTiming', 'TradeAction:getClosedOrders', 'TradeServletAction:doPortfolio', 'QuoteDataBean:getPrice', 'QuoteDataBean:setChange', 'QuoteDataBean:setPrice', 'DTStreamer3MDB:onMessage', 'AccountDataBean:getBalance', 'Log:doTrace', 'TradeConfig:getUpdateQuotePrices', 'OrderDataBean:getOrderFee', 'OrdersAlertFilter:doFilter', 'QuoteDataBean:setVolume', 'TradeSLSBBean:getClosedOrders', 'AccountDataBean:setBalance', 'TradeSLSBBean:sell', 'TradeAction:getQuote', 'TradeAppServlet:performTask', 'TradeConfig:getDisplayOrderAlerts', 'TradeConfig:getPercentSentToWebsocket', 'TradeServletAction:doSell', 'TradeAction:getHoldings', 'TradeConfig:getPage', 'TradeSLSBBean:getQuote', 'HoldingDataBean:getQuote', 'TradeSLSBBean:updateQuotePriceVolume', 'TimerStat:getMin', 'Log:doActionTrace', 'HoldingDataBean:getQuantity', 'HoldingDataBean:getQuoteID', 'TimerStat:getTotalTime'}
+
+Group #892 - Score = 81
+Contexts = frozenset({'trade-quotes-buy', 'trade_buy', 'trade_sell'})
+Activities = {'TradeAction:orderCompleted', 'TimerStat:setCount', 'TradeConfig:getMAX_QUOTES', 'TimerStat:setTotalTime', 'TradeConfig:getLongRun', 'TimerStat:setMin', 'MDBStats:addTiming', 'TradeAction:getClosedOrders', 'QuoteDataBean:getPrice', 'QuoteDataBean:setChange', 'QuoteDataBean:setPrice', 'DTStreamer3MDB:onMessage', 'Log:doTrace', 'TradeConfig:getUpdateQuotePrices', 'OrdersAlertFilter:doFilter', 'QuoteDataBean:setVolume', 'TradeSLSBBean:getClosedOrders', 'TradeAction:getQuote', 'QuoteDataBean:getVolume', 'QuoteDataBean:getOpen', 'TradeConfig:getDisplayOrderAlerts', 'TradeConfig:getPercentSentToWebsocket', 'TradeSLSBBean:getQuote', 'TradeSLSBBean:updateQuotePriceVolume', 'TimerStat:getMin', 'Log:doActionTrace', 'TimerStat:getTotalTime'}
+
+Group #945 - Score = 72
+Contexts = frozenset({'trade-portfolio-sell', 'trade-quotes-buy', 'trade_buy', 'trade_sell'})
+Activities = {'TradeConfig:getUpdateQuotePrices', 'OrdersAlertFilter:doFilter', 'TradeAction:orderCompleted', 'TradeAction:getClosedOrders', 'TradeConfig:getMAX_QUOTES', 'TradeSLSBBean:getQuote', 'QuoteDataBean:setVolume', 'TradeSLSBBean:updateQuotePriceVolume', 'TradeSLSBBean:getClosedOrders', 'Log:doActionTrace', 'TradeConfig:getLongRun', 'QuoteDataBean:getPrice', 'QuoteDataBean:setChange', 'QuoteDataBean:setPrice', 'DTStreamer3MDB:onMessage', 'TradeAction:getQuote', 'Log:doTrace', 'TradeConfig:getDisplayOrderAlerts'}
+
+Group #946 - Score = 72
+Contexts = frozenset({'logoff', 'Unknown', 'market_summary_glossary', 'market_summary'})
+Activities = {'RecentStockChangeList:stockChangesInJSON', 'Log:getTrace', 'Log:getActionTrace', 'MarketSummaryDataBean:toJSON', 'TradeAction:getMarketSummary', 'ActionMessage:doDecoding', 'TradeAction:TradeAction [overloaded_#001]', 'Log:doActionTrace', 'ActionMessage:getDecodedAction', 'MarketSummarySingleton:getMarketSummaryDataBean', 'Log:doTrace', 'QuoteDataBean:getChange', 'MarketSummaryWebSocket:mergeJsonObjects', 'MarketSummaryWebSocket:sendMarketSummary', 'TradeAction:createTrade', 'TradeSLSBBean:getMarketSummary', 'RecentStockChangeList:isEmpty', 'ActionDecoder:decode'}
+
+Group #947 - Score = 72
+Contexts = frozenset({'logoff', 'Unknown', 'market_summary_glossary', 'market_summary'})
+Activities = {'RecentStockChangeList:isEmpty', 'RecentStockChangeList:stockChangesInJSON', 'Log:getTrace', 'new ActionMessage', 'MarketSummaryDataBean:toJSON', 'TradeAction:getMarketSummary', 'TradeAction:TradeAction [overloaded_#001]', 'ActionMessage:doDecoding', 'ActionMessage:getDecodedAction', 'Log:doActionTrace', 'MarketSummarySingleton:getMarketSummaryDataBean', 'QuoteDataBean:getChange', 'MarketSummaryWebSocket:mergeJsonObjects', 'MarketSummaryWebSocket:sendMarketSummary', 'TradeAction:createTrade', 'TradeSLSBBean:getMarketSummary', 'Log:doTrace', 'ActionDecoder:decode'}
+
+Group #957 - Score = 70
+Contexts = frozenset({'trade-quotes-buy', 'trade_buy'})
+Activities = {'OrderDataBean:getOrderID', 'TradeAction:orderCompleted', 'TimerStat:setCount', 'TradeConfig:getMAX_QUOTES', 'TimerStat:setTotalTime', 'AccountDataBean:hashCode', 'TradeConfig:getLongRun', 'AccountProfileDataBean:getAccount', 'TimerStat:setMin', 'MDBStats:addTiming', 'TradeAction:getClosedOrders', 'QuoteDataBean:getPrice', 'QuoteDataBean:setChange', 'QuoteDataBean:setPrice', 'DTStreamer3MDB:onMessage', 'AccountDataBean:getBalance', 'Log:doTrace', 'TradeConfig:getUpdateQuotePrices', 'OrderDataBean:getOrderFee', 'OrdersAlertFilter:doFilter', 'TradeSLSBBean:buy', 'QuoteDataBean:setVolume', 'TradeSLSBBean:getClosedOrders', 'AccountDataBean:setBalance', 'TradeAction:buy', 'TradeAction:getQuote', 'QuoteDataBean:getVolume', 'TradeConfig:getDisplayOrderAlerts', 'QuoteDataBean:getOpen', 'TradeConfig:getPercentSentToWebsocket', 'TradeSLSBBean:getQuote', 'TradeSLSBBean:updateQuotePriceVolume', 'TimerStat:getMin', 'Log:doActionTrace', 'TimerStat:getTotalTime'}
+
+Group #972 - Score = 68
+Contexts = frozenset({'logoff', 'Unknown', 'market_summary_glossary', 'market_summary'})
+Activities = {'RecentStockChangeList:isEmpty', 'RecentStockChangeList:stockChangesInJSON', 'Log:getTrace', 'MarketSummaryDataBean:toJSON', 'TradeAction:getMarketSummary', 'TradeAction:TradeAction [overloaded_#001]', 'ActionMessage:doDecoding', 'Log:doActionTrace', 'ActionMessage:getDecodedAction', 'MarketSummarySingleton:getMarketSummaryDataBean', 'QuoteDataBean:getChange', 'MarketSummaryWebSocket:mergeJsonObjects', 'MarketSummaryWebSocket:sendMarketSummary', 'TradeAction:createTrade', 'TradeSLSBBean:getMarketSummary', 'Log:doTrace', 'ActionDecoder:decode'}
+
+Group #977 - Score = 68
+Contexts = frozenset({'trade-portfolio-sell', 'trade-quotes-buy'})
+Activities = {'TradeAction:orderCompleted', 'TimerStat:setCount', 'TradeConfig:getMAX_QUOTES', 'TimerStat:setTotalTime', 'TradeConfig:getLongRun', 'TimerStat:setMin', 'MDBStats:addTiming', 'TradeAction:getClosedOrders', 'QuoteDataBean:getPrice', 'QuoteDataBean:setChange', 'QuoteDataBean:setPrice', 'DTStreamer3MDB:onMessage', 'TradeConfig:getPublishQuotePriceChange', 'Log:doTrace', 'TradeConfig:useRemoteEJBInterface', 'TradeConfig:getUpdateQuotePrices', 'OrdersAlertFilter:doFilter', 'new OrderDataBean', 'QuoteDataBean:setVolume', 'TradeSLSBBean:getClosedOrders', 'new TradeAction', 'new QuoteDataBean', 'TradeAction:getQuote', 'TradeAppServlet:performTask', 'TradeConfig:getTrace', 'TradeConfig:getDisplayOrderAlerts', 'TradeConfig:getPercentSentToWebsocket', 'TradeSLSBBean:getQuote', 'QuoteDataBean:getSymbol', 'TradeSLSBBean:updateQuotePriceVolume', 'TimerStat:getMin', 'Log:doActionTrace', 'OrderDataBean:getSymbol', 'TimerStat:getTotalTime'}
+
+Group #1008 - Score = 65
+Contexts = frozenset({'market_summary_glossary', 'trade-marketsummary-glossary', 'market_summary', 'logoff', 'Unknown'})
+Activities = {'RecentStockChangeList:isEmpty', 'new ActionMessage', 'MarketSummaryDataBean:toJSON', 'TradeAction:getMarketSummary', 'ActionMessage:doDecoding', 'Log:doActionTrace', 'ActionMessage:getDecodedAction', 'MarketSummarySingleton:getMarketSummaryDataBean', 'QuoteDataBean:getChange', 'MarketSummaryWebSocket:sendMarketSummary', 'TradeSLSBBean:getMarketSummary', 'Log:doTrace', 'ActionDecoder:decode'}
+
+Group #1043 - Score = 64
+Contexts = frozenset({'trade-portfolio-sell', 'trade_sell'})
+Activities = {'TradeAction:orderCompleted', 'TradeConfig:getMAX_QUOTES', 'TradeConfig:getLongRun', 'AccountProfileDataBean:getAccount', 'TradeSLSBBean:getHoldings', 'HoldingDataBean:setPurchaseDate', 'TradeServletAction:doPortfolio', 'TradeAction:getClosedOrders', 'QuoteDataBean:getPrice', 'QuoteDataBean:setChange', 'QuoteDataBean:setPrice', 'DTStreamer3MDB:onMessage', 'AccountDataBean:getBalance', 'Log:doTrace', 'TradeConfig:getUpdateQuotePrices', 'OrdersAlertFilter:doFilter', 'QuoteDataBean:setVolume', 'TradeSLSBBean:getClosedOrders', 'TradeSLSBBean:sell', 'TradeAction:getQuote', 'TradeAppServlet:performTask', 'TradeConfig:getDisplayOrderAlerts', 'TradeServletAction:doSell', 'TradeAction:getHoldings', 'TradeConfig:getPage', 'TradeSLSBBean:getQuote', 'HoldingDataBean:getQuote', 'QuoteDataBean:getSymbol', 'TradeSLSBBean:updateQuotePriceVolume', 'Log:doActionTrace', 'HoldingDataBean:getQuoteID', 'OrderDataBean:getSymbol'}
+
+Group #1045 - Score = 64
+Contexts = frozenset({'trade-portfolio-sell', 'trade-quotes-buy', 'trade_buy', 'trade_sell'})
+Activities = {'TradeConfig:getUpdateQuotePrices', 'OrdersAlertFilter:doFilter', 'TradeAction:orderCompleted', 'TradeAction:getClosedOrders', 'TradeConfig:getMAX_QUOTES', 'TradeConfig:getLongRun', 'TradeSLSBBean:updateQuotePriceVolume', 'TradeSLSBBean:getClosedOrders', 'Log:doActionTrace', 'QuoteDataBean:setVolume', 'QuoteDataBean:getPrice', 'QuoteDataBean:setChange', 'QuoteDataBean:setPrice', 'DTStreamer3MDB:onMessage', 'Log:doTrace', 'TradeConfig:getDisplayOrderAlerts'}
+
+Group #1056 - Score = 63
+Contexts = frozenset({'trade_buy', 'market_summary', 'trade_sell', 'account', 'logoff', 'register', 'Unknown'})
+Activities = {'OrdersAlertFilter:doFilter', 'Log:getTrace', 'TradeAppServlet:doGet', 'TradeAction:TradeAction [overloaded_#001]', 'Log:doActionTrace', 'TradeAction:createTrade', 'TradeAppServlet:performTask', 'Log:doTrace', 'TradeConfig:getDisplayOrderAlerts'}
+
+Group #1062 - Score = 62
+Contexts = frozenset({'trade_buy', 'trade_sell'})
+Activities = {'TradeAction:orderCompleted', 'TradeConfig:getMAX_QUOTES', 'OrderDataBean:getQuote', 'TradeSLSBBean:completeOrder', 'TradeConfig:getLongRun', 'OrderDataBean:getHolding', 'OrderDataBean:isCompleted', 'AccountDataBean:getProfile', 'OrderDataBean:setPrice', 'OrderDataBean:setOpenDate', 'TradeAction:TradeAction [overloaded_#001]', 'OrderDataBean:OrderDataBean [overloaded_#003]', 'OrderDataBean:isBuy', 'OrderDataBean:getQuantity', 'DTStreamer3MDB:onMessage', 'Log:doTrace', 'OrderDataBean:setOrderFee', 'OrderDataBean:getPrice', 'OrderDataBean:setQuote', 'OrderDataBean:setHolding', 'TradeSLSBBean:getClosedOrders', 'AccountProfileDataBean:getUserID', 'OrderDataBean:setOrderStatus', 'TradeSLSBBean:createOrder', 'TradeAppServlet:performTask', 'OrderDataBean:hashCode', 'OrderDataBean:setQuantity', 'OrderDataBean:setCompletionDate', 'OrderDataBean:setAccount', 'OrderDataBean:setOrderType', 'TradeConfig:getOrderFee'}
+
+Group #1083 - Score = 60
+Contexts = frozenset({'login', 'trade_buy', 'trade-portfolio-sell', 'trade-account', 'trade-marketsummary-glossary', 'trade_sell', 'market_summary', 'account', 'trade-quotes-buy', 'trade-account-updateprofile'})
+Activities = {'OrdersAlertFilter:doFilter', 'TradeAction:getClosedOrders', 'TradeSLSBBean:getClosedOrders', 'Log:doActionTrace', 'Log:doTrace', 'TradeConfig:getDisplayOrderAlerts'}
+
+Group #1090 - Score = 60
+Contexts = frozenset({'market_summary_glossary', 'trade-marketsummary-glossary', 'market_summary', 'logoff', 'Unknown'})
+Activities = {'MarketSummaryDataBean:toJSON', 'TradeAction:getMarketSummary', 'ActionMessage:doDecoding', 'Log:doActionTrace', 'ActionMessage:getDecodedAction', 'MarketSummarySingleton:getMarketSummaryDataBean', 'Log:doTrace', 'QuoteDataBean:getChange', 'MarketSummaryWebSocket:sendMarketSummary', 'TradeSLSBBean:getMarketSummary', 'RecentStockChangeList:isEmpty', 'ActionDecoder:decode'}
+
+Group #1092 - Score = 60
+Contexts = frozenset({'ping_servlet_cdi', 'ping_servlet_cdi_manager', 'primitives', 'ping_servlet_writer', 'register', 'repopulate_db_tables'})
+Activities = {'Log:getTrace', 'MarketSummarySingleton:updateMarketSummary', 'MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]', 'TradeConfig:getRunTimeMode', 'QuoteDataBean:getPrice', 'MarketSummarySingleton:setMarketSummaryDataBean', 'QuoteDataBean:QuoteDataBean [overloaded_#001]', 'QuoteDataBean:getVolume', 'Log:doTrace', 'QuoteDataBean:getOpen'}
+
+Group #1093 - Score = 60
+Contexts = frozenset({'logoff', 'Unknown', 'market_summary'})
+Activities = {'TradeAppServlet:doGet', 'TradeAction:getMarketSummary', 'ActionMessage:doDecoding', 'ActionMessage:getDecodedAction', 'MarketSummarySingleton:getMarketSummaryDataBean', 'TradeAction:createTrade', 'Log:getTrace', 'MarketSummaryDataBean:toJSON', 'TradeAction:TradeAction [overloaded_#001]', 'MarketSummaryWebSocket:sendMarketSummary', 'TradeSLSBBean:getMarketSummary', 'Log:doTrace', 'OrdersAlertFilter:doFilter', 'QuoteDataBean:getChange', 'TradeAppServlet:performTask', 'RecentStockChangeList:isEmpty', 'ActionDecoder:decode', 'RecentStockChangeList:stockChangesInJSON', 'Log:doActionTrace', 'MarketSummaryWebSocket:mergeJsonObjects'}
+
+Group #1104 - Score = 58
+Contexts = frozenset({'trade-portfolio-sell', 'trade_sell'})
+Activities = {'OrderDataBean:getOrderID', 'TradeAction:orderCompleted', 'TradeConfig:getMAX_QUOTES', 'TradeConfig:getLongRun', 'AccountProfileDataBean:getAccount', 'HoldingDataBean:setPurchaseDate', 'TradeAction:getClosedOrders', 'TradeServletAction:doPortfolio', 'QuoteDataBean:getPrice', 'QuoteDataBean:setChange', 'QuoteDataBean:setPrice', 'DTStreamer3MDB:onMessage', 'AccountDataBean:getBalance', 'Log:doTrace', 'TradeConfig:getUpdateQuotePrices', 'OrderDataBean:getOrderFee', 'OrdersAlertFilter:doFilter', 'QuoteDataBean:setVolume', 'TradeSLSBBean:getClosedOrders', 'AccountDataBean:setBalance', 'TradeSLSBBean:sell', 'TradeAction:getQuote', 'TradeConfig:getDisplayOrderAlerts', 'TradeAction:getHoldings', 'TradeSLSBBean:getQuote', 'HoldingDataBean:getQuote', 'TradeSLSBBean:updateQuotePriceVolume', 'Log:doActionTrace', 'HoldingDataBean:getQuantity'}
+
+Group #1108 - Score = 58
+Contexts = frozenset({'trade-account', 'trade-account-updateprofile'})
+Activities = {'new AccountDataBean', 'TradeConfig:getLongRun', 'AccountProfileDataBean:getAccount', 'TradeAction:getClosedOrders', 'AccountDataBean:getProfileID', 'TradeAction:getAccountData', 'AccountDataBean:getBalance', 'Log:doTrace', 'TradeAction:getAccountProfileData', 'TradeConfig:useRemoteEJBInterface', 'TradeSLSBBean:getAccountProfileData', 'OrdersAlertFilter:doFilter', 'new AccountProfileDataBean', 'TradeSLSBBean:getClosedOrders', 'new TradeAction', 'TradeSLSBBean:getAccountData', 'AccountDataBean:setProfileID', 'AccountProfileDataBean:getUserID', 'AccountDataBean:getLoginCount', 'TradeConfig:getTrace', 'TradeAppServlet:performTask', 'TradeConfig:getDisplayOrderAlerts', 'AccountDataBean:getCreationDate', 'AccountDataBean:getLastLogin', 'TradeConfig:getPage', 'AccountDataBean:getOpenBalance', 'Log:doActionTrace', 'AccountDataBean:getAccountID', 'AccountDataBean:getLogoutCount'}
+
+Group #1140 - Score = 56
+Contexts = frozenset({'trade-portfolio-sell', 'trade-quotes-buy', 'trade_buy', 'trade_sell'})
+Activities = {'TimerStat:setMin', 'TradeConfig:getPercentSentToWebsocket', 'MDBStats:addTiming', 'TimerStat:setCount', 'TradeConfig:getMAX_QUOTES', 'TimerStat:setTotalTime', 'TradeConfig:getLongRun', 'TimerStat:getMin', 'TradeSLSBBean:getClosedOrders', 'TimerStat:getCount', 'TimerStat:getMax', 'DTStreamer3MDB:onMessage', 'TimerStat:getTotalTime', 'Log:doTrace'}
+
+Group #1141 - Score = 56
+Contexts = frozenset({'ping_servlet_cdi', 'ping_servlet_cdi_manager', 'primitives', 'account', 'ping_servlet_writer', 'register', 'repopulate_db_tables'})
+Activities = {'MarketSummarySingleton:updateMarketSummary', 'MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]', 'TradeConfig:getRunTimeMode', 'QuoteDataBean:getPrice', 'MarketSummarySingleton:setMarketSummaryDataBean', 'QuoteDataBean:QuoteDataBean [overloaded_#001]', 'QuoteDataBean:getVolume', 'QuoteDataBean:getOpen'}
+
+Group #1144 - Score = 56
+Contexts = frozenset({'trade_buy', 'market_summary', 'trade_sell', 'account', 'logoff', 'register', 'Unknown'})
+Activities = {'OrdersAlertFilter:doFilter', 'Log:getTrace', 'TradeAppServlet:doGet', 'TradeAction:TradeAction [overloaded_#001]', 'Log:doActionTrace', 'TradeAction:createTrade', 'TradeAppServlet:performTask', 'Log:doTrace'}
+
+Group #1146 - Score = 56
+Contexts = frozenset({'trade-portfolio-sell', 'trade_buy'})
+Activities = {'TradeAction:orderCompleted', 'TimerStat:setCount', 'TradeConfig:getMAX_QUOTES', 'TimerStat:setTotalTime', 'TradeConfig:getLongRun', 'TimerStat:setMin', 'MDBStats:addTiming', 'TradeAction:getClosedOrders', 'TimerStat:setMax', 'QuoteDataBean:getPrice', 'QuoteDataBean:setChange', 'QuoteDataBean:setPrice', 'DTStreamer3MDB:onMessage', 'new DTStreamer3MDB', 'Log:doTrace', 'TradeConfig:getUpdateQuotePrices', 'OrdersAlertFilter:doFilter', 'QuoteDataBean:setVolume', 'TradeSLSBBean:getClosedOrders', 'MDBStats:getInstance', 'TradeAction:getQuote', 'TradeConfig:getDisplayOrderAlerts', 'TradeConfig:getPercentSentToWebsocket', 'TradeSLSBBean:getQuote', 'TradeSLSBBean:updateQuotePriceVolume', 'TimerStat:getMin', 'Log:doActionTrace', 'TimerStat:getTotalTime'}
+
+Group #1161 - Score = 56
+Contexts = frozenset({'trade-portfolio-sell', 'trade_sell'})
+Activities = {'OrderDataBean:getOrderID', 'TradeAction:orderCompleted', 'TradeConfig:getMAX_QUOTES', 'TradeConfig:getLongRun', 'AccountProfileDataBean:getAccount', 'HoldingDataBean:setPurchaseDate', 'TradeAction:getClosedOrders', 'TradeServletAction:doPortfolio', 'QuoteDataBean:getPrice', 'QuoteDataBean:setChange', 'QuoteDataBean:setPrice', 'DTStreamer3MDB:onMessage', 'AccountDataBean:getBalance', 'Log:doTrace', 'TradeConfig:getUpdateQuotePrices', 'OrdersAlertFilter:doFilter', 'QuoteDataBean:setVolume', 'TradeSLSBBean:getClosedOrders', 'AccountDataBean:setBalance', 'TradeSLSBBean:sell', 'TradeAction:getQuote', 'TradeConfig:getDisplayOrderAlerts', 'TradeAction:getHoldings', 'TradeSLSBBean:getQuote', 'HoldingDataBean:getQuote', 'TradeSLSBBean:updateQuotePriceVolume', 'Log:doActionTrace', 'HoldingDataBean:getQuantity'}
+
+Group #1162 - Score = 56
+Contexts = frozenset({'login', 'trade_buy', 'market_summary', 'trade_sell', 'account', 'logoff', 'register', 'Unknown'})
+Activities = {'Log:getTrace', 'Log:getActionTrace', 'TradeAction:TradeAction [overloaded_#001]', 'Log:doActionTrace', 'TradeAction:createTrade', 'TradeAppServlet:performTask', 'Log:doTrace'}
+
+Group #1170 - Score = 56
+Contexts = frozenset({'trade-account', 'trade-account-updateprofile'})
+Activities = {'TradeConfig:getLongRun', 'TradeAction:getClosedOrders', 'AccountDataBean:getProfileID', 'TradeAction:getAccountData', 'AccountDataBean:getBalance', 'Log:doTrace', 'TradeAction:getAccountProfileData', 'TradeConfig:useRemoteEJBInterface', 'TradeSLSBBean:getAccountProfileData', 'OrdersAlertFilter:doFilter', 'new AccountProfileDataBean', 'TradeSLSBBean:getClosedOrders', 'new TradeAction', 'TradeSLSBBean:getAccountData', 'TradeConfig:getActionTrace', 'AccountDataBean:setProfileID', 'AccountProfileDataBean:getUserID', 'AccountDataBean:getLoginCount', 'TradeAppServlet:performTask', 'TradeConfig:getTrace', 'TradeConfig:getDisplayOrderAlerts', 'AccountDataBean:getCreationDate', 'AccountDataBean:getLastLogin', 'TradeConfig:getPage', 'AccountDataBean:getOpenBalance', 'Log:doActionTrace', 'AccountDataBean:getAccountID', 'AccountDataBean:getLogoutCount'}
+
+Group #1171 - Score = 56
+Contexts = frozenset({'logoff', 'Unknown'})
+Activities = {'MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]', 'TradeAction:getMarketSummary', 'ActionMessage:doDecoding', 'ActionMessage:getDecodedAction', 'MarketSummarySingleton:getMarketSummaryDataBean', 'QuoteDataBean:QuoteDataBean [overloaded_#001]', 'TradeAction:createTrade', 'Log:getTrace', 'Log:getActionTrace', 'MarketSummaryDataBean:toJSON', 'TradeAction:TradeAction [overloaded_#001]', 'TradeConfig:getRunTimeMode', 'QuoteDataBean:getPrice', 'MarketSummarySingleton:setMarketSummaryDataBean', 'MarketSummaryWebSocket:sendMarketSummary', 'TradeSLSBBean:getMarketSummary', 'Log:doTrace', 'QuoteDataBean:getChange', 'QuoteDataBean:getVolume', 'TradeAppServlet:performTask', 'RecentStockChangeList:isEmpty', 'QuoteDataBean:getOpen', 'ActionDecoder:decode', 'RecentStockChangeList:stockChangesInJSON', 'MarketSummarySingleton:updateMarketSummary', 'QuoteDataBean:getSymbol', 'Log:doActionTrace', 'MarketSummaryWebSocket:mergeJsonObjects'}
+
+Group #1244 - Score = 54
+Contexts = frozenset({'login', 'trade-portfolio-sell', 'trade-account', 'trade-marketsummary-glossary', 'trade-quotes-buy', 'trade-account-updateprofile'})
+Activities = {'OrdersAlertFilter:doFilter', 'TradeAction:getClosedOrders', 'TradeConfig:getTrace', 'TradeSLSBBean:getClosedOrders', 'new TradeAction', 'Log:doActionTrace', 'TradeAppServlet:performTask', 'Log:doTrace', 'TradeConfig:getDisplayOrderAlerts'}
+
+Group #1245 - Score = 54
+Contexts = frozenset({'trade-account', 'trade-account-updateprofile'})
+Activities = {'TradeConfig:getLongRun', 'TradeAction:getClosedOrders', 'AccountDataBean:getProfileID', 'TradeAction:getAccountData', 'AccountDataBean:getBalance', 'Log:doTrace', 'TradeAction:getAccountProfileData', 'TradeConfig:useRemoteEJBInterface', 'TradeSLSBBean:getAccountProfileData', 'OrdersAlertFilter:doFilter', 'new AccountProfileDataBean', 'TradeSLSBBean:getClosedOrders', 'new TradeAction', 'TradeSLSBBean:getAccountData', 'AccountDataBean:setProfileID', 'AccountProfileDataBean:getUserID', 'AccountDataBean:getLoginCount', 'TradeAppServlet:performTask', 'TradeConfig:getTrace', 'TradeConfig:getDisplayOrderAlerts', 'AccountDataBean:getCreationDate', 'AccountDataBean:getLastLogin', 'TradeConfig:getPage', 'AccountDataBean:getOpenBalance', 'Log:doActionTrace', 'AccountDataBean:getAccountID', 'AccountDataBean:getLogoutCount'}
+
+Group #1328 - Score = 52
+Contexts = frozenset({'trade-portfolio-sell', 'trade-quotes-buy'})
+Activities = {'new AccountDataBean', 'OrderDataBean:getQuote', 'OrderDataBean:getHolding', 'OrderDataBean:isCompleted', 'AccountProfileDataBean:getAccount', 'AccountDataBean:getProfile', 'OrderDataBean:setPrice', 'OrderDataBean:setOpenDate', 'OrderDataBean:isBuy', 'AccountDataBean:getBalance', 'OrderDataBean:getAccount', 'OrderDataBean:setOrderFee', 'OrderDataBean:getPrice', 'OrderDataBean:setQuote', 'new AccountProfileDataBean', 'OrderDataBean:setHolding', 'AccountDataBean:setBalance', 'OrderDataBean:isSell', 'AccountProfileDataBean:getUserID', 'OrderDataBean:setOrderStatus', 'OrderDataBean:hashCode', 'OrderDataBean:setQuantity', 'OrderDataBean:setCompletionDate', 'OrderDataBean:setAccount', 'OrderDataBean:setOrderType', 'TradeConfig:getOrderFee'}
+
+Group #1401 - Score = 52
+Contexts = frozenset({'trade-portfolio-sell', 'trade_sell'})
+Activities = {'TradeAction:orderCompleted', 'TradeConfig:getMAX_QUOTES', 'TradeConfig:getLongRun', 'AccountProfileDataBean:getAccount', 'TradeSLSBBean:getHoldings', 'HoldingDataBean:setPurchaseDate', 'TradeServletAction:doPortfolio', 'TradeAction:getClosedOrders', 'DTStreamer3MDB:onMessage', 'AccountDataBean:getBalance', 'Log:doTrace', 'OrdersAlertFilter:doFilter', 'TradeSLSBBean:getClosedOrders', 'TradeSLSBBean:sell', 'TradeAction:getQuote', 'TradeAppServlet:performTask', 'TradeConfig:getDisplayOrderAlerts', 'TradeServletAction:doSell', 'TradeAction:getHoldings', 'TradeConfig:getPage', 'HoldingDataBean:getQuote', 'TradeSLSBBean:getQuote', 'QuoteDataBean:getSymbol', 'Log:doActionTrace', 'HoldingDataBean:getQuoteID', 'OrderDataBean:getSymbol'}
+
+Group #1850 - Score = 52
+Contexts = frozenset({'trade-account', 'trade-account-updateprofile'})
+Activities = {'TradeConfig:getLongRun', 'TradeAction:getClosedOrders', 'AccountDataBean:getProfileID', 'TradeAction:getAccountData', 'AccountDataBean:getBalance', 'Log:doTrace', 'TradeAction:getAccountProfileData', 'TradeSLSBBean:getAccountProfileData', 'OrdersAlertFilter:doFilter', 'new AccountProfileDataBean', 'TradeSLSBBean:getClosedOrders', 'new TradeAction', 'TradeSLSBBean:getAccountData', 'AccountDataBean:setProfileID', 'AccountProfileDataBean:getUserID', 'AccountDataBean:getLoginCount', 'TradeConfig:getTrace', 'TradeAppServlet:performTask', 'TradeConfig:getDisplayOrderAlerts', 'AccountDataBean:getCreationDate', 'AccountDataBean:getLastLogin', 'TradeConfig:getPage', 'AccountDataBean:getOpenBalance', 'Log:doActionTrace', 'AccountDataBean:getAccountID', 'AccountDataBean:getLogoutCount'}
+
+Group #1916 - Score = 50
+Contexts = frozenset({'market_summary_glossary', 'trade-marketsummary-glossary', 'market_summary', 'logoff', 'Unknown'})
+Activities = {'new ActionMessage', 'TradeAction:getMarketSummary', 'ActionMessage:doDecoding', 'Log:doActionTrace', 'ActionMessage:getDecodedAction', 'MarketSummarySingleton:getMarketSummaryDataBean', 'MarketSummaryWebSocket:sendMarketSummary', 'TradeSLSBBean:getMarketSummary', 'Log:doTrace', 'ActionDecoder:decode'}
+
+Group #1917 - Score = 50
+Contexts = frozenset({'logoff', 'Unknown'})
+Activities = {'MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]', 'TradeAction:getMarketSummary', 'ActionMessage:getDecodedAction', 'MarketSummarySingleton:getMarketSummaryDataBean', 'QuoteDataBean:QuoteDataBean [overloaded_#001]', 'Log:getTrace', 'MarketSummaryDataBean:toJSON', 'TradeAction:TradeAction [overloaded_#001]', 'TradeConfig:getRunTimeMode', 'QuoteDataBean:getPrice', 'MarketSummarySingleton:setMarketSummaryDataBean', 'MarketSummaryWebSocket:sendMarketSummary', 'TradeSLSBBean:getMarketSummary', 'Log:doTrace', 'QuoteDataBean:getChange', 'QuoteDataBean:getVolume', 'TradeAppServlet:performTask', 'RecentStockChangeList:isEmpty', 'QuoteDataBean:getOpen', 'ActionDecoder:decode', 'RecentStockChangeList:stockChangesInJSON', 'MarketSummarySingleton:updateMarketSummary', 'QuoteDataBean:getSymbol', 'Log:doActionTrace', 'MarketSummaryWebSocket:mergeJsonObjects'}
+
+Group #1929 - Score = 50
+Contexts = frozenset({'register', 'login'})
+Activities = {'AccountDataBean:login', 'FinancialUtils:computeGainPercent', 'AccountProfileDataBean:getAccount', 'TradeSLSBBean:getHoldings', 'TradeAction:createTrade', 'TradeSLSBBean:login', 'AccountProfileDataBean:AccountProfileDataBean [overloaded_#001]', 'Log:getTrace', 'Log:getActionTrace', 'TradeAction:getAccountData', 'TradeAction:TradeAction [overloaded_#001]', 'TradeServletAction:requestDispatch', 'Log:doTrace', 'TradeServletAction:doHome', 'TradeAction:login', 'AccountProfileDataBean:getPassword', 'TradeSLSBBean:getAccountData', 'AccountProfileDataBean:getUserID', 'AccountDataBean:getLoginCount', 'TradeAppServlet:performTask', 'TradeServletAction:doLogin', 'AccountDataBean:AccountDataBean [overloaded_#001]', 'TradeAction:getHoldings', 'AccountDataBean:getAccountID', 'Log:doActionTrace'}
+
+Group #1952 - Score = 50
+Contexts = frozenset({'login', 'trade_buy', 'trade_sell', 'market_summary', 'account'})
+Activities = {'OrdersAlertFilter:doFilter', 'Log:getTrace', 'TradeAction:getClosedOrders', 'TradeAction:TradeAction [overloaded_#001]', 'TradeSLSBBean:getClosedOrders', 'Log:doActionTrace', 'TradeAction:createTrade', 'TradeAppServlet:performTask', 'Log:doTrace', 'TradeConfig:getDisplayOrderAlerts'}
+
+Group #1974 - Score = 49
+Contexts = frozenset({'trade-portfolio-sell', 'trade-account', 'trade-marketsummary-glossary', 'trade-logoff', 'init', 'trade-quotes-buy', 'trade-account-updateprofile'})
+Activities = {'TradeConfig:useRemoteEJBInterface', 'OrdersAlertFilter:doFilter', 'TradeAppServlet:performTask', 'new TradeAction', 'TradeConfig:getTrace', 'Log:doTrace', 'TradeConfig:getDisplayOrderAlerts'}
+
+Group #1975 - Score = 49
+Contexts = frozenset({'login', 'trade-portfolio-sell', 'trade-account', 'trade-marketsummary-glossary', 'trade-logoff', 'trade-quotes-buy', 'trade-account-updateprofile'})
+Activities = {'OrdersAlertFilter:doFilter', 'TradeAppServlet:performTask', 'new TradeAction', 'Log:doActionTrace', 'TradeConfig:getTrace', 'Log:doTrace', 'TradeConfig:getDisplayOrderAlerts'}
+
+Group #1985 - Score = 48
+Contexts = frozenset({'register', 'login'})
+Activities = {'AccountDataBean:login', 'AccountProfileDataBean:getAccount', 'TradeSLSBBean:getHoldings', 'TradeAction:createTrade', 'TradeSLSBBean:login', 'AccountDataBean:getProfile', 'AccountProfileDataBean:AccountProfileDataBean [overloaded_#001]', 'Log:getTrace', 'Log:getActionTrace', 'TradeAction:getAccountData', 'TradeAction:TradeAction [overloaded_#001]', 'TradeServletAction:requestDispatch', 'Log:doTrace', 'TradeServletAction:doHome', 'TradeSLSBBean:getAccountData', 'TradeAction:login', 'AccountProfileDataBean:getPassword', 'AccountProfileDataBean:getUserID', 'AccountDataBean:getLoginCount', 'TradeAppServlet:performTask', 'TradeServletAction:doLogin', 'AccountDataBean:AccountDataBean [overloaded_#001]', 'TradeAction:getHoldings', 'Log:doActionTrace'}
+
+Group #1986 - Score = 48
+Contexts = frozenset({'logoff', 'Unknown', 'market_summary_glossary', 'market_summary'})
+Activities = {'RecentStockChangeList:isEmpty', 'RecentStockChangeList:stockChangesInJSON', 'MarketSummaryDataBean:toJSON', 'TradeAction:getMarketSummary', 'TradeAction:TradeAction [overloaded_#001]', 'ActionMessage:getDecodedAction', 'QuoteDataBean:getChange', 'MarketSummaryWebSocket:mergeJsonObjects', 'MarketSummaryWebSocket:sendMarketSummary', 'TradeSLSBBean:getMarketSummary', 'Log:doTrace', 'ActionDecoder:decode'}
+
+Group #1987 - Score = 48
+Contexts = frozenset({'trade-portfolio-sell', 'trade-quotes-buy', 'trade_buy', 'trade_sell'})
+Activities = {'TimerStat:setMin', 'TradeConfig:getPercentSentToWebsocket', 'MDBStats:addTiming', 'TimerStat:setCount', 'TradeConfig:getMAX_QUOTES', 'TimerStat:setTotalTime', 'TradeConfig:getLongRun', 'TimerStat:getMin', 'TradeSLSBBean:getClosedOrders', 'DTStreamer3MDB:onMessage', 'TimerStat:getTotalTime', 'Log:doTrace'}
+
+Group #2006 - Score = 46
+Contexts = frozenset({'register', 'login'})
+Activities = {'AccountDataBean:login', 'AccountProfileDataBean:getAccount', 'TradeSLSBBean:getHoldings', 'TradeAction:createTrade', 'TradeSLSBBean:login', 'AccountProfileDataBean:AccountProfileDataBean [overloaded_#001]', 'Log:getTrace', 'Log:getActionTrace', 'TradeAction:getAccountData', 'TradeAction:TradeAction [overloaded_#001]', 'TradeServletAction:requestDispatch', 'Log:doTrace', 'TradeServletAction:doHome', 'TradeSLSBBean:getAccountData', 'TradeAction:login', 'AccountProfileDataBean:getPassword', 'AccountProfileDataBean:getUserID', 'AccountDataBean:getLoginCount', 'TradeAppServlet:performTask', 'TradeServletAction:doLogin', 'AccountDataBean:AccountDataBean [overloaded_#001]', 'TradeAction:getHoldings', 'Log:doActionTrace'}
+
+Group #2036 - Score = 44
+Contexts = frozenset({'recreate_db_tables', 'repopulate_db_tables', 'config', 'init'})
+Activities = {'TradeConfig:setPrimIterations', 'TradeConfig:setLongRun', 'TradeConfig:setRunTimeMode', 'TradeConfig:setMAX_USERS', 'TradeConfig:setPercentSentToWebsocket', 'TradeConfig:setPublishQuotePriceChange', 'TradeConfig:setWebInterface', 'TradeConfig:setDisplayOrderAlerts', 'TradeConfig:setMAX_QUOTES', 'TradeConfig:setOrderProcessingMode', 'TradeConfig:setMarketSummaryInterval'}
+
+Group #2037 - Score = 44
+Contexts = frozenset({'logoff', 'Unknown'})
+Activities = {'MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]', 'TradeAction:getMarketSummary', 'ActionMessage:getDecodedAction', 'QuoteDataBean:QuoteDataBean [overloaded_#001]', 'MarketSummaryDataBean:toJSON', 'TradeAction:TradeAction [overloaded_#001]', 'TradeConfig:getRunTimeMode', 'QuoteDataBean:getPrice', 'MarketSummarySingleton:setMarketSummaryDataBean', 'MarketSummaryWebSocket:sendMarketSummary', 'TradeSLSBBean:getMarketSummary', 'Log:doTrace', 'QuoteDataBean:getChange', 'QuoteDataBean:getVolume', 'TradeAppServlet:performTask', 'RecentStockChangeList:isEmpty', 'QuoteDataBean:getOpen', 'ActionDecoder:decode', 'RecentStockChangeList:stockChangesInJSON', 'MarketSummarySingleton:updateMarketSummary', 'QuoteDataBean:getSymbol', 'MarketSummaryWebSocket:mergeJsonObjects'}
+
+Group #2084 - Score = 44
+Contexts = frozenset({'trade-portfolio-sell', 'trade-quotes-buy'})
+Activities = {'TradeAction:orderCompleted', 'TradeConfig:getMAX_QUOTES', 'TradeConfig:getLongRun', 'TradeAction:getClosedOrders', 'QuoteDataBean:getPrice', 'QuoteDataBean:setChange', 'QuoteDataBean:setPrice', 'DTStreamer3MDB:onMessage', 'TradeConfig:getPublishQuotePriceChange', 'Log:doTrace', 'TradeConfig:getUpdateQuotePrices', 'OrdersAlertFilter:doFilter', 'QuoteDataBean:setVolume', 'TradeSLSBBean:getClosedOrders', 'new TradeAction', 'TradeAppServlet:performTask', 'TradeConfig:getTrace', 'TradeConfig:getDisplayOrderAlerts', 'QuoteDataBean:getSymbol', 'TradeSLSBBean:updateQuotePriceVolume', 'Log:doActionTrace', 'OrderDataBean:getSymbol'}
+
+Group #2149 - Score = 42
+Contexts = frozenset({'account', 'trade-account-updateprofile'})
+Activities = {'AccountProfileDataBean:getAccount', 'TradeAction:getClosedOrders', 'TradeAction:getAccountData', 'AccountProfileDataBean:getAddress', 'AccountProfileDataBean:getEmail', 'Log:doTrace', 'TradeAction:getAccountProfileData', 'TradeSLSBBean:getAccountProfileData', 'OrdersAlertFilter:doFilter', 'AccountProfileDataBean:getCreditCard', 'TradeSLSBBean:getClosedOrders', 'TradeSLSBBean:getAccountData', 'AccountProfileDataBean:hashCode', 'TradeAction:updateAccountProfile', 'AccountProfileDataBean:getFullName', 'AccountProfileDataBean:getPassword', 'AccountProfileDataBean:getUserID', 'AccountDataBean:setProfileID', 'TradeConfig:getDisplayOrderAlerts', 'Log:doActionTrace', 'TradeSLSBBean:updateAccountProfile'}
+
+Group #2159 - Score = 42
+Contexts = frozenset({'trade-marketsummary-glossary', 'market_summary_glossary', 'market_summary'})
+Activities = {'MarketSummaryDataBean:toJSON', 'TradeAction:getMarketSummary', 'ActionMessage:doDecoding', 'TradeConfig:getRunTimeMode', 'Log:doActionTrace', 'ActionMessage:getDecodedAction', 'QuoteDataBean:getPrice', 'MarketSummarySingleton:getMarketSummaryDataBean', 'Log:doTrace', 'QuoteDataBean:getChange', 'MarketSummaryWebSocket:sendMarketSummary', 'TradeSLSBBean:getMarketSummary', 'RecentStockChangeList:isEmpty', 'ActionDecoder:decode'}
+
+Group #2162 - Score = 42
+Contexts = frozenset({'login', 'trade_buy', 'trade-portfolio-sell', 'market_summary', 'trade_sell', 'trade-quotes-buy'})
+Activities = {'OrdersAlertFilter:doFilter', 'TradeAction:getClosedOrders', 'TradeConfig:getLongRun', 'TradeSLSBBean:getClosedOrders', 'Log:doActionTrace', 'Log:doTrace', 'TradeConfig:getDisplayOrderAlerts'}
+
+Group #2196 - Score = 42
+Contexts = frozenset({'trade_buy', 'market_summary', 'trade_sell', 'account', 'logoff', 'register', 'Unknown'})
+Activities = {'OrdersAlertFilter:doFilter', 'TradeAppServlet:doGet', 'TradeAction:TradeAction [overloaded_#001]', 'TradeAppServlet:performTask', 'Log:doTrace', 'TradeConfig:getDisplayOrderAlerts'}
+
+Group #2212 - Score = 40
+Contexts = frozenset({'register', 'login'})
+Activities = {'AccountDataBean:login', 'AccountProfileDataBean:getAccount', 'TradeAction:createTrade', 'TradeSLSBBean:login', 'AccountProfileDataBean:AccountProfileDataBean [overloaded_#001]', 'Log:getTrace', 'TradeAction:getAccountData', 'TradeAction:TradeAction [overloaded_#001]', 'TradeServletAction:requestDispatch', 'Log:doTrace', 'TradeServletAction:doHome', 'TradeSLSBBean:getAccountData', 'TradeAction:login', 'AccountProfileDataBean:getPassword', 'AccountProfileDataBean:getUserID', 'AccountDataBean:getLoginCount', 'TradeAppServlet:performTask', 'TradeServletAction:doLogin', 'AccountDataBean:AccountDataBean [overloaded_#001]', 'Log:doActionTrace'}
+
+Group #2213 - Score = 40
+Contexts = frozenset({'register', 'login'})
+Activities = {'AccountDataBean:login', 'FinancialUtils:computeGainPercent', 'AccountProfileDataBean:getAccount', 'TradeSLSBBean:getHoldings', 'TradeSLSBBean:login', 'AccountProfileDataBean:AccountProfileDataBean [overloaded_#001]', 'Log:getTrace', 'TradeAction:getAccountData', 'TradeServletAction:requestDispatch', 'Log:doTrace', 'TradeServletAction:doHome', 'TradeSLSBBean:getAccountData', 'AccountProfileDataBean:getPassword', 'TradeAction:login', 'AccountProfileDataBean:getUserID', 'AccountDataBean:getLoginCount', 'TradeServletAction:doLogin', 'TradeAction:getHoldings', 'AccountDataBean:getAccountID', 'Log:doActionTrace'}
+
+Group #2221 - Score = 40
+Contexts = frozenset({'trade-portfolio-sell', 'trade-account', 'trade-marketsummary-glossary', 'trade-quotes-buy', 'trade-account-updateprofile'})
+Activities = {'OrdersAlertFilter:doFilter', 'TradeAction:getClosedOrders', 'TradeSLSBBean:getClosedOrders', 'Log:doActionTrace', 'new TradeAction', 'TradeConfig:getActionTrace', 'TradeConfig:getTrace', 'Log:doTrace'}
+
+Group #2222 - Score = 40
+Contexts = frozenset({'logoff', 'Unknown', 'market_summary_glossary', 'trade-marketsummary-glossary'})
+Activities = {'RecentStockChangeList:isEmpty', 'MarketSummaryDataBean:toJSON', 'TradeAction:getMarketSummary', 'QuoteDataBean:getSymbol', 'ActionMessage:getDecodedAction', 'QuoteDataBean:getChange', 'MarketSummaryWebSocket:sendMarketSummary', 'TradeSLSBBean:getMarketSummary', 'Log:doTrace', 'ActionDecoder:decode'}
+
+Group #2227 - Score = 39
+Contexts = frozenset({'account', 'trade-account', 'trade-account-updateprofile'})
+Activities = {'TradeAction:getAccountProfileData', 'TradeSLSBBean:getAccountProfileData', 'OrdersAlertFilter:doFilter', 'TradeAction:getClosedOrders', 'TradeAction:getAccountData', 'TradeSLSBBean:getClosedOrders', 'Log:doActionTrace', 'TradeSLSBBean:getAccountData', 'AccountDataBean:setProfileID', 'AccountProfileDataBean:getUserID', 'AccountProfileDataBean:getAccount', 'Log:doTrace', 'TradeConfig:getDisplayOrderAlerts'}
+
+Group #2232 - Score = 39
+Contexts = frozenset({'login', 'trade-account-updateprofile', 'trade-account'})
+Activities = {'OrdersAlertFilter:doFilter', 'TradeAction:getClosedOrders', 'TradeAction:getAccountData', 'new AccountProfileDataBean', 'TradeConfig:getTrace', 'TradeSLSBBean:getClosedOrders', 'new TradeAction', 'TradeSLSBBean:getAccountData', 'Log:doActionTrace', 'AccountDataBean:setProfileID', 'TradeAppServlet:performTask', 'Log:doTrace', 'TradeConfig:getDisplayOrderAlerts'}
+
+Group #2251 - Score = 38
+Contexts = frozenset({'register', 'login'})
+Activities = {'AccountDataBean:login', 'FinancialUtils:computeGainPercent', 'AccountProfileDataBean:getAccount', 'TradeSLSBBean:login', 'AccountProfileDataBean:AccountProfileDataBean [overloaded_#001]', 'Log:getTrace', 'TradeAction:getAccountData', 'TradeServletAction:requestDispatch', 'Log:doTrace', 'TradeServletAction:doHome', 'TradeSLSBBean:getAccountData', 'AccountProfileDataBean:getPassword', 'TradeAction:login', 'AccountProfileDataBean:getUserID', 'AccountDataBean:getLoginCount', 'TradeServletAction:doLogin', 'TradeAction:getHoldings', 'AccountDataBean:getAccountID', 'Log:doActionTrace'}
+
+Group #2256 - Score = 38
+Contexts = frozenset({'account', 'trade-account-updateprofile'})
+Activities = {'TradeAction:getClosedOrders', 'TradeAction:getAccountData', 'AccountProfileDataBean:getEmail', 'Log:doTrace', 'TradeAction:getAccountProfileData', 'TradeSLSBBean:getAccountProfileData', 'OrdersAlertFilter:doFilter', 'AccountProfileDataBean:getCreditCard', 'TradeSLSBBean:getClosedOrders', 'TradeSLSBBean:getAccountData', 'AccountProfileDataBean:hashCode', 'TradeAction:updateAccountProfile', 'AccountProfileDataBean:getFullName', 'AccountProfileDataBean:getPassword', 'AccountProfileDataBean:getUserID', 'AccountDataBean:setProfileID', 'TradeConfig:getDisplayOrderAlerts', 'Log:doActionTrace', 'TradeSLSBBean:updateAccountProfile'}
+
+Group #2271 - Score = 36
+Contexts = frozenset({'register', 'login'})
+Activities = {'AccountDataBean:AccountDataBean [overloaded_#001]', 'AccountDataBean:getProfile', 'AccountProfileDataBean:AccountProfileDataBean [overloaded_#001]', 'TradeAction:getHoldings', 'AccountDataBean:login', 'TradeAction:getAccountData', 'TradeServletAction:doHome', 'FinancialUtils:computeGainPercent', 'TradeServletAction:requestDispatch', 'AccountDataBean:getAccountID', 'TradeSLSBBean:getAccountData', 'TradeAction:login', 'AccountProfileDataBean:getPassword', 'AccountProfileDataBean:getAccount', 'AccountDataBean:getLoginCount', 'TradeServletAction:doLogin', 'Log:doTrace', 'TradeSLSBBean:login'}
+
+Group #2272 - Score = 36
+Contexts = frozenset({'account', 'login', 'trade-account-updateprofile', 'trade-account'})
+Activities = {'OrdersAlertFilter:doFilter', 'TradeAction:getClosedOrders', 'TradeAction:getAccountData', 'TradeSLSBBean:getClosedOrders', 'Log:doActionTrace', 'TradeSLSBBean:getAccountData', 'AccountDataBean:setProfileID', 'Log:doTrace', 'TradeConfig:getDisplayOrderAlerts'}
+
+Group #2274 - Score = 36
+Contexts = frozenset({'market_summary', 'trade_buy', 'trade_sell'})
+Activities = {'OrdersAlertFilter:doFilter', 'TradeAction:getClosedOrders', 'Log:getTrace', 'TradeAppServlet:doGet', 'TradeAction:TradeAction [overloaded_#001]', 'TradeConfig:getLongRun', 'TradeSLSBBean:getClosedOrders', 'OrderDataBean:OrderDataBean [overloaded_#001]', 'Log:doActionTrace', 'TradeConfig:getTrace', 'Log:doTrace', 'TradeConfig:getDisplayOrderAlerts'}
+
+Group #2276 - Score = 36
+Contexts = frozenset({'trade-portfolio-sell', 'trade_buy'})
+Activities = {'TradeConfig:getUpdateQuotePrices', 'OrdersAlertFilter:doFilter', 'TradeAction:getClosedOrders', 'TradeAction:orderCompleted', 'TradeConfig:getMAX_QUOTES', 'QuoteDataBean:setVolume', 'TradeSLSBBean:updateQuotePriceVolume', 'TradeSLSBBean:getClosedOrders', 'Log:doActionTrace', 'TradeConfig:getLongRun', 'QuoteDataBean:getPrice', 'QuoteDataBean:setChange', 'QuoteDataBean:setPrice', 'DTStreamer3MDB:onMessage', 'MDBStats:getInstance', 'new DTStreamer3MDB', 'Log:doTrace', 'TradeConfig:getDisplayOrderAlerts'}
+
+Group #2277 - Score = 36
+Contexts = frozenset({'trade-portfolio-sell', 'trade-quotes-buy', 'login'})
+Activities = {'new OrderDataBean', 'TradeAction:getClosedOrders', 'OrdersAlertFilter:doFilter', 'TradeAppServlet:performTask', 'TradeConfig:getLongRun', 'TradeSLSBBean:getClosedOrders', 'new TradeAction', 'Log:doActionTrace', 'new QuoteDataBean', 'TradeConfig:getTrace', 'Log:doTrace', 'TradeConfig:getDisplayOrderAlerts'}
+
+Group #2327 - Score = 33
+Contexts = frozenset({'ping_servlet_cdi', 'trade_buy', 'market_summary_glossary', 'ping_servlet_cdi_manager', 'primitives', 'trade_sell', 'market_summary', 'account', 'logoff', 'ping_servlet_writer', 'register'})
+Activities = {'TradeConfig:getTrace', 'Log:getTrace', 'Log:doTrace'}
+
+Group #2328 - Score = 33
+Contexts = frozenset({'Unknown', 'trade-marketsummary-glossary', 'market_summary'})
+Activities = {'new ActionMessage', 'MarketSummaryWebSocket:onOpen', 'TradeAction:getMarketSummary', 'ActionMessage:doDecoding', 'Log:doActionTrace', 'ActionMessage:getDecodedAction', 'MarketSummarySingleton:getMarketSummaryDataBean', 'MarketSummaryWebSocket:sendMarketSummary', 'TradeSLSBBean:getMarketSummary', 'Log:doTrace', 'ActionDecoder:decode'}
+
+Group #2337 - Score = 33
+Contexts = frozenset({'logoff', 'trade-marketsummary-glossary', 'market_summary_glossary'})
+Activities = {'MarketSummaryWebSocket:onClose', 'new ActionMessage', 'TradeAction:getMarketSummary', 'ActionMessage:doDecoding', 'Log:doActionTrace', 'ActionMessage:getDecodedAction', 'MarketSummarySingleton:getMarketSummaryDataBean', 'MarketSummaryWebSocket:sendMarketSummary', 'TradeSLSBBean:getMarketSummary', 'Log:doTrace', 'ActionDecoder:decode'}
+
+Group #2369 - Score = 32
+Contexts = frozenset({'account', 'login', 'trade-account-updateprofile', 'trade-account'})
+Activities = {'OrdersAlertFilter:doFilter', 'TradeAction:getClosedOrders', 'TradeAction:getAccountData', 'TradeSLSBBean:getClosedOrders', 'Log:doActionTrace', 'TradeSLSBBean:getAccountData', 'AccountDataBean:setProfileID', 'Log:doTrace'}
+
+Group #2370 - Score = 32
+Contexts = frozenset({'register', 'trade_buy'})
+Activities = {'MarketSummaryDataBean:setVolume', 'MarketSummaryDataBean:getTSIA', 'MarketSummaryDataBean:setTSIA', 'MarketSummaryDataBean:setOpenTSIA', 'MarketSummarySingleton:updateMarketSummary', 'FinancialUtils:printGainPercentHTML', 'MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]', 'MarketSummaryDataBean:getOpenTSIA', 'FinancialUtils:computeGainPercent', 'TradeServletAction:requestDispatch', 'TradeConfig:getRunTimeMode', 'MarketSummaryDataBean:setSummaryDate', 'MarketSummaryDataBean:setTopLosers', 'MarketSummarySingleton:setMarketSummaryDataBean', 'FinancialUtils:printGainHTML', 'MarketSummaryDataBean:setTopGainers'}
+
+Group #2376 - Score = 32
+Contexts = frozenset({'Unknown', 'trade-marketsummary-glossary'})
+Activities = {'RecentStockChangeList:isEmpty', 'MarketSummaryWebSocket:onOpen', 'MarketSummaryDataBean:toJSON', 'TradeAction:getMarketSummary', 'QuoteDataBean:getSymbol', 'ActionMessage:doDecoding', 'Log:doActionTrace', 'new TradeAction', 'MarketSummarySingleton:getMarketSummaryDataBean', 'ActionMessage:getDecodedAction', 'QuoteDataBean:getChange', 'MarketSummaryWebSocket:sendMarketSummary', 'TradeConfig:getTrace', 'TradeSLSBBean:getMarketSummary', 'Log:doTrace', 'ActionDecoder:decode'}
+
+Group #2480 - Score = 30
+Contexts = frozenset({'trade_buy', 'market_summary', 'trade_sell', 'account', 'logoff', 'register'})
+Activities = {'TradeConfig:useRemoteEJBInterface', 'TradeAction:TradeAction [overloaded_#001]', 'TradeAction:createTrade', 'TradeAppServlet:performTask', 'Log:doTrace'}
+
+Group #2481 - Score = 30
+Contexts = frozenset({'trade-portfolio-sell', 'trade_buy'})
+Activities = {'TimerStat:setMin', 'TradeConfig:getPercentSentToWebsocket', 'MDBStats:addTiming', 'TimerStat:setCount', 'TradeConfig:getMAX_QUOTES', 'TimerStat:setTotalTime', 'TimerStat:setMax', 'TradeConfig:getLongRun', 'TimerStat:getMin', 'TradeSLSBBean:getClosedOrders', 'TimerStat:getCount', 'TimerStat:getMax', 'DTStreamer3MDB:onMessage', 'TimerStat:getTotalTime', 'Log:doTrace'}
+
+Group #2484 - Score = 30
+Contexts = frozenset({'market_summary_glossary', 'trade-marketsummary-glossary', 'market_summary'})
+Activities = {'RecentStockChangeList:isEmpty', 'MarketSummaryDataBean:toJSON', 'TradeAction:getMarketSummary', 'ActionMessage:getDecodedAction', 'QuoteDataBean:getPrice', 'QuoteDataBean:getChange', 'MarketSummaryWebSocket:sendMarketSummary', 'TradeSLSBBean:getMarketSummary', 'Log:doTrace', 'ActionDecoder:decode'}
+
+Group #2489 - Score = 30
+Contexts = frozenset({'login', 'trade_buy', 'trade-portfolio-sell', 'trade-account', 'trade-marketsummary-glossary', 'trade-logoff', 'init', 'account', 'trade-quotes-buy', 'trade_sell', 'logoff', 'market_summary', 'register', 'Unknown', 'trade-account-updateprofile'})
+Activities = {'OrdersAlertFilter:doFilter', 'TradeConfig:getDisplayOrderAlerts'}
+
+Group #2521 - Score = 28
+Contexts = frozenset({'trade-portfolio-sell', 'trade-quotes-buy', 'trade_buy', 'trade_sell'})
+Activities = {'OrderDataBean:setOrderFee', 'OrderDataBean:setPrice', 'OrderDataBean:setQuote', 'OrderDataBean:setOpenDate', 'OrderDataBean:setQuantity', 'OrderDataBean:setAccount', 'OrderDataBean:setOrderType'}
+
+Group #2532 - Score = 28
+Contexts = frozenset({'trade_buy', 'market_summary_glossary', 'trade_sell', 'market_summary', 'account', 'logoff', 'register'})
+Activities = {'Log:doActionTrace', 'TradeConfig:getActionTrace', 'Log:getTrace', 'Log:getActionTrace'}
+
+Group #2550 - Score = 28
+Contexts = frozenset({'trade-portfolio-sell', 'login'})
+Activities = {'OrdersAlertFilter:doFilter', 'new OrderDataBean', 'TradeAction:getClosedOrders', 'TradeAction:getHoldings', 'TradeConfig:getTrace', 'TradeConfig:getLongRun', 'TradeSLSBBean:getClosedOrders', 'Log:doActionTrace', 'new TradeAction', 'new QuoteDataBean', 'TradeSLSBBean:getHoldings', 'TradeAppServlet:performTask', 'Log:doTrace', 'TradeConfig:getDisplayOrderAlerts'}
+
+Group #2567 - Score = 27
+Contexts = frozenset({'account', 'register', 'login'})
+Activities = {'AccountProfileDataBean:AccountProfileDataBean [overloaded_#001]', 'Log:getTrace', 'TradeAction:getAccountData', 'TradeAction:TradeAction [overloaded_#001]', 'Log:doActionTrace', 'TradeSLSBBean:getAccountData', 'TradeAction:createTrade', 'TradeAppServlet:performTask', 'Log:doTrace'}
+
+Group #2568 - Score = 27
+Contexts = frozenset({'account', 'trade-account', 'trade-account-updateprofile'})
+Activities = {'TradeSLSBBean:getAccountProfileData', 'OrdersAlertFilter:doFilter', 'TradeAction:getClosedOrders', 'TradeAction:getAccountData', 'TradeSLSBBean:getClosedOrders', 'Log:doActionTrace', 'TradeSLSBBean:getAccountData', 'Log:doTrace', 'TradeAction:getAccountProfileData'}
+
+Group #2574 - Score = 26
+Contexts = frozenset({'register', 'login'})
+Activities = {'AccountDataBean:AccountDataBean [overloaded_#001]', 'AccountDataBean:getProfile', 'AccountProfileDataBean:AccountProfileDataBean [overloaded_#001]', 'AccountDataBean:login', 'TradeServletAction:requestDispatch', 'TradeAction:login', 'AccountProfileDataBean:getPassword', 'TradeSLSBBean:getAccountData', 'AccountProfileDataBean:getAccount', 'AccountDataBean:getLoginCount', 'TradeServletAction:doLogin', 'Log:doTrace', 'TradeSLSBBean:login'}
+
+Group #2575 - Score = 26
+Contexts = frozenset({'login', 'trade_buy'})
+Activities = {'OrdersAlertFilter:doFilter', 'Log:getTrace', 'TradeAction:getClosedOrders', 'TradeSLSBBean:postConstruct', 'TradeAction:TradeAction [overloaded_#001]', 'TradeConfig:getLongRun', 'TradeSLSBBean:getClosedOrders', 'Log:doActionTrace', 'new TradeSLSBBean', 'TradeAction:createTrade', 'TradeAppServlet:performTask', 'Log:doTrace', 'TradeConfig:getDisplayOrderAlerts'}
+
+Group #2584 - Score = 24
+Contexts = frozenset({'account', 'trade-account', 'trade-account-updateprofile'})
+Activities = {'AccountDataBean:getLastLogin', 'AccountDataBean:getProfileID', 'AccountDataBean:getOpenBalance', 'AccountDataBean:getAccountID', 'AccountDataBean:getLogoutCount', 'AccountDataBean:getBalance', 'AccountDataBean:getLoginCount', 'AccountDataBean:getCreationDate'}
+
+Group #2587 - Score = 24
+Contexts = frozenset({'trade-portfolio-sell', 'trade-quotes-buy', 'trade_buy', 'trade_sell'})
+Activities = {'AccountDataBean:getProfile', 'OrderDataBean:getPrice', 'OrderDataBean:getQuote', 'OrderDataBean:getHolding', 'AccountProfileDataBean:getUserID', 'OrderDataBean:getAccount'}
+
+Group #2589 - Score = 24
+Contexts = frozenset({'register', 'login'})
+Activities = {'TradeAction:getHoldings', 'AccountDataBean:login', 'TradeAction:getAccountData', 'TradeServletAction:doHome', 'FinancialUtils:computeGainPercent', 'TradeServletAction:requestDispatch', 'AccountDataBean:getAccountID', 'TradeAction:login', 'AccountProfileDataBean:getPassword', 'AccountDataBean:getLoginCount', 'TradeServletAction:doLogin', 'TradeSLSBBean:login'}
+
+Group #2596 - Score = 24
+Contexts = frozenset({'trade-quotes-buy', 'login'})
+Activities = {'OrdersAlertFilter:doFilter', 'TradeAction:getClosedOrders', 'TradeConfig:getPage', 'TradeConfig:getTrace', 'TradeConfig:getLongRun', 'TradeSLSBBean:getClosedOrders', 'Log:doActionTrace', 'new TradeAction', 'OrderDataBean:getSymbol', 'TradeAppServlet:performTask', 'Log:doTrace', 'TradeConfig:getDisplayOrderAlerts'}
+
+Group #2609 - Score = 24
+Contexts = frozenset({'trade-portfolio-sell', 'trade_sell'})
+Activities = {'TradeServletAction:doSell', 'TradeAction:getHoldings', 'TradeAction:getClosedOrders', 'TradeServletAction:doPortfolio', 'TradeConfig:getPage', 'TradeSLSBBean:getQuote', 'QuoteDataBean:getSymbol', 'Log:doActionTrace', 'HoldingDataBean:getQuoteID', 'OrderDataBean:getSymbol', 'TradeAction:getQuote', 'TradeAppServlet:performTask'}
+
+Group #2644 - Score = 24
+Contexts = frozenset({'register', 'login', 'trade_sell'})
+Activities = {'TradeAction:getHoldings', 'Log:getTrace', 'TradeAction:TradeAction [overloaded_#001]', 'Log:doActionTrace', 'TradeSLSBBean:getHoldings', 'TradeAction:createTrade', 'TradeAppServlet:performTask', 'Log:doTrace'}
+
+Group #2679 - Score = 22
+Contexts = frozenset({'trade-marketsummary-glossary', 'market_summary_glossary'})
+Activities = {'RecentStockChangeList:isEmpty', 'MarketSummaryDataBean:toJSON', 'TradeAction:getMarketSummary', 'QuoteDataBean:getSymbol', 'ActionMessage:getDecodedAction', 'QuoteDataBean:getPrice', 'QuoteDataBean:getChange', 'MarketSummaryWebSocket:sendMarketSummary', 'TradeSLSBBean:getMarketSummary', 'Log:doTrace', 'ActionDecoder:decode'}
+
+Group #2802 - Score = 20
+Contexts = frozenset({'trade-portfolio-sell', 'trade_sell'})
+Activities = {'TradeServletAction:doSell', 'TradeAction:getHoldings', 'TradeAction:getClosedOrders', 'TradeConfig:getPage', 'TradeServletAction:doPortfolio', 'TradeSLSBBean:getQuote', 'Log:doActionTrace', 'HoldingDataBean:getQuoteID', 'TradeAction:getQuote', 'TradeAppServlet:performTask'}
+
+Group #2882 - Score = 18
+Contexts = frozenset({'market_summary', 'trade_buy', 'trade_sell'})
+Activities = {'OrderDataBean:getOpenDate', 'QuoteDataBean:getSymbol', 'TradeServletAction:requestDispatch', 'FinancialUtils:printQuoteLink', 'OrderDataBean:getSymbol', 'OrderDataBean:getCompletionDate'}
+
+Group #2883 - Score = 18
+Contexts = frozenset({'logoff', 'trade-logoff'})
+Activities = {'TradeServletAction:doLogout', 'TradeConfig:getPage', 'AccountDataBean:hashCode', 'Log:doActionTrace', 'TradeSLSBBean:logout', 'AccountProfileDataBean:getAccount', 'TradeAppServlet:performTask', 'TradeAction:logout', 'Log:doTrace'}
+
+Group #2891 - Score = 18
+Contexts = frozenset({'login', 'Unknown'})
+Activities = {'TradeConfig:useRemoteEJBInterface', 'Log:getTrace', 'TradeConfig:getTrace', 'TradeAction:TradeAction [overloaded_#001]', 'new TradeAction', 'Log:doActionTrace', 'TradeAction:createTrade', 'TradeAppServlet:performTask', 'Log:doTrace'}
+
+Group #2912 - Score = 16
+Contexts = frozenset({'login', 'market_summary'})
+Activities = {'OrderDataBean:getOrderID', 'OrderDataBean:getOrderFee', 'OrderDataBean:getOpenDate', 'OrderDataBean:getOrderStatus', 'FinancialUtils:printQuoteLink', 'OrderDataBean:getOrderType', 'OrderDataBean:getQuantity', 'OrderDataBean:getCompletionDate'}
+
+Group #2952 - Score = 16
+Contexts = frozenset({'trade-portfolio-sell', 'register', 'login', 'trade_sell'})
+Activities = {'Log:doActionTrace', 'TradeSLSBBean:getHoldings', 'TradeAction:getHoldings', 'Log:doTrace'}
+
+Group #2974 - Score = 15
+Contexts = frozenset({'register', 'login', 'trade_sell'})
+Activities = {'TradeAction:getHoldings', 'Log:getTrace', 'Log:getActionTrace', 'Log:doActionTrace', 'TradeSLSBBean:getHoldings'}
+
+Group #2976 - Score = 15
+Contexts = frozenset({'login', 'recreate_db_tables', 'repopulate_db_tables', 'Unknown', 'init'})
+Activities = {'TradeConfig:getTrace', 'Log:getTrace', 'Log:doTrace'}
+
+Group #2980 - Score = 14
+Contexts = frozenset({'login', 'Unknown'})
+Activities = {'Log:getTrace', 'Log:getActionTrace', 'TradeAction:TradeAction [overloaded_#001]', 'Log:doActionTrace', 'TradeConfig:getActionTrace', 'TradeConfig:getTrace', 'Log:doTrace'}
+
+Group #2995 - Score = 12
+Contexts = frozenset({'trade-portfolio-sell', 'trade_sell'})
+Activities = {'HoldingDataBean:getHoldingID', 'HoldingDataBean:getPurchasePrice', 'HoldingDataBean:getPurchaseDate', 'FinancialUtils:printGainPercentHTML', 'FinancialUtils:computeGainPercent', 'FinancialUtils:printGainHTML'}
+
+Group #2996 - Score = 12
+Contexts = frozenset({'logoff', 'trade-logoff'})
+Activities = {'TradeServletAction:doLogout', 'TradeConfig:getPage', 'TradeSLSBBean:logout', 'AccountProfileDataBean:getAccount', 'TradeAction:logout', 'Log:doTrace'}
+
+Group #3005 - Score = 12
+Contexts = frozenset({'logoff', 'Unknown', 'market_summary_glossary', 'trade-marketsummary-glossary'})
+Activities = {'MarketSummaryDataBean:toJSON', 'QuoteDataBean:getSymbol', 'QuoteDataBean:getChange'}
+
+Group #3006 - Score = 12
+Contexts = frozenset({'logoff', 'Unknown', 'trade_buy'})
+Activities = {'MarketSummaryDataBean:MarketSummaryDataBean [overloaded_#002]', 'QuoteDataBean:getPrice', 'MarketSummarySingleton:setMarketSummaryDataBean', 'MarketSummarySingleton:updateMarketSummary'}
+
+Group #3007 - Score = 12
+Contexts = frozenset({'trade-portfolio-sell', 'trade-quotes-buy', 'trade_buy', 'trade_sell'})
+Activities = {'AccountDataBean:getBalance', 'AccountDataBean:setBalance', 'AccountProfileDataBean:getAccount'}
+
+Group #3019 - Score = 12
+Contexts = frozenset({'Unknown', 'init'})
+Activities = {'QuoteDataBean:getRandomInstance', 'MarketSummaryDataBean:getRandomInstance', 'TradeConfig:getPage', 'TradeServletAction:doWelcome', 'TradeConfig:rndBigDecimal', 'TradeAppServlet:performTask'}
+
+Group #3107 - Score = 10
+Contexts = frozenset({'account', 'register'})
+Activities = {'AccountDataBean:getProfileID', 'AccountDataBean:getOpenBalance', 'TradeServletAction:requestDispatch', 'AccountDataBean:getBalance', 'AccountDataBean:getCreationDate'}
+
+Group #3108 - Score = 10
+Contexts = frozenset({'register', 'trade-account-updateprofile'})
+Activities = {'AccountProfileDataBean:setPassword', 'AccountProfileDataBean:setEmail', 'AccountProfileDataBean:setFullName', 'AccountProfileDataBean:setAddress', 'AccountProfileDataBean:setCreditCard'}
+
+Group #3109 - Score = 10
+Contexts = frozenset({'trade_buy', 'trade_sell'})
+Activities = {'AccountDataBean:AccountDataBean [overloaded_#001]', 'AccountProfileDataBean:AccountProfileDataBean [overloaded_#001]', 'AccountDataBean:setBalance', 'AccountProfileDataBean:getAccount', 'AccountDataBean:getBalance'}
+
+Group #3112 - Score = 10
+Contexts = frozenset({'trade-quotes-buy', 'trade_buy', 'trade-portfolio-sell', 'register', 'trade_sell'})
+Activities = {'FinancialUtils:printGainPercentHTML', 'FinancialUtils:printGainHTML'}
+
+Group #3116 - Score = 10
+Contexts = frozenset({'Unknown', 'init'})
+Activities = {'QuoteDataBean:getRandomInstance', 'MarketSummaryDataBean:getRandomInstance', 'TradeServletAction:doWelcome', 'TradeConfig:rndBigDecimal', 'TradeAppServlet:performTask'}
+
+Group #3137 - Score = 10
+Contexts = frozenset({'trade-quotes-buy', 'trade_buy', 'trade-portfolio-sell', 'trade_sell', 'market_summary'})
+Activities = {'QuoteDataBean:getSymbol', 'OrderDataBean:getSymbol'}
+
+Group #3139 - Score = 10
+Contexts = frozenset({'trade-quotes-buy', 'trade-portfolio-sell', 'trade-account', 'trade-account-updateprofile', 'trade-logoff'})
+Activities = {'new AccountDataBean', 'AccountProfileDataBean:getAccount'}
+
+Group #3152 - Score = 9
+Contexts = frozenset({'trade-portfolio-sell', 'trade-quotes-buy', 'trade_sell'})
+Activities = {'FinancialUtils:printGainPercentHTML', 'FinancialUtils:computeGainPercent', 'FinancialUtils:printGainHTML'}
+
+Group #3153 - Score = 9
+Contexts = frozenset({'trade-portfolio-sell', 'trade-quotes-buy', 'trade-logoff'})
+Activities = {'new AccountDataBean', 'new AccountProfileDataBean', 'AccountProfileDataBean:getAccount'}
+
+Group #3154 - Score = 9
+Contexts = frozenset({'logoff', 'trade_buy', 'trade_sell'})
+Activities = {'AccountProfileDataBean:getAccount', 'AccountProfileDataBean:AccountProfileDataBean [overloaded_#001]', 'AccountDataBean:AccountDataBean [overloaded_#001]'}
+
+Group #3159 - Score = 9
+Contexts = frozenset({'register', 'trade_buy', 'trade_sell'})
+Activities = {'FinancialUtils:printGainPercentHTML', 'TradeServletAction:requestDispatch', 'FinancialUtils:printGainHTML'}
+
+Group #3168 - Score = 8
+Contexts = frozenset({'trade-portfolio-sell', 'trade_sell'})
+Activities = {'TradeConfig:getPublishQuotePriceChange', 'QuoteDataBean:getCompanyName', 'QuoteDataBean:getLow', 'QuoteDataBean:getHigh'}
+
+Group #3172 - Score = 8
+Contexts = frozenset({'trade-portfolio-sell', 'trade-quotes-buy', 'trade_buy', 'trade_sell'})
+Activities = {'OrderDataBean:hashCode', 'TradeConfig:getOrderFee'}
+
+Group #3182 - Score = 6
+Contexts = frozenset({'trade-quotes-buy', 'trade_buy'})
+Activities = {'QuoteDataBean:getChange', 'FinancialUtils:printGainHTML', 'FinancialUtils:printGainPercentHTML'}
+
+Group #3183 - Score = 6
+Contexts = frozenset({'Unknown', 'init'})
+Activities = {'OrdersAlertFilter:doFilter', 'TradeAppServlet:init', 'TradeConfig:getDisplayOrderAlerts'}
+
+Group #3185 - Score = 6
+Contexts = frozenset({'trade_buy', 'trade_sell'})
+Activities = {'TradeConfig:getRandomPriceChangeFactor', 'TradeConfig:random', 'TradeConfig:rndFloat'}
+
+Group #3186 - Score = 6
+Contexts = frozenset({'trade-quotes-buy', 'trade_buy'})
+Activities = {'TradeServletAction:doQuotes', 'TradeAppServlet:performTask', 'TradeConfig:getPage'}
+
+Group #3187 - Score = 6
+Contexts = frozenset({'trade-portfolio-sell', 'trade-quotes-buy'})
+Activities = {'TradeConfig:getRandomPriceChangeFactor', 'QuoteDataBean:hashCode', 'AccountDataBean:hashCode'}
+
+Group #3196 - Score = 6
+Contexts = frozenset({'trade-quotes-buy', 'trade_buy', 'trade_sell'})
+Activities = {'RecentStockChangeList:stockChangesInJSON', 'RecentStockChangeList:addStockChange'}
+
+Group #3197 - Score = 6
+Contexts = frozenset({'Unknown', 'trade_buy', 'trade_sell'})
+Activities = {'TradeConfig:random', 'TradeConfig:rndFloat'}
+
+Group #3200 - Score = 6
+Contexts = frozenset({'trade-marketsummary-glossary', 'market_summary'})
+Activities = {'TradeAppServlet:performTask', 'TradeConfig:getPage', 'TradeServletAction:doMarketSummary'}
+
+Group #3202 - Score = 6
+Contexts = frozenset({'register', 'login', 'trade_buy'})
+Activities = {'FinancialUtils:computeGainPercent', 'TradeServletAction:requestDispatch'}
+
+Group #3210 - Score = 6
+Contexts = frozenset({'account', 'trade-account', 'trade-account-updateprofile'})
+Activities = {'TradeConfig:getLongRun', 'TradeConfig:getPage'}
+
+Group #3225 - Score = 4
+Contexts = frozenset({'account', 'register'})
+Activities = {'AccountProfileDataBean:AccountProfileDataBean [overloaded_#002]', 'AccountProfileDataBean:setUserID'}
+
+Group #3227 - Score = 4
+Contexts = frozenset({'Unknown', 'init'})
+Activities = {'Log:trace', 'Log:trace [overloaded_#0011]'}
+
+Group #3228 - Score = 4
+Contexts = frozenset({'logoff', 'Unknown'})
+Activities = {'TradeServletAction:requestDispatch', 'TradeConfig:getPage'}
+
+148
+3462

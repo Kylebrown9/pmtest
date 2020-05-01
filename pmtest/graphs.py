@@ -183,7 +183,7 @@ if __name__ == "__main__":
 
         print(f'Running Heuristic miner on {label}...')
         net, _i, _f = run_heuristic(log, label,
-                                    'dest_class',
+                                    'dest_class_func',
                                     parameters=heuristic_b_params)
 
         print(f'Creating graph for petri net...')
