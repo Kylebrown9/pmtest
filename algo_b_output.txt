@@ -1,0 +1,310 @@
+Processing log file ./data/xes/login.xes...
+Running Heuristic miner on login...
+Creating graph for petri net...
+
+Processing log file ./data/xes/trade-account.xes...
+Running Heuristic miner on trade-account...
+Creating graph for petri net...
+
+Processing log file ./data/xes/trade-quotes-buy.xes...
+Running Heuristic miner on trade-quotes-buy...
+Creating graph for petri net...
+
+Processing log file ./data/xes/trade-account-updateprofile.xes...
+Running Heuristic miner on trade-account-updateprofile...
+Creating graph for petri net...
+
+Processing log file ./data/xes/trade-marketsummary-glossary.xes...
+Running Heuristic miner on trade-marketsummary-glossary...
+Creating graph for petri net...
+
+Processing log file ./data/xes/trade-portfolio-sell.xes...
+Running Heuristic miner on trade-portfolio-sell...
+Creating graph for petri net...
+
+Processing log file ./data/xes/trade-logoff.xes...
+Running Heuristic miner on trade-logoff...
+Creating graph for petri net...
+
+Processing log file ./data/xes/Unknown.xes...
+Running Heuristic miner on Unknown...
+Creating graph for petri net...
+
+Processing log file ./data/xes/init.xes...
+Running Heuristic miner on init...
+Creating graph for petri net...
+
+Processing log file ./data/xes/recreate_db_tables.xes...
+Running Heuristic miner on recreate_db_tables...
+Creating graph for petri net...
+
+Processing log file ./data/xes/config.xes...
+Running Heuristic miner on config...
+Creating graph for petri net...
+
+Processing log file ./data/xes/repopulate_db_tables.xes...
+Running Heuristic miner on repopulate_db_tables...
+Creating graph for petri net...
+
+Processing log file ./data/xes/account.xes...
+Running Heuristic miner on account...
+Creating graph for petri net...
+
+Processing log file ./data/xes/trade_buy.xes...
+Running Heuristic miner on trade_buy...
+Creating graph for petri net...
+
+Processing log file ./data/xes/trade_sell.xes...
+Running Heuristic miner on trade_sell...
+Creating graph for petri net...
+
+Processing log file ./data/xes/logoff.xes...
+Running Heuristic miner on logoff...
+Creating graph for petri net...
+
+Processing log file ./data/xes/market_summary_glossary.xes...
+Running Heuristic miner on market_summary_glossary...
+Creating graph for petri net...
+
+Processing log file ./data/xes/market_summary.xes...
+Running Heuristic miner on market_summary...
+Creating graph for petri net...
+
+Processing log file ./data/xes/register.xes...
+Running Heuristic miner on register...
+Creating graph for petri net...
+
+Processing log file ./data/xes/primitives.xes...
+Running Heuristic miner on primitives...
+Creating graph for petri net...
+
+Processing log file ./data/xes/explicit_gc.xes...
+Running Heuristic miner on explicit_gc...
+Creating graph for petri net...
+
+Processing log file ./data/xes/ping_servlet_cdi.xes...
+Running Heuristic miner on ping_servlet_cdi...
+Creating graph for petri net...
+
+Processing log file ./data/xes/ping_servlet_cdi_manager.xes...
+Running Heuristic miner on ping_servlet_cdi_manager...
+Creating graph for petri net...
+
+Processing log file ./data/xes/ping_servlet.xes...
+Running Heuristic miner on ping_servlet...
+Creating graph for petri net...
+
+Processing log file ./data/xes/ping_servlet_writer.xes...
+Running Heuristic miner on ping_servlet_writer...
+Creating graph for petri net...
+
+Processing log file ./data/xes/ping_servlet2_include.xes...
+Running Heuristic miner on ping_servlet2_include...
+Creating graph for petri net...
+
+Adding to groups for login
+Adding to groups for trade-account
+Adding to groups for trade-quotes-buy
+Adding to groups for trade-account-updateprofile
+Adding to groups for trade-marketsummary-glossary
+Adding to groups for trade-portfolio-sell
+Adding to groups for trade-logoff
+Adding to groups for Unknown
+Adding to groups for init
+Adding to groups for recreate_db_tables
+Adding to groups for config
+Adding to groups for repopulate_db_tables
+Adding to groups for account
+Adding to groups for trade_buy
+Adding to groups for trade_sell
+Adding to groups for logoff
+Adding to groups for market_summary_glossary
+Adding to groups for market_summary
+Adding to groups for register
+Adding to groups for primitives
+Adding to groups for explicit_gc
+Adding to groups for ping_servlet_cdi
+Adding to groups for ping_servlet_cdi_manager
+Adding to groups for ping_servlet
+Adding to groups for ping_servlet_writer
+Adding to groups for ping_servlet2_include
+
+Processing groups...
+Done
+
+Scoring groups
+Sorting Groups
+Group #0 - Score = 84
+Contexts = frozenset({'trade_buy', 'login', 'register', 'trade-account-updateprofile', 'trade-marketsummary-glossary', 'account', 'logoff', 'trade-portfolio-sell', 'trade-account', 'trade_sell', 'Unknown', 'trade-logoff', 'trade-quotes-buy', 'market_summary'})
+Activities = {'OrdersAlertFilter', 'Log', 'TradeAppServlet', 'TradeConfig', 'TradeAction', 'TradeSLSBBean'}
+
+Group #6 - Score = 77
+Contexts = frozenset({'trade_buy', 'login', 'register', 'trade-marketsummary-glossary', 'account', 'logoff', 'trade-portfolio-sell', 'trade_sell', 'Unknown', 'trade-logoff', 'market_summary'})
+Activities = {'OrdersAlertFilter', 'Log', 'TradeServletAction', 'TradeAppServlet', 'TradeConfig', 'TradeAction', 'TradeSLSBBean'}
+
+Group #10 - Score = 70
+Contexts = frozenset({'trade_buy', 'login', 'register', 'trade-account-updateprofile', 'trade-marketsummary-glossary', 'account', 'logoff', 'trade-portfolio-sell', 'trade-account', 'trade_sell', 'Unknown', 'trade-logoff', 'trade-quotes-buy', 'market_summary'})
+Activities = {'Log', 'TradeAppServlet', 'TradeConfig', 'TradeAction', 'TradeSLSBBean'}
+
+Group #12 - Score = 66
+Contexts = frozenset({'trade_buy', 'login', 'register', 'trade-account-updateprofile', 'account', 'logoff', 'trade-portfolio-sell', 'trade-account', 'trade_sell', 'trade-logoff', 'trade-quotes-buy'})
+Activities = {'Log', 'TradeAppServlet', 'AccountDataBean', 'TradeConfig', 'TradeAction', 'TradeSLSBBean'}
+
+Group #14 - Score = 60
+Contexts = frozenset({'trade-quotes-buy', 'trade-portfolio-sell', 'trade_buy', 'trade_sell'})
+Activities = {'TradeAction', 'AccountProfileDataBean', 'OrdersAlertFilter', 'QuoteDataBean', 'TimerStat', 'TradeServletAction', 'MDBStats', 'TradeAppServlet', 'AccountDataBean', 'TradeConfig', 'Log', 'DTStreamer3MDB', 'OrderDataBean', 'FinancialUtils', 'TradeSLSBBean'}
+
+Group #15 - Score = 60
+Contexts = frozenset({'trade_buy', 'login', 'trade-account-updateprofile', 'trade-marketsummary-glossary', 'account', 'trade-portfolio-sell', 'trade-account', 'trade_sell', 'trade-quotes-buy', 'market_summary'})
+Activities = {'TradeAction', 'OrdersAlertFilter', 'TradeAppServlet', 'TradeConfig', 'Log', 'TradeSLSBBean'}
+
+Group #30 - Score = 56
+Contexts = frozenset({'trade_buy', 'login', 'register', 'logoff', 'trade-portfolio-sell', 'trade_sell', 'trade-logoff', 'trade-quotes-buy'})
+Activities = {'Log', 'TradeServletAction', 'TradeAppServlet', 'AccountDataBean', 'TradeConfig', 'TradeAction', 'TradeSLSBBean'}
+
+Group #31 - Score = 56
+Contexts = frozenset({'trade_buy', 'login', 'register', 'logoff', 'trade-portfolio-sell', 'trade_sell', 'trade-logoff'})
+Activities = {'OrdersAlertFilter', 'Log', 'TradeServletAction', 'TradeAppServlet', 'AccountDataBean', 'TradeConfig', 'TradeAction', 'TradeSLSBBean'}
+
+Group #32 - Score = 56
+Contexts = frozenset({'login', 'register', 'trade-marketsummary-glossary', 'account', 'logoff', 'Unknown', 'trade-logoff', 'market_summary'})
+Activities = {'TradeAction', 'OrdersAlertFilter', 'TradeServletAction', 'TradeAppServlet', 'TradeConfig', 'Log', 'TradeSLSBBean'}
+
+Group #37 - Score = 56
+Contexts = frozenset({'trade_buy', 'trade-marketsummary-glossary', 'logoff', 'trade-portfolio-sell', 'trade_sell', 'Unknown', 'market_summary'})
+Activities = {'OrdersAlertFilter', 'Log', 'TradeServletAction', 'TradeAppServlet', 'TradeConfig', 'TradeAction', 'MarketSummaryWebSocket', 'TradeSLSBBean'}
+
+Group #40 - Score = 51
+Contexts = frozenset({'trade-portfolio-sell', 'trade_buy', 'trade_sell'})
+Activities = {'HoldingDataBean', 'TradeAction', 'AccountProfileDataBean', 'OrdersAlertFilter', 'QuoteDataBean', 'TimerStat', 'TradeServletAction', 'MDBStats', 'TradeAppServlet', 'AccountDataBean', 'TradeConfig', 'Log', 'DTStreamer3MDB', 'OrderDataBean', 'FinancialUtils', 'MarketSummaryWebSocket', 'TradeSLSBBean'}
+
+Group #42 - Score = 50
+Contexts = frozenset({'trade_buy', 'login', 'trade-portfolio-sell', 'trade_sell', 'trade-quotes-buy'})
+Activities = {'OrdersAlertFilter', 'Log', 'QuoteDataBean', 'TradeServletAction', 'TradeAppServlet', 'AccountDataBean', 'TradeConfig', 'TradeAction', 'OrderDataBean', 'TradeSLSBBean'}
+
+Group #47 - Score = 49
+Contexts = frozenset({'trade_buy', 'login', 'register', 'logoff', 'trade-portfolio-sell', 'trade_sell', 'trade-logoff'})
+Activities = {'Log', 'TradeServletAction', 'TradeAppServlet', 'AccountDataBean', 'TradeConfig', 'TradeAction', 'TradeSLSBBean'}
+
+Group #49 - Score = 48
+Contexts = frozenset({'trade_buy', 'logoff', 'trade-portfolio-sell', 'trade_sell', 'trade-logoff', 'trade-quotes-buy'})
+Activities = {'TradeAction', 'AccountProfileDataBean', 'TradeServletAction', 'TradeAppServlet', 'AccountDataBean', 'TradeConfig', 'Log', 'TradeSLSBBean'}
+
+Group #50 - Score = 48
+Contexts = frozenset({'logoff', 'trade-marketsummary-glossary', 'market_summary', 'Unknown'})
+Activities = {'TradeAction', 'ActionDecoder', 'OrdersAlertFilter', 'MarketSummaryDataBean', 'RecentStockChangeList', 'TradeServletAction', 'TradeAppServlet', 'ActionMessage', 'TradeConfig', 'Log', 'MarketSummaryWebSocket', 'TradeSLSBBean'}
+
+Group #51 - Score = 48
+Contexts = frozenset({'trade_buy', 'login', 'trade-portfolio-sell', 'trade_sell', 'trade-quotes-buy', 'market_summary'})
+Activities = {'TradeAction', 'OrdersAlertFilter', 'QuoteDataBean', 'TradeAppServlet', 'TradeConfig', 'Log', 'OrderDataBean', 'TradeSLSBBean'}
+
+Group #55 - Score = 45
+Contexts = frozenset({'trade-marketsummary-glossary', 'logoff', 'market_summary_glossary', 'Unknown', 'market_summary'})
+Activities = {'ActionDecoder', 'Log', 'MarketSummaryDataBean', 'RecentStockChangeList', 'ActionMessage', 'TradeConfig', 'TradeAction', 'MarketSummaryWebSocket', 'TradeSLSBBean'}
+
+Group #59 - Score = 44
+Contexts = frozenset({'trade-portfolio-sell', 'trade_buy', 'login', 'trade_sell'})
+Activities = {'HoldingDataBean', 'OrdersAlertFilter', 'Log', 'QuoteDataBean', 'TradeServletAction', 'TradeAppServlet', 'AccountDataBean', 'TradeConfig', 'TradeAction', 'OrderDataBean', 'TradeSLSBBean'}
+
+Group #61 - Score = 40
+Contexts = frozenset({'trade-marketsummary-glossary', 'logoff', 'market_summary_glossary', 'Unknown', 'market_summary'})
+Activities = {'TradeAction', 'ActionDecoder', 'MarketSummaryDataBean', 'RecentStockChangeList', 'ActionMessage', 'Log', 'MarketSummaryWebSocket', 'TradeSLSBBean'}
+
+Group #67 - Score = 36
+Contexts = frozenset({'trade-portfolio-sell', 'trade_buy', 'trade-quotes-buy', 'trade_sell'})
+Activities = {'QuoteDataBean', 'TimerStat', 'MDBStats', 'TradeServletAction', 'TradeConfig', 'DTStreamer3MDB', 'OrderDataBean', 'FinancialUtils', 'TradeSLSBBean'}
+
+Group #69 - Score = 34
+Contexts = frozenset({'trade-portfolio-sell', 'trade_sell'})
+Activities = {'HoldingDataBean', 'TradeAction', 'AccountProfileDataBean', 'OrdersAlertFilter', 'QuoteDataBean', 'TimerStat', 'TradeServletAction', 'MDBStats', 'TradeAppServlet', 'AccountDataBean', 'TradeConfig', 'Log', 'DTStreamer3MDB', 'OrderDataBean', 'FinancialUtils', 'MarketSummaryWebSocket', 'TradeSLSBBean'}
+
+Group #73 - Score = 34
+Contexts = frozenset({'trade_buy', 'trade_sell'})
+Activities = {'AccountProfileDataBean', 'OrdersAlertFilter', 'Log', 'QuoteDataBean', 'RecentStockChangeList', 'TimerStat', 'TradeServletAction', 'MDBStats', 'TradeAppServlet', 'AccountDataBean', 'TradeConfig', 'TradeAction', 'DTStreamer3MDB', 'OrderDataBean', 'FinancialUtils', 'MarketSummaryWebSocket', 'TradeSLSBBean'}
+
+Group #77 - Score = 30
+Contexts = frozenset({'login', 'register', 'trade-account-updateprofile', 'account', 'trade-account'})
+Activities = {'TradeAction', 'AccountProfileDataBean', 'TradeAppServlet', 'AccountDataBean', 'Log', 'TradeSLSBBean'}
+
+Group #79 - Score = 27
+Contexts = frozenset({'trade-marketsummary-glossary', 'market_summary_glossary', 'market_summary'})
+Activities = {'TradeAction', 'ActionDecoder', 'MarketSummaryDataBean', 'RecentStockChangeList', 'ActionMessage', 'MarketSummarySingleton', 'Log', 'MarketSummaryWebSocket', 'TradeSLSBBean'}
+
+Group #80 - Score = 27
+Contexts = frozenset({'login', 'account', 'register'})
+Activities = {'AccountProfileDataBean', 'OrdersAlertFilter', 'Log', 'TradeServletAction', 'TradeAppServlet', 'AccountDataBean', 'TradeConfig', 'TradeAction', 'TradeSLSBBean'}
+
+Group #83 - Score = 24
+Contexts = frozenset({'logoff', 'Unknown'})
+Activities = {'TradeAction', 'ActionDecoder', 'MarketSummaryDataBean', 'QuoteDataBean', 'RecentStockChangeList', 'TradeAppServlet', 'ActionMessage', 'MarketSummarySingleton', 'Log', 'FinancialUtils', 'MarketSummaryWebSocket', 'TradeSLSBBean'}
+
+Group #85 - Score = 21
+Contexts = frozenset({'ping_servlet_cdi', 'recreate_db_tables', 'ping_servlet_writer', 'ping_servlet_cdi_manager', 'repopulate_db_tables', 'primitives', 'Unknown'})
+Activities = {'TradeConfig', 'Log', 'MarketSummarySingleton'}
+
+Group #87 - Score = 21
+Contexts = frozenset({'trade-account-updateprofile', 'login', 'trade-account'})
+Activities = {'AccountProfileDataBean', 'OrdersAlertFilter', 'Log', 'TradeAppServlet', 'AccountDataBean', 'TradeAction', 'TradeSLSBBean'}
+
+Group #89 - Score = 20
+Contexts = frozenset({'login', 'register'})
+Activities = {'TradeAction', 'AccountProfileDataBean', 'OrdersAlertFilter', 'TradeServletAction', 'TradeAppServlet', 'AccountDataBean', 'TradeConfig', 'Log', 'FinancialUtils', 'TradeSLSBBean'}
+
+Group #90 - Score = 20
+Contexts = frozenset({'init', 'Unknown'})
+Activities = {'TradeAction', 'TradeWebContextListener', 'OrdersAlertFilter', 'MarketSummaryDataBean', 'QuoteDataBean', 'TradeServletAction', 'TradeAppServlet', 'TradeConfig', 'Log', 'FinancialUtils'}
+
+Group #91 - Score = 20
+Contexts = frozenset({'trade-quotes-buy', 'login'})
+Activities = {'OrdersAlertFilter', 'Log', 'QuoteDataBean', 'TradeServletAction', 'TradeAppServlet', 'AccountDataBean', 'TradeConfig', 'TradeAction', 'OrderDataBean', 'TradeSLSBBean'}
+
+Group #92 - Score = 20
+Contexts = frozenset({'ping_servlet_cdi', 'recreate_db_tables', 'ping_servlet_cdi_manager', 'ping_servlet_writer', 'repopulate_db_tables', 'account', 'logoff', 'primitives', 'init', 'Unknown'})
+Activities = {'MarketSummaryDataBean', 'FinancialUtils'}
+
+Group #93 - Score = 20
+Contexts = frozenset({'ping_servlet_cdi', 'ping_servlet_writer', 'ping_servlet_cdi_manager', 'repopulate_db_tables', 'primitives'})
+Activities = {'TradeConfig', 'Log', 'QuoteDataBean', 'MarketSummarySingleton'}
+
+Group #103 - Score = 18
+Contexts = frozenset({'init', 'Unknown'})
+Activities = {'OrdersAlertFilter', 'MarketSummaryDataBean', 'QuoteDataBean', 'Log', 'TradeServletAction', 'TradeAppServlet', 'TradeConfig', 'TradeAction', 'FinancialUtils'}
+
+Group #111 - Score = 16
+Contexts = frozenset({'ping_servlet_writer', 'ping_servlet_cdi', 'primitives', 'ping_servlet_cdi_manager'})
+Activities = {'MarketSummarySingleton', 'Log', 'QuoteDataBean', 'TradeConfig'}
+
+Group #112 - Score = 16
+Contexts = frozenset({'trade-account-updateprofile', 'trade-account'})
+Activities = {'TradeAction', 'AccountProfileDataBean', 'OrdersAlertFilter', 'TradeAppServlet', 'AccountDataBean', 'TradeConfig', 'Log', 'TradeSLSBBean'}
+
+Group #117 - Score = 16
+Contexts = frozenset({'trade-account-updateprofile', 'account'})
+Activities = {'TradeAction', 'AccountProfileDataBean', 'OrdersAlertFilter', 'TradeAppServlet', 'AccountDataBean', 'TradeConfig', 'Log', 'TradeSLSBBean'}
+
+Group #131 - Score = 10
+Contexts = frozenset({'trade-marketsummary-glossary', 'market_summary_glossary'})
+Activities = {'TradeAction', 'MarketSummaryDataBean', 'QuoteDataBean', 'Log', 'MarketSummaryWebSocket'}
+
+Group #142 - Score = 9
+Contexts = frozenset({'recreate_db_tables', 'repopulate_db_tables', 'config'})
+Activities = {'TradeConfig', 'Log', 'TradeConfigServlet'}
+
+Group #143 - Score = 9
+Contexts = frozenset({'logoff', 'init', 'Unknown'})
+Activities = {'MarketSummaryDataBean', 'QuoteDataBean', 'FinancialUtils'}
+
+Group #153 - Score = 6
+Contexts = frozenset({'recreate_db_tables', 'init'})
+Activities = {'TradeConfig', 'Log', 'TradeDirect'}
+
+Group #154 - Score = 6
+Contexts = frozenset({'logoff', 'trade_buy', 'Unknown'})
+Activities = {'MarketSummarySingleton', 'QuoteDataBean'}
+
+Group #163 - Score = 4
+Contexts = frozenset({'ping_servlet_cdi', 'ping_servlet_cdi_manager'})
+Activities = {'PingCDIBean', 'PingInterceptor'}
+
+43
+182
